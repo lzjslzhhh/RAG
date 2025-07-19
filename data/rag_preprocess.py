@@ -6,7 +6,7 @@ import jieba
 import jieba.analyse
 import json
 
-INPUT_DIR = '../data'
+INPUT_DIR = ''
 CHUNK_SIZE = 500
 CHUNK_OVERLAP = 100
 
@@ -265,6 +265,6 @@ if __name__ == "__main__":
     chunks = process_documents(INPUT_DIR)
     print(f"共生成 {len(chunks)} 个文档分块")
 
-    with open("../rag_structured_chunks.jsonl", "w", encoding="utf-8") as f:
+    with open("../retriever/rag_structured_chunks.jsonl", "w", encoding="utf-8") as f:
         for chunk in chunks:
             f.write(json.dumps(chunk, ensure_ascii=False) + "\n")
