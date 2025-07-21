@@ -6,10 +6,6 @@ from langchain_core.documents import Document
 import heapq
 import os
 
-# os.environ["LANGCHAIN_API_KEY"] = "lsv2_pt_0c981131e837427abbfcf9ab"
-# os.environ["LANGCHAIN_PROJECT"] = "Grid-RAG"
-# os.environ["LANGCHAIN_ENDPOINT"] = "https://api.smith.langchain.com"
-# os.environ["LANGCHAIN_TRACING_V2"] = "true"
 
 model_path = ''
 
