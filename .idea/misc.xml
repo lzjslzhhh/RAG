@@ -3,7 +3,7 @@
   <component name="Black">
     <option name="sdkName" value="D:\Anaconda3" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Remote Python 3.10.0 (sftp://root@root@northwest1.gpugeek.com:55660/root/.virtualenvs/RAG/bin/python)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="RAG-LLM (2)" project-jdk-type="Python SDK" />
   <component name="PyPackaging">
     <option name="earlyReleasesAsUpgrades" value="true" />
   </component>

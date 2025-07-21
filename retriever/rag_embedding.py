@@ -6,8 +6,8 @@ from tqdm import tqdm
 
 # 配置
 COLLECTION_NAME = "grid_docs"
-MODEL_PATH = "Alibaba-NLP/gte-multilingual-base"
-JSONL_PATH = "/tmp/pycharm_project_581/retriever/rag_structured_chunks.jsonl"
+MODEL_PATH = "D:\learning\RAG\RAG\gte-multilingual-base"
+JSONL_PATH = r"D:\learning\RAG\RAG\retriever\rag_hierarchy_chunks.jsonl"
 
 if __name__ == "__main__":
     # 初始化模型
@@ -20,16 +20,14 @@ if __name__ == "__main__":
             doc = json.loads(line)
             base_text = doc["content"].strip().replace("\n", "")
             # 安全地获取 keywords
-            keywords = " ".join(doc.get("metadata", {}).get("keywords", []))
-            enriched_text = f"{base_text} 关键词：{keywords}"
+            # keywords = " ".join(doc.get("metadata", {}).get("keywords", []))
+            # enriched_text = f"{base_text} 关键词：{keywords}"
             if doc['section'] == '正文':
                 documents.append({
                     "id": doc["chunk_id"],
-                    "text": enriched_text,
-                    "raw": doc["content"],
-                    "metadata": doc["metadata"],
-                    "chapter": doc.get("chapter_title", ""),
-                    "article": doc.get("article_no", ""),
+                    'title': doc["title"],
+                    'level': doc["level"],
+                    "text": base_text,
                     "source": doc.get("source", "")
                 })
 
@@ -47,20 +45,30 @@ if __name__ == "__main__":
     points = []
     for i, doc in enumerate(tqdm(documents)):
         embedding = model.encode(doc["text"], normalize_embeddings=True).tolist()
+
+        point_id = doc["id"]
+
+        # 查询是否已经存在这个 ID（可选优化：用批量方式）
+        existing = client.retrieve(
+            collection_name=COLLECTION_NAME,
+            ids=[point_id]
+        )
+        if existing:  # 已存在就跳过
+            continue
+
         points.append(PointStruct(
             id=i,
             vector=embedding,
             payload={
                 "chunk_id": doc["id"],
-                "chapter": doc["chapter"],
-                "article": doc["article"],
-                "text": doc["raw"],
+                "title": doc["title"],
+                "level": doc["level"],
+                "text": doc["text"],
                 "source": doc["source"],
-                "keywords": doc["metadata"].get("keywords", [])
             }
         ))
 
-    # print(points)
-    client.upsert(collection_name=COLLECTION_NAME, points=points)
+    if points:
+        client.upsert(collection_name=COLLECTION_NAME, points=points)
 
 
