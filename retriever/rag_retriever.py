@@ -7,18 +7,17 @@ from langchain_core.tracers import LangChainTracer
 import os
 
 
-def build_rag_chain():
+def build_rag_chain(template):
     vectorstore = load_qdrant_vectorstore()
-    retriever = vectorstore.as_retriever(search_type="similarity", search_kwargs={'k': 3,})
-
+    retriever = vectorstore.as_retriever(search_type="similarity", search_kwargs={'k': 5})
+    test_docs = retriever.invoke("光伏发电防孤岛保护")
+    print(f"检索到文档数: {len(test_docs)}")
+    for doc in test_docs:
+        print(doc.page_content[:100] + "...")
+        print("元数据:", doc.metadata)
     prompt = PromptTemplate(
         input_variables=['context', 'question'],
-        template="""
-        {context}
-
-        请根据以上信息回答问题：
-        {question}
-        """,
+        template=template,
     )
 
     llm = load_llm()

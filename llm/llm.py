@@ -10,7 +10,7 @@ class MyLLM(LLM):
     model_name: str = "/tmp/pycharm_project_581/Qwen3-8B"
     max_new_tokens: int = 32768
     temperature: float = 0.6
-    enable_thinking:bool = False
+    enable_thinking:bool = True
 
     _tokenizer: Any = PrivateAttr(default=None)
     _model: Any = PrivateAttr(default=None)
@@ -25,6 +25,8 @@ class MyLLM(LLM):
             self.model_name,
             torch_dtype='auto',
             device_map="cuda",
+            # load_in_8bit=True,
+            # use_flash_attention_2=True,
             trust_remote_code=True
         )
 

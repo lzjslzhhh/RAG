@@ -47,9 +47,7 @@ def clean_text(text):
 
 
 def is_text_meaningful(text: str, threshold: float = 0.3) -> bool:
-    """
-    判定文本是否“有意义”：非空格比例 + 中文字符比例
-    """
+
     if not text.strip():
         return False
     total_chars = len(text)
@@ -60,7 +58,7 @@ def is_text_meaningful(text: str, threshold: float = 0.3) -> bool:
 
 
 def fuse_ocr_results(text1: str, text2: str) -> str:
-    """基于规则的结果融合"""
+
     lines1 = text1.split('\n')
     lines2 = text2.split('\n')
     return "\n".join(
@@ -87,18 +85,10 @@ def read_pdf(path):
     images = convert_from_path(path,dpi=300)
     ocr_text = ""
     for img in images:
-        # 方案1：Tesseract优化（主引擎）
         tesseract_text = pytesseract.image_to_string(
             img,
             lang='chi_sim+eng'
         )
-
-        # 方案2：EasyOCR补充（专治复杂版式）
-        # easyocr_result = reader.readtext(np.array(img), detail=0)
-        # easyocr_text = "\n".join(easyocr_result)
-        #
-        # # 结果融合（取置信度高的部分）
-        # ocr_text += fuse_ocr_results(tesseract_text, easyocr_text)
         ocr_text+=tesseract_text
     return ocr_text
 
@@ -113,12 +103,7 @@ def count_tokens(text):
 
 
 def identify_doc_structure(text: str) -> str:
-    """
-    自动识别文档结构类型：
-    - 'hierarchical': 带数字编号层级（如3.1.1）
-    - 'sectioned': 仅章节标题（如"第一章"）
-    - 'flat': 无结构
-    """
+
     # 检测数字编号体系（如3.1.1）
     if re.search(r'\d+\.\d+(?:\.\d+)*\s', text):
         return 'hierarchical'
@@ -184,7 +169,7 @@ def split_document_sections(text):
 
 
 def cn2num(cn):
-    """简单中文数字转阿拉伯数字，支持一到千"""
+
     cn_num = cn.replace("第", "").replace("条", "").replace("章", "")
     map_units = {'十': 10, '百': 100, '千': 1000, '万': 10000}
     map_nums = {'零': 0, '一': 1, '二': 2, '三': 3, '四': 4,
@@ -256,10 +241,7 @@ def extract_structure(block):
 
 
 def extract_numbered_structure(text):
-    """
-    提取并标注分级数字编号及其层级结构。
-    返回结构为：[(编号, 标题, 层级, 父编号)]
-    """
+
     # 正则匹配：形如 1. 1.1 1.1.1 或 2.2.3.4 等，标题为紧随其后的内容
     pattern = r'(?m)^\s*((?:\d+\.)+\d*|\d+)[\s、．．\.)]+(.+)$'
     matches = re.findall(pattern, text)
