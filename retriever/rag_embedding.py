@@ -2,20 +2,19 @@ import json
 import os
 import uuid
 
-from sentence_transformers import SentenceTransformer
 from qdrant_client import QdrantClient
 from qdrant_client.models import Distance, VectorParams, PointStruct
+from sentence_transformers import SentenceTransformer
 from tqdm import tqdm
 
 # 配置
 COLLECTION_NAME = "grid_docs"
 MODEL_PATH = r"/tmp/pycharm_project_581/gte-multilingual-base"
-JSONL_PATH = r"/tmp/pycharm_project_581/retriever/rag_structured_chunks.jsonl"
+JSONL_PATH = r"/tmp/pycharm_project_581/retriever/rag_enhanced_2_chunks.jsonl"
 os.environ['TRANSFORMERS_OFFLINE'] = '1'  # 强制离线
 if __name__ == "__main__":
     # 初始化模型
-    model = SentenceTransformer(model_name_or_path=MODEL_PATH, trust_remote_code=True,local_files_only=True)
-
+    model = SentenceTransformer(model_name_or_path=MODEL_PATH, trust_remote_code=True, local_files_only=True)
 
     documents = []
     with open(JSONL_PATH, 'r', encoding='utf-8') as f:
@@ -38,9 +37,11 @@ if __name__ == "__main__":
                 documents.append({
                     "id": doc["chunk_id"],
                     'title': doc["title"],
+                    # 'standard_id':doc["standard_id"],
                     'level': doc["level"],
                     "text": base_text,
-                    "source": doc.get("source", "")
+                    "source": doc.get("source", ""),
+                    "metadata": doc["metadata"],
                 })
 
     # 创建 Qdrant 本地客户端
@@ -59,10 +60,12 @@ if __name__ == "__main__":
         # embedding = model.encode(f'{doc["source"]} {doc["text"]}', normalize_embeddings=True).tolist()
         # embedding = model.encode(f'{doc["source"]} {doc["title"]} {doc["text"]}', normalize_embeddings=True).tolist()
         # 分别编码后加权融合
-        source_emb = model.encode(doc["source"],weight=0.1,normalize_embeddings=True)
-        title_emb = model.encode(doc["title"], weight=0.2,normalize_embeddings=True)
-        content_emb = model.encode(doc["text"], weight=0.7,normalize_embeddings=True)
-        combined_emb = source_emb*0.1+ title_emb * 0.2 + content_emb * 0.7
+        source_emb = model.encode(doc["source"], weight=0.2, normalize_embeddings=True)
+        context_emb = model.encode(doc['id'] + doc["metadata"].get("hierarchy_path", ""), weight=0.25,
+                                   normalize_embeddings=True)
+        title_emb = model.encode(doc["title"], weight=0.2, normalize_embeddings=True)
+        content_emb = model.encode(doc["text"], weight=0.35, normalize_embeddings=True)
+        combined_emb = source_emb * 0.2 + context_emb * 0.25 + title_emb * 0.2 + content_emb * 0.35
         # combined_emb = source_emb * 0.3 + content_emb * 0.7
         # point_id =  f"{doc['source']}_{doc['chapter']}_{doc['id']}"
         point_id = f"{doc['source']}_{doc['id']}"
@@ -80,9 +83,12 @@ if __name__ == "__main__":
             payload={
                 "chunk_id": doc["id"],
                 "title": doc["title"],
+                "standard_id": doc["metadata"].get("standard_id", ""),
                 "level": doc["level"],
-                "text": doc["text"],
+                "text": doc["metadata"].get("hierarchy_path", "") + doc["text"],
                 "source": doc["source"],
+                "parent_chain": doc["metadata"].get("parent_chain", []),
+                "hierarchy": doc["metadata"].get("hierarchy_path", ""),
             },
             # payload = {
             #     "chunk_id": doc["id"],
@@ -96,5 +102,3 @@ if __name__ == "__main__":
 
     if points:
         client.upsert(collection_name=COLLECTION_NAME, points=points)
-
-

@@ -34,7 +34,7 @@ if __name__ == "__main__":
                 })
 
     # 创建 Qdrant 本地客户端
-    client = QdrantClient(path="./qdrant_local_data")  # 数据保存在本地文件夹
+    client = QdrantClient(path="./qdrant_local_data_")  # 数据保存在本地文件夹
 
     # 创建集合（如果不存在）
     if not client.collection_exists(COLLECTION_NAME):

@@ -1,5 +1,4 @@
 from typing import Any, List, Optional
-
 from pydantic import PrivateAttr
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
@@ -58,21 +57,21 @@ class MyLLM(LLM):
         )
         output_ids = generated_ids[0][len(model_inputs.input_ids[0]):].tolist()
 
-        if enable_thinking:
-            try:
-                # 解析 thinking content（假设151668是</think>的token ID）
-                index = len(output_ids) - output_ids[::-1].index(151668)
-                thinking_content = self._tokenizer.decode(output_ids[:index], skip_special_tokens=True).strip("\n")
-                content = self._tokenizer.decode(output_ids[index:], skip_special_tokens=True).strip("\n")
-                return f"[思考过程]\n{thinking_content}\n\n[回答]\n{content}"
-            except ValueError:
-                # 如果没有找到thinking标记，返回完整内容
-                content = self._tokenizer.decode(output_ids, skip_special_tokens=True).strip("\n")
-                return f"[回答]\n{content}"
-        else:
+        # if enable_thinking:
+        #     try:
+        #         # 解析 thinking content（假设151668是</think>的token ID）
+        #         index = len(output_ids) - output_ids[::-1].index(151668)
+        #         thinking_content = self._tokenizer.decode(output_ids[:index], skip_special_tokens=True).strip("\n")
+        #         content = self._tokenizer.decode(output_ids[index:], skip_special_tokens=True).strip("\n")
+        #         return f"[思考过程]\n{thinking_content}\n\n[回答]\n{content}"
+        #     except ValueError:
+        #         # 如果没有找到thinking标记，返回完整内容
+        #         content = self._tokenizer.decode(output_ids, skip_special_tokens=True).strip("\n")
+        #         return f"{content}"
+        # else:
             # 直接返回完整回答
-            content = self._tokenizer.decode(output_ids, skip_special_tokens=True).strip("\n")
-            return content
+        content = self._tokenizer.decode(output_ids, skip_special_tokens=True).strip("\n")
+        return content
 
 # 可选封装函数
 def load_llm() ->  MyLLM:

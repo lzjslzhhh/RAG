@@ -1,32 +1,40 @@
 import json
+import re
 
 from langchain_core.tracers import ConsoleCallbackHandler
 
-from retriever.rag_retriever_rerank import build_rag_chain
-
-# '光伏发电系统接入配电网时如何进行防孤岛保护检测?'光伏发电系统接入配电网检测规程.pdf11页
-# '电化学储能电站接入电网的额定能量如何进行测试?'电化学储能电站接入电网测试规程.pdf13页
-# '风力发电机在电网中的谐波电压适应性如何测试?'风力发电机组%20电网适应性测试规程.pdf第12页
+from llm.llm import load_llm
+from retriever.rag_evaluate import questions, auto_evaluate_rag
+from retriever.rag_retriever_enhanced import build_rag_chain
 
 if __name__ == '__main__':
     rag_chain = build_rag_chain()
-
-    queries = [
-        '光伏发电系统接入配电网时如何进行防孤岛保护检测?',
-        '电化学储能电站接入电网的额定能量如何进行测试?',
-        '风力发电机在电网中的谐波电压适应性如何测试?'
-    ]
-    QAS=[]
-    for query in queries:
-        result = rag_chain.invoke({"query": query},config={"callbacks": [ConsoleCallbackHandler()]})
-        print("回答：", result["result"])
-        print("检索来源：")
-        for doc in result["source_documents"]:
-            print(" -", doc.metadata.get("source", "无"))
+    QAS = []
+    llm = load_llm()
+    for question in questions:
+        result= rag_chain.invoke({"query": question["question"]}, config={"callbacks": [ConsoleCallbackHandler()]})
+        print(result)
+        cleaned = re.sub(r'<think>.*?</think>', '', result["result"], flags=re.DOTALL)
+        print(cleaned)
+        # 提取最终答案
+        answer_match = re.search(
+            r'(?:最终答案|答案)[：:]\s*([\s\S]*?)(?=\n\n|$)',
+            cleaned
+        )
+        print(answer_match)
+        evaluation = auto_evaluate_rag(question["question"], question["answer"], re.sub(r'<think>.*?</think>', '', answer_match, flags=re.DOTALL), question["reference"],result["metadata"]["contexts"], llm)
+        print(evaluation)
         QAS.append({
-                '问题': query,
-                '回答': result["result"],
-                '检索来源': result['source_documents']
-            })
+            'id': question["id"],
+            '类型': result["metadata"]["type"],
+            '引用': result["metadata"]["sources"],
+            '上下文':result["metadata"]['contexts'],
+            '问题': question["question"],
+            '标准答案': question["answer"],
+            '大模型回答': re.sub(r'<think>.*?</think>', '', result['result'], flags=re.DOTALL),
+            '评估': evaluation
+        })
     with open('./result/A5.jsonl', 'w', encoding='utf-8') as f:
-        f.write(json.dumps(QAS, ensure_ascii=False))
+        for QA in QAS:
+            f.write(json.dumps(QA, ensure_ascii=False) + '\n')
+

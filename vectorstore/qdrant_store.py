@@ -22,7 +22,7 @@ def load_qdrant_vectorstore(collection_name=COLLECTION_NAME, model_name='/tmp/py
     embeddings = SentenceTransformerEmbeddings(model)
 
     # 创建 Qdrant 本地客户端
-    client = QdrantClient(path="/tmp/pycharm_project_581/retriever/qdrant_local_data")  # 数据保存在本地文件夹
+    client = QdrantClient(path="/tmp/pycharm_project_581/qdrant_local_data")  # 数据保存在本地文件夹
 
     # 创建集合（如果不存在）
     if not client.collection_exists(collection_name):
@@ -38,4 +38,4 @@ def load_qdrant_vectorstore(collection_name=COLLECTION_NAME, model_name='/tmp/py
         content_payload_key='text',
         distance_strategy = "COSINE"  # 必须指定
     )
-    return vectorstore
+    return vectorstore,client
