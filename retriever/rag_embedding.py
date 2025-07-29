@@ -85,7 +85,7 @@ if __name__ == "__main__":
                 "title": doc["title"],
                 "standard_id": doc["metadata"].get("standard_id", ""),
                 "level": doc["level"],
-                "text": doc["metadata"].get("hierarchy_path", "") + doc["text"],
+                "text": doc["metadata"].get("standard_id", "") +' '+ doc["id"] + ' '+ doc["text"],
                 "source": doc["source"],
                 "parent_chain": doc["metadata"].get("parent_chain", []),
                 "hierarchy": doc["metadata"].get("hierarchy_path", ""),

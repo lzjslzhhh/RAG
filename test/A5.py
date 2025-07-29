@@ -16,13 +16,7 @@ if __name__ == '__main__':
         print(result)
         cleaned = re.sub(r'<think>.*?</think>', '', result["result"], flags=re.DOTALL)
         print(cleaned)
-        # 提取最终答案
-        answer_match = re.search(
-            r'(?:最终答案|答案)[：:]\s*([\s\S]*?)(?=\n\n|$)',
-            cleaned
-        )
-        print(answer_match)
-        evaluation = auto_evaluate_rag(question["question"], question["answer"], re.sub(r'<think>.*?</think>', '', answer_match, flags=re.DOTALL), question["reference"],result["metadata"]["contexts"], llm)
+        evaluation = auto_evaluate_rag(question["question"], question["answer"], cleaned, question["reference"],result["metadata"]["contexts"], llm)
         print(evaluation)
         QAS.append({
             'id': question["id"],

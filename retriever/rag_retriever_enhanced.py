@@ -289,7 +289,7 @@ def build_rag_chain():
                         for doc in x["docs"]
                     ],
                     "contexts": [
-                        f"{doc.metadata.get('standard_id', '未知')} {doc.metadata.get('chunk_id', '无')}\n{doc.page_content}"
+                        f"{doc.page_content}"
                         for doc in x["docs"]
                     ]
                 }
