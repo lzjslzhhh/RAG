@@ -1,3 +1,4 @@
+import torch
 from langchain_community.vectorstores import Qdrant
 from langchain.embeddings.base import Embeddings
 from qdrant_client import QdrantClient
@@ -9,6 +10,9 @@ from retriever.rag_embedding import MODEL_PATH, COLLECTION_NAME
 class SentenceTransformerEmbeddings(Embeddings):
     def __init__(self, model):
         self.model = model
+        self.device = "cuda" if torch.cuda.is_available() else "cpu"
+        self.model.to(self.device)
+
 
     def embed_documents(self, texts: list[str]) -> list[list[float]]:
         return self.model.encode(texts, convert_to_numpy=True).tolist()

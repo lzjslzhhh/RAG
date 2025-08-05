@@ -50,6 +50,13 @@ class MyLLM(LLM):
         )
         model_inputs = self._tokenizer([text], return_tensors="pt").to(self._model.device)
 
+        if model_inputs['input_ids'].max() >= self._tokenizer.vocab_size:
+            model_inputs['input_ids'] = torch.clamp(
+                model_inputs['input_ids'],
+                0,
+                self._tokenizer.vocab_size - 1
+            )
+
         generated_ids = self._model.generate(
             **model_inputs,
             max_new_tokens=self.max_new_tokens,

@@ -76,6 +76,7 @@ def generate_prompt_a3(inputs):
     {question}
     """
 
+
 def generate_prompt_a4(inputs):
     context = inputs["context"]
     question = inputs["question"]
@@ -98,7 +99,6 @@ def generate_prompt_a4(inputs):
     {question}
     请开始逐步推理并给出答案，仅给出回答即可，不需要给出思考过程：
     """
-
 
 
 def build_rag_chain(isA3=True):
