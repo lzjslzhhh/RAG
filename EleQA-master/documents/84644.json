@@ -1,0 +1,3410 @@
+[
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "1",
+        "level": 1,
+        "chunk_content": "范围 本文件规定了电力燃煤机械名词术语的名称、英文译名及其定义。本文件适用于指导制修订电力燃煤机械领域技术标准、编制技术文件、编写和翻译相关领域科技书籍、期刊、教材和手册。",
+        "path": ""
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "2",
+        "level": 1,
+        "chunk_content": "规范性引用文件 本文件没有规范性引用文件。",
+        "path": ""
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3",
+        "level": 1,
+        "chunk_content": "卸煤设备 ",
+        "path": ""
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.1",
+        "level": 2,
+        "chunk_content": "敞车卸车机 ",
+        "path": "卸煤设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.1.1",
+        "level": 3,
+        "chunk_content": "形式与种类 ",
+        "path": "卸煤设备  > 敞车卸车机  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.1.1.1",
+        "level": 4,
+        "chunk_content": "螺旋卸车机screw unloader  应用于缝式卸煤槽上部，沿轨道行走、从车厢顶部深入车厢内部，通过螺旋机构将煤从车厢侧面推出的卸煤机械。主要由螺旋旋转机构、螺旋起升机构、整机行走机构、支承结构和司机室组成。",
+        "path": "卸煤设备  > 敞车卸车机  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.1.1.2",
+        "level": 4,
+        "chunk_content": "桥式螺旋卸车机bridge-type screw unloader 桥架跨于铁路上方，沿两排柱子支承的桥架梁轨道行走，借螺旋机构将煤从车皮两侧门推出的螺旋卸车机。",
+        "path": "卸煤设备  > 敞车卸车机  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.1.1.3",
+        "level": 4,
+        "chunk_content": "双线桥式螺旋卸车机two lines bridge-type screw unloader 桥架跨于两条铁路上方，螺旋卸车机构可横向移动，卸除双铁路线停放的两列车皮的桥式螺旋卸车机。",
+        "path": "卸煤设备  > 敞车卸车机  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.1.1.4",
+        "level": 4,
+        "chunk_content": "门式螺旋卸车机portal-type screw unloader 门型架跨于铁路上方，整机沿地面轨道行走，借螺旋机构将煤从车皮两侧门推出的螺旋卸车机。",
+        "path": "卸煤设备  > 敞车卸车机  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.1.1.5",
+        "level": 4,
+        "chunk_content": "「型螺旋卸车机「-typescrew unloader “「”型架装在铁路一侧，整机沿地面轨道行走，借螺旋转动将煤从单侧（或双侧)车门推出的螺旋卸车机。",
+        "path": "卸煤设备  > 敞车卸车机  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.1.1.6",
+        "level": 4,
+        "chunk_content": "斗链卸车机bucket-chain unloader 具有门型架，跨于铁路上方，整机沿地面轨道行走，通过链斗取煤输送到门型架上方然后卸到铁路两旁带式输送机的卸车机。",
+        "path": "卸煤设备  > 敞车卸车机  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.1.1.7",
+        "level": 4,
+        "chunk_content": "DL/TXXXX—XXXX 双线斗链卸车机two lines bucket-chain unloader 跨于两条铁路上方，链斗机构可横向移动，卸除双铁路线停放的两列车皮的斗链卸车机。",
+        "path": "卸煤设备  > 敞车卸车机  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.1.1.8",
+        "level": 4,
+        "chunk_content": "装卸桥loading bridge 桥架（3.1.3.2）沿着轨道纵向行走，起重小车（3.1.3.3）沿着桥架横梁横向行走，采用抓斗进行装卸作业的门式起重机。",
+        "path": "卸煤设备  > 敞车卸车机  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.1.1.9",
+        "level": 4,
+        "chunk_content": "桥式抓斗起重机bridge type grabbing crane 桥架（3.1.3.2）沿着轨道纵向行走，起重小车（3.1.3.3）沿着桥架横梁横向行走，采用抓斗开、闭进行装卸作业的桥式起重机。",
+        "path": "卸煤设备  > 敞车卸车机  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.1.2",
+        "level": 3,
+        "chunk_content": "基础名词术语 综合出力comprehensive capacity  卸车机综合卸煤能力，与煤质、受煤装置类型、卸一列车需要的调车次数、卸煤工人的配备、司机操作的熟练程度有关。一般表述为每小时卸车机从火车车厢内卸出煤的重量。",
+        "path": "卸煤设备  > 敞车卸车机  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.1.3",
+        "level": 3,
+        "chunk_content": "结构与辅助设备 ",
+        "path": "卸煤设备  > 敞车卸车机  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.1.3.1",
+        "level": 4,
+        "chunk_content": "敞车open-wagon 无盖，有较高侧板，两边设有可翻开的侧门，以便卸除散状物料的铁路车辆。",
+        "path": "卸煤设备  > 敞车卸车机  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.1.3.2",
+        "level": 4,
+        "chunk_content": "桥架bridge 供起重小车在其上横移用的桥架型起重机主要承载结构，或门式和半门式起重机支腿之间的结构件。主要有箱形和桁架2 种结构。 ",
+        "path": "卸煤设备  > 敞车卸车机  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.1.3.3",
+        "level": 4,
+        "chunk_content": "起重小车crab，trolley 使吊挂载荷移动的总成。",
+        "path": "卸煤设备  > 敞车卸车机  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.1.3.4",
+        "level": 4,
+        "chunk_content": "链斗机构chain bucket mechanism 由多个取料斗采用链式循环所组成的取料机构。",
+        "path": "卸煤设备  > 敞车卸车机  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.1.3.5",
+        "level": 4,
+        "chunk_content": "螺旋机构screw type mechanism 在圆柱体空腔内利用平板螺旋结构的转动来完成取料的机构。",
+        "path": "卸煤设备  > 敞车卸车机  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.2",
+        "level": 2,
+        "chunk_content": "翻车机  ",
+        "path": "卸煤设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.2.1",
+        "level": 3,
+        "chunk_content": "形式与种类 ",
+        "path": "卸煤设备  > 翻车机   > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.2.1.1",
+        "level": 4,
+        "chunk_content": "翻车机car dumper，wagon tippler 用来翻卸铁路敞车散料的大型机械设备，可将有轨车辆翻转使之卸料的机械。［DL/T5187.1-2016 火力发电厂运煤设计技术规程 第 1 部分：运煤系统，2.0.6］ ",
+        "path": "卸煤设备  > 翻车机   > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.2.1.2",
+        "level": 4,
+        "chunk_content": "C型翻车机C-type wagon tippler 端盘采用“C”型结构，回转中心与车辆中心距离基本重合的翻车机。",
+        "path": "卸煤设备  > 翻车机   > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.2.1.3",
+        "level": 4,
+        "chunk_content": "O型翻车机O-type wagon tippler 端盘采用“O”型结构，回转中心与车辆中心距离完全重合的翻车机。",
+        "path": "卸煤设备  > 翻车机   > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.2.1.4",
+        "level": 4,
+        "chunk_content": "侧倾式翻车机side rotating wagon tippler 回转中心与车辆中心距离较大的翻车机。",
+        "path": "卸煤设备  > 翻车机   > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.2.1.5",
+        "level": 4,
+        "chunk_content": "单车翻车机single-wagon tippler 每次翻卸1 节车厢的翻车机。 ",
+        "path": "卸煤设备  > 翻车机   > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.2.1.6",
+        "level": 4,
+        "chunk_content": "双车翻车机double-wagon tippler 每次翻卸2 节车厢的翻车机。 ",
+        "path": "卸煤设备  > 翻车机   > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.2.1.7",
+        "level": 4,
+        "chunk_content": "三车翻车机triple-wagon tippler 每次翻卸3 节车厢的翻车机。 ",
+        "path": "卸煤设备  > 翻车机   > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.2.1.8",
+        "level": 4,
+        "chunk_content": "四车翻车机quadruple-wagon tippler 每次翻卸4 节车厢的翻车机。 ",
+        "path": "卸煤设备  > 翻车机   > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.2.1.9",
+        "level": 4,
+        "chunk_content": "贯通式翻车机run-through type wagon tippler 不设置空车线，翻卸完毕后由重车调车机按原方向推送至翻车机另一端集结的翻车机。",
+        "path": "卸煤设备  > 翻车机   > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.2.2",
+        "level": 3,
+        "chunk_content": "基础名词术语 ",
+        "path": "卸煤设备  > 翻车机   > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.2.2.1",
+        "level": 4,
+        "chunk_content": "最大翻转重量maximum weight to handled 翻车机最大能够翻转的车厢及车厢内煤的合重。",
+        "path": "卸煤设备  > 翻车机   > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.2.2.2",
+        "level": 4,
+        "chunk_content": "理论效率theoretical efficency 翻车机理论每小时能翻卸的车厢数量。",
+        "path": "卸煤设备  > 翻车机   > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.2.2.3",
+        "level": 4,
+        "chunk_content": "最大翻转角度maximum angle of rotation 翻车机翻卸车厢时能达到的最大角度。",
+        "path": "卸煤设备  > 翻车机   > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.2.2.4",
+        "level": 4,
+        "chunk_content": "回转周期time to tip and return  翻车机连续完成一个翻转过程所需的时间。[来源：JB/T7015-2010 回转式翻车机，3.5] ",
+        "path": "卸煤设备  > 翻车机   > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.2.3",
+        "level": 3,
+        "chunk_content": "结构与辅助设备 ",
+        "path": "卸煤设备  > 翻车机   > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.2.3.1",
+        "level": 4,
+        "chunk_content": "DL/TXXXX—XXXX 重车调车机side arm charger 重车调车机用于牵引整列重车，推送单节（组）待翻卸的重车和已翻的空车。",
+        "path": "卸煤设备  > 翻车机   > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.2.3.2",
+        "level": 4,
+        "chunk_content": "空车调车机pusher 空车调车机用于将迁车台上的空车推出牵车台并送到规定的位置。",
+        "path": "卸煤设备  > 翻车机   > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.2.3.3",
+        "level": 4,
+        "chunk_content": "迁车台shifter 在折返布置的翻车机系统中用于将翻卸后的空车车辆横向移动到空车线路。",
+        "path": "卸煤设备  > 翻车机   > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.2.3.4",
+        "level": 4,
+        "chunk_content": "夹轮器wheel gripper  用来压紧车轮，防止车厢非正常移动的翻车机系统安全设备。",
+        "path": "卸煤设备  > 翻车机   > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.2.3.5",
+        "level": 4,
+        "chunk_content": "止挡器wheel stopper 用来防止车厢反向单向非正常移动的翻车机系统安全设备。",
+        "path": "卸煤设备  > 翻车机   > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.2.3.6",
+        "level": 4,
+        "chunk_content": "摘钩平台uncoupling  platform 翻车机系统中实现重车自动摘钩的平台。",
+        "path": "卸煤设备  > 翻车机   > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.3",
+        "level": 2,
+        "chunk_content": "底开车卸煤装置 ",
+        "path": "卸煤设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.3.1",
+        "level": 3,
+        "chunk_content": "自卸式底开车self-unloading hopper wagon 一种无盖、车底部两侧有可开闭闸门，闸门可用气动或手动方式打开，煤借自重卸下的专用运煤车辆，也被称为漏斗车。",
+        "path": "卸煤设备  > 底开车卸煤装置  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.3.2",
+        "level": 3,
+        "chunk_content": "缝式煤槽卸煤装置slot-type coal unloading trough 一种现浇钢筋混凝土槽形沟道结构的卸煤装置，由地上部分和地下部分组成，地上部分为卸车区域，地下部分为受煤、排料区域。采用自卸式底开车运输时，一般采用缝式煤槽卸煤装置卸煤。",
+        "path": "卸煤设备  > 底开车卸煤装置  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.4",
+        "level": 2,
+        "chunk_content": "卸船机 ",
+        "path": "卸煤设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.4.1",
+        "level": 3,
+        "chunk_content": "形式与种类 ",
+        "path": "卸煤设备  > 卸船机  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.4.1.1",
+        "level": 4,
+        "chunk_content": "卸船机ship unloader 将散状物料卸出船舱，并能运至岸边的专用机械。",
+        "path": "卸煤设备  > 卸船机  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.4.1.2",
+        "level": 4,
+        "chunk_content": "链斗卸船机chain bucket ship unloader 具有链斗卸料机构，为水运货船专用的卸船设备。分为岸壁式和浮式，岸壁式悬链斗卸船机将整机安装在码头上，适用于水位变化小的港口。浮式悬链斗卸船机将整机设在趸于船上，使用水位落差大的港口。",
+        "path": "卸煤设备  > 卸船机  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.4.1.3",
+        "level": 4,
+        "chunk_content": "螺旋卸船机screw type ship unloader 利用螺旋卸料机构将物料提升输送至码头，卸料过程完全封闭的卸船机。",
+        "path": "卸煤设备  > 卸船机  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.4.1.4",
+        "level": 4,
+        "chunk_content": "桥式抓斗卸船机bridge type grab ship unloader 采用桥架结构，通过抓斗将散装物料从船舱中卸至码头的卸船机。",
+        "path": "卸煤设备  > 卸船机  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.4.1.5",
+        "level": 4,
+        "chunk_content": "门座式卸船机portal frame type ship unloader 用装在门式框架中的活动梁上的抓斗或吊钩卸物料的卸船机，根据船型可设计为固定式或行走式，主要用于港口和露天料场。",
+        "path": "卸煤设备  > 卸船机  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.4.2",
+        "level": 3,
+        "chunk_content": "基础名词术语 ",
+        "path": "卸煤设备  > 卸船机  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.4.2.1",
+        "level": 4,
+        "chunk_content": "码头jetty  码头是海边、江河边供运煤轮船渡船停泊区域。",
+        "path": "卸煤设备  > 卸船机  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.4.2.2",
+        "level": 4,
+        "chunk_content": "泊位berth 港区内能停靠船舶的位置，根据来船的载重量不同，泊位也不同。",
+        "path": "卸煤设备  > 卸船机  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.4.2.3",
+        "level": 4,
+        "chunk_content": "自卸船self-unloading ship 船体本身有卸料装置，可以把物料卸至码头。",
+        "path": "卸煤设备  > 卸船机  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.4.2.4",
+        "level": 4,
+        "chunk_content": "额定生产率rated capacity 指卸船机在规定条件下，单位时间能从船上卸下的货物总质量理论值。通常以吨每小时（t/h）为单位。[来源：GB/T26475-2011 桥式抓斗卸船机，3.1] ",
+        "path": "卸煤设备  > 卸船机  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.4.2.5",
+        "level": 4,
+        "chunk_content": "额定起重量rated lifting capacity 与额定生产率、工作速度和工作行程相匹配的设备最大起重量，该起重量是该运行工况下最大起重量。[来源：GB/T26475-2011 桥式抓斗卸船机，3.2，有修改] ",
+        "path": "卸煤设备  > 卸船机  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.4.3",
+        "level": 3,
+        "chunk_content": "结构与辅助设备 ",
+        "path": "卸煤设备  > 卸船机  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.4.3.1",
+        "level": 4,
+        "chunk_content": "清仓机hold cleaning machine 用于清理舱底煤的机械设备，如专用小型推煤机，装载机，推耙机等。",
+        "path": "卸煤设备  > 卸船机  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.4.3.2",
+        "level": 4,
+        "chunk_content": "起重机crane 链式（悬链斗）卸船机一般单独设置起重机械检修起吊附属设备，桥式卸船机、门座卸船机所带抓斗，一般采用吊重两用。",
+        "path": "卸煤设备  > 卸船机  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.4.3.3",
+        "level": 4,
+        "chunk_content": "接料斗receiving hopper 用于缓冲或中转卸船机和输送设备之间的料斗。",
+        "path": "卸煤设备  > 卸船机  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.5",
+        "level": 2,
+        "chunk_content": "汽车卸煤 ",
+        "path": "卸煤设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.5.1",
+        "level": 3,
+        "chunk_content": "汽车受煤站coal receiving station  汽车运煤到电厂时进入汽车受煤站卸煤。DL/TXXXX—XXXX ",
+        "path": "卸煤设备  > 汽车卸煤  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.5.2",
+        "level": 3,
+        "chunk_content": "自卸车dump truck 具备自卸功能的卡车。",
+        "path": "卸煤设备  > 汽车卸煤  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "3.5.3",
+        "level": 3,
+        "chunk_content": "受煤斗coal receiving hopper 汽车受煤站内用于接收汽车来煤的缓冲斗。",
+        "path": "卸煤设备  > 汽车卸煤  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4",
+        "level": 1,
+        "chunk_content": "贮煤设备 ",
+        "path": ""
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.1",
+        "level": 2,
+        "chunk_content": "堆取料机  ",
+        "path": "贮煤设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.1.1",
+        "level": 3,
+        "chunk_content": "形式与种类 ",
+        "path": "贮煤设备  > 堆取料机   > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.1.1.1",
+        "level": 4,
+        "chunk_content": "堆取料机stacker reclaimer 靠自身运行机构或回转机构，将料场带式输送机输送的物料经转运机构堆放至料场，或者通过取料机构把料场物料经转运机构转送给料场带式输送机的装卸机械。［来源：GB/T14521-2015 连续搬运机械 术语，3.3.6］ ",
+        "path": "贮煤设备  > 堆取料机   > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.1.1.2",
+        "level": 4,
+        "chunk_content": "斗轮堆取料机bucket wheel stacker reclaimer 一种在贮料场侧轨道上运行，贯穿在料场带式输送机中可将物料堆到料场，又可通过斗轮取料、带式输送机反向运行输送物料的堆取合一的设备。由斗轮机构、回转机构、带式输送机、尾车、俯仰机构（浮动梁）与行走机构组成。具有堆料和取料两种作业方式，分为悬臂式和门式两种形式。［来源：GB/T14521-2015 连续搬运机械 术语，3.3.6.1，有修改］ ",
+        "path": "贮煤设备  > 堆取料机   > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.1.1.3",
+        "level": 4,
+        "chunk_content": "臂式斗轮堆取料机boom-type bucket wheel stacker reclaimer 取料机构（斗轮）装在臂架前端的斗轮堆取料机。［来源：JB/T7329-2008 斗轮堆取料机械，2.1.1，有修改］ ",
+        "path": "贮煤设备  > 堆取料机   > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.1.1.4",
+        "level": 4,
+        "chunk_content": "门式斗轮堆取料机gantry-type bucket wheel stacker reclaimer 堆取料机构安装在门式框架中的活动梁上的斗轮堆取料机。［来源：JB/T7329-2008 斗轮堆取料机械，2.1.2，有修改］ ",
+        "path": "贮煤设备  > 堆取料机   > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.1.1.5",
+        "level": 4,
+        "chunk_content": "圆形料场堆取料机stacker reclaimer for circu1ar coal yard 用于圆形场地，由回转式运行的取料机及堆料机组合成的堆取料设备。",
+        "path": "贮煤设备  > 堆取料机   > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.1.1.6",
+        "level": 4,
+        "chunk_content": "斗轮堆料机bucket wheel stacker      一种在贮料场上运行，用斗轮堆料机构进行堆料作业的设备。",
+        "path": "贮煤设备  > 堆取料机   > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.1.1.7",
+        "level": 4,
+        "chunk_content": "平衡式堆料机balance-type stacker   由门座转台、尾车、悬臂输送带机和平衡重锤组成，沿轨道行走，借液压缸控制其仰俯，将煤输送至轨道两侧堆存。",
+        "path": "贮煤设备  > 堆取料机   > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.1.1.8",
+        "level": 4,
+        "chunk_content": "桅杆式堆料机mast-type stacker 由门座、转台、尾车、悬臂输送带机和平衡重锤组成，沿轨道行走，悬臂长达60m  以上，以绳索或拉杆支承，借液压缸控制其仰俯，将煤输送至轨道两侧堆存。",
+        "path": "贮煤设备  > 堆取料机   > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.1.1.9",
+        "level": 4,
+        "chunk_content": "摇臂堆料机jib stacker   用于条形煤场堆煤，由大车、门座行走机构、尾车和可旋转仰俯的悬臂输送机组成，大车沿轨道移动，借悬臂输送机堆煤的堆料机。",
+        "path": "贮煤设备  > 堆取料机   > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.1.2",
+        "level": 3,
+        "chunk_content": "基础名词术语 ",
+        "path": "贮煤设备  > 堆取料机   > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.1.2.1",
+        "level": 4,
+        "chunk_content": "堆取料时最大出力maximum capacity for stacker reclaimer 在某特定时间内堆取料机可能达到的最大生产能力，即超出额定出力最大限度的能力。",
+        "path": "贮煤设备  > 堆取料机   > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.1.2.2",
+        "level": 4,
+        "chunk_content": "堆料高度pile height 在料场的堆料高度。",
+        "path": "贮煤设备  > 堆取料机   > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.1.2.3",
+        "level": 4,
+        "chunk_content": "回转角度slewing angle 允许臂架对回转轴线回转的最大角度。［来源：JB/T7329-2008 斗轮堆取料机械，3.8］ ",
+        "path": "贮煤设备  > 堆取料机   > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.1.2.4",
+        "level": 4,
+        "chunk_content": "俯仰角luffing angle 臂架上仰至最高位置或下俯至最低位置时与水平线之间的夹角。［来源：JB/T7329-2008 斗轮堆取料机械，3.9］ ",
+        "path": "贮煤设备  > 堆取料机   > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.1.3",
+        "level": 3,
+        "chunk_content": "结构与辅助设备 ",
+        "path": "贮煤设备  > 堆取料机   > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.1.3.1",
+        "level": 4,
+        "chunk_content": "斗轮机构bucket wheel mechanism 用斗轮去往料堆堆料或取料的机构。",
+        "path": "贮煤设备  > 堆取料机   > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.1.3.2",
+        "level": 4,
+        "chunk_content": "仰俯机构luffing  mechanism 改变斗轮高度位置的机构。［来源：JB/T7329-2008 斗轮堆取料机械，5.9］ ",
+        "path": "贮煤设备  > 堆取料机   > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.1.3.3",
+        "level": 4,
+        "chunk_content": "回转机构slewing mechanism 改变斗轮回转角度的机构。",
+        "path": "贮煤设备  > 堆取料机   > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.1.3.4",
+        "level": 4,
+        "chunk_content": "行走机构travelling mechanism 调整设备的工作位置及实现纵向给进，同时将设备的载荷传给基础的机构。",
+        "path": "贮煤设备  > 堆取料机   > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.1.3.5",
+        "level": 4,
+        "chunk_content": "尾车tripper 堆料作业时，将料场输送机运来的物料运到臂架输送机上的机构。［来源：JB/T7329-2008 斗轮堆取料机械，5.15］ ",
+        "path": "贮煤设备  > 堆取料机   > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.1.3.6",
+        "level": 4,
+        "chunk_content": "机构运动限位器motion limiter 当堆取料机相应的机构元件到达它的极限位置时，能自动停止机构运动的装置，包括电气限位和机械限位。［来源：JB/T7329-2008 斗轮堆取料机械，6.1］ ",
+        "path": "贮煤设备  > 堆取料机   > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.1.3.7",
+        "level": 4,
+        "chunk_content": "位置检测position detection 又称绝对位置检测，是通过各类传感器对其走行、俯仰、回转三个机构实际位置（距离或角度）的检测。［来源：JB/T7329-2008 斗轮堆取料机械，6.3.3］ ",
+        "path": "贮煤设备  > 堆取料机   > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.1.3.8",
+        "level": 4,
+        "chunk_content": "防碰撞装置collision avoidance device 用来防止相邻斗轮机间碰撞和悬臂与料堆间碰撞的装置。［来源：JB/T7329-2008 斗轮堆取料机械，6.5］ ",
+        "path": "贮煤设备  > 堆取料机   > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.2",
+        "level": 2,
+        "chunk_content": "煤仓辅助机械 ",
+        "path": "贮煤设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.2.1",
+        "level": 3,
+        "chunk_content": "形式与种类 ",
+        "path": "贮煤设备  > 煤仓辅助机械  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.2.1.1",
+        "level": 4,
+        "chunk_content": "推煤机bulldozer 用于煤场推煤或煤堆整形作业的机械。",
+        "path": "贮煤设备  > 煤仓辅助机械  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.2.1.2",
+        "level": 4,
+        "chunk_content": "轮胎式推煤机rubber-tyred dozer 内燃机驱动，轮胎行走，液压控制推铲的起升，进行推煤作业。",
+        "path": "贮煤设备  > 煤仓辅助机械  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.2.1.3",
+        "level": 4,
+        "chunk_content": "轮胎式装载机rubber-tyred loader 内燃机驱动，轮胎行走，液压缸和连杆驱动铲斗沿弧线轨迹升降进行取料和装载作业。",
+        "path": "贮煤设备  > 煤仓辅助机械  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.2.1.4",
+        "level": 4,
+        "chunk_content": "履带式装载机crawler loader 柴油机驱动，履带行走，液压缸和连杆驱动铲斗沿弧线轨迹升降进行取料和装载作业。",
+        "path": "贮煤设备  > 煤仓辅助机械  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.2.1.5",
+        "level": 4,
+        "chunk_content": "蟹耙式装煤机crab harrow loader 电力驱动，履带行走，具有悬臂输送机和尾部受料盘，借两只蟹钳将煤耙入受料盘，给至悬臂输送机进行装载作业。",
+        "path": "贮煤设备  > 煤仓辅助机械  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.2.1.6",
+        "level": 4,
+        "chunk_content": "耙料机harrower 由人字形架和轨道行车组成，横跨整个煤场宽度，人字形架一侧为主耙链实施耙料，另一侧为副耙链实施喂料。主耙链将煤耙入沿煤堆布置的带式输送机。",
+        "path": "贮煤设备  > 煤仓辅助机械  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.2.1.7",
+        "level": 4,
+        "chunk_content": "桥型耙料机bridge-type harrower 由桥型架、料耙和行走机构组成，横跨煤场宽度沿轨道行走，将煤耙给沿煤堆布置的带式输送机。 ",
+        "path": "贮煤设备  > 煤仓辅助机械  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.2.1.8",
+        "level": 4,
+        "chunk_content": "门型耙料机portal-type harrower 由门型架、升降耙料和行走机构组成，横跨煤堆宽度沿轨道行走，料耙随煤堆升降，将煤耙给沿煤堆布置的带式输送机。",
+        "path": "贮煤设备  > 煤仓辅助机械  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.2.1.9",
+        "level": 4,
+        "chunk_content": "钉齿耙spike-tooth harrow 配合煤场取煤机械使用，作振动、疏松、喂料之用，借以防止流动性不好的煤塌方砸埋设备。",
+        "path": "贮煤设备  > 煤仓辅助机械  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.2.2",
+        "level": 3,
+        "chunk_content": "基础名词术语 ",
+        "path": "贮煤设备  > 煤仓辅助机械  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.2.2.1",
+        "level": 4,
+        "chunk_content": "筒仓silo DL/TXXXX—XXXX 用以贮存散装煤炭的料仓。平面形状有正方形、矩形和圆形等。",
+        "path": "贮煤设备  > 煤仓辅助机械  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.2.2.2",
+        "level": 4,
+        "chunk_content": "干煤棚dry coal shed 在煤堆上加盖，以防止煤炭下雨时受淋和刮风时污染环境的一种具有一定储存和作业空间，满足一定净空要求的储存大体量煤炭的储煤场。根据结构可分为网架式和气膜式。",
+        "path": "贮煤设备  > 煤仓辅助机械  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.2.2.3",
+        "level": 4,
+        "chunk_content": "输煤栈桥coal transporting trestle 内部安装有输煤设备的架空桥形建筑物。",
+        "path": "贮煤设备  > 煤仓辅助机械  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.2.3",
+        "level": 3,
+        "chunk_content": "结构与辅助设备 ",
+        "path": "贮煤设备  > 煤仓辅助机械  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.2.3.1",
+        "level": 4,
+        "chunk_content": "筒仓安全监测装置silo safety monitoring devices  在筒仓内设置的可监测CO 等有害气体的装置。 ",
+        "path": "贮煤设备  > 煤仓辅助机械  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.2.3.2",
+        "level": 4,
+        "chunk_content": "筒仓惰性气体灭火系统silo inert gas extinguishing system 用于筒仓，灭火介质为惰性气体灭火剂的气体灭火系统。",
+        "path": "贮煤设备  > 煤仓辅助机械  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "4.2.3.3",
+        "level": 4,
+        "chunk_content": "煤场消防水炮灭火系统water fire monitor extinguishing system for coal yard 用于圆形煤场或条形煤场的电控可调式消防水炮。",
+        "path": "贮煤设备  > 煤仓辅助机械  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5",
+        "level": 1,
+        "chunk_content": "输送设备 ",
+        "path": ""
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.1",
+        "level": 2,
+        "chunk_content": "给煤机 ",
+        "path": "输送设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.1.1",
+        "level": 3,
+        "chunk_content": "形式与种类 ",
+        "path": "输送设备  > 给煤机  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.1.1.1",
+        "level": 4,
+        "chunk_content": "给煤机coal feeder 将煤由储存装置输送至受料装置中，并可以控制煤流输送速度和输送量的机械设备。",
+        "path": "输送设备  > 给煤机  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.1.1.2",
+        "level": 4,
+        "chunk_content": "叶轮给煤机impeller feeder 采用叶轮机构进行拨煤作业的移动给煤机。",
+        "path": "输送设备  > 给煤机  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.1.1.3",
+        "level": 4,
+        "chunk_content": "桥式叶轮给煤机bridge type impeller feeder，bridge-frame impeller feeder 安装在桥式支架轨道上的叶轮给煤机。",
+        "path": "输送设备  > 给煤机  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.1.1.4",
+        "level": 4,
+        "chunk_content": "门式叶轮给煤机portal type impeller feeder，portal-frame impeller feeder 安装在地面轨道上的叶轮给煤机。",
+        "path": "输送设备  > 给煤机  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.1.1.5",
+        "level": 4,
+        "chunk_content": "双侧叶轮给煤机two sides impeller feeder 叶轮在双侧料仓内拨料的叶轮给煤机。",
+        "path": "输送设备  > 给煤机  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.1.1.6",
+        "level": 4,
+        "chunk_content": "振动给煤机vibratory feeder，vibrating feeder 利用振动原理带动给料槽振动，使槽体中的煤连续不断地向前运动的给料设备。",
+        "path": "输送设备  > 给煤机  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.1.1.7",
+        "level": 4,
+        "chunk_content": "活化给煤机un-coaler 采用方形开口的双质体给煤设备。设备带自动锁料功能，出力和调节靠激振弹簧和激振电机实现，出料口不设摇臂板或闸板门。",
+        "path": "输送设备  > 给煤机  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.1.1.8",
+        "level": 4,
+        "chunk_content": "往复式给煤机reciprocating feeder 采用曲柄连杆机构拖动倾料底板在辊上作直线往复运动的给煤设备。",
+        "path": "输送设备  > 给煤机  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.1.1.9",
+        "level": 4,
+        "chunk_content": "刮板给煤机scraper feeder 采用刮板链条输送物料的给煤设备。",
+        "path": "输送设备  > 给煤机  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.1.2",
+        "level": 3,
+        "chunk_content": "基础名词术语 ",
+        "path": "输送设备  > 给煤机  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.1.2.1",
+        "level": 4,
+        "chunk_content": "生产能力capacity 给煤机连续工作时的给煤量。",
+        "path": "输送设备  > 给煤机  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.1.2.2",
+        "level": 4,
+        "chunk_content": "给煤距离feeding distance 给煤机进料口和出料口之间的距离。",
+        "path": "输送设备  > 给煤机  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.1.2.3",
+        "level": 4,
+        "chunk_content": "控制精度control accuracy 以额定生产能力的相对百分数误差表示的精度等级。",
+        "path": "输送设备  > 给煤机  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.1.3",
+        "level": 3,
+        "chunk_content": "结构与辅助设备 ",
+        "path": "输送设备  > 给煤机  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.1.3.1",
+        "level": 4,
+        "chunk_content": "拨煤机构impeller mechanism 将煤定量、均匀连续地拨下的机构。DL/TXXXX—XXXX ",
+        "path": "输送设备  > 给煤机  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.1.3.2",
+        "level": 4,
+        "chunk_content": "行走机构travelling mechanism 给煤机行走的执行部件。",
+        "path": "输送设备  > 给煤机  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.1.3.3",
+        "level": 4,
+        "chunk_content": "机架frame 给煤机的整体钢构架，起支撑其他机构的作用。",
+        "path": "输送设备  > 给煤机  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.2",
+        "level": 2,
+        "chunk_content": "带式输送机 ",
+        "path": "输送设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.2.1",
+        "level": 3,
+        "chunk_content": "形式与种类 ",
+        "path": "输送设备  > 带式输送机  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.2.1.1",
+        "level": 4,
+        "chunk_content": "带式输送机belt conveyor 以输送带作为物料承载件和牵引件或只作承载件的连续输送设备。[来源：GB/T14521-2015 连续搬运机械 术语，3.2.1，有修改] ",
+        "path": "输送设备  > 带式输送机  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.2.1.2",
+        "level": 4,
+        "chunk_content": "大倾角带式输送机steep angle belt conveyor, steeply inclined belt conveyor 输送倾角超过一定角度（通常大于22°）的带式输送机。 [来源：GB/T14521-2015 连续搬运机械 术语，3.2.1.21] ",
+        "path": "输送设备  > 带式输送机  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.2.1.3",
+        "level": 4,
+        "chunk_content": "花纹带式输送机molded cleat belt conveyor, ribbed belt conveyor 输送带承载面有用模具浇铸的楔子（或横隔板），这些楔子（或横隔板）将能阻止物料在运输过程中下滑的带式输送机。",
+        "path": "输送设备  > 带式输送机  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.2.1.4",
+        "level": 4,
+        "chunk_content": "波纹挡边带式输送机pocket belt conveyor；belt-wall conveyor 输送带承载表面两侧沿纵向具有波状挡边，两侧挡边连接有横隔板的带式输送机。[来源：GB/T14521-2015 连续搬运机械 术语，3.2.1.14，有修改] ",
+        "path": "输送设备  > 带式输送机  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.2.1.5",
+        "level": 4,
+        "chunk_content": "圆管带式输送机pipe belt conveyor, tube belt conveyor 一种由多个托辊强制把输送带裹成边缘互相搭接成圆管状来输送散状物料的一种新型连续输送设备。[来源：DL/T5187.1-2016 火力发电厂运煤设计技术规程 第 1 部分：运煤系统，2.0.11] ",
+        "path": "输送设备  > 带式输送机  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.2.1.6",
+        "level": 4,
+        "chunk_content": "吊挂带式输送机suspension belt conveyor 靠托辊将输送带夹紧围成“梨形”来承载物料，托辊吊挂在中间架上的带式输送机。",
+        "path": "输送设备  > 带式输送机  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.2.1.7",
+        "level": 4,
+        "chunk_content": "气垫带式输送机air supported belt conveyor 采用低压空气在槽形底盘上形成薄气膜，支撑输送带漂浮在底盘上方，进行物料输送的带式输送机。",
+        "path": "输送设备  > 带式输送机  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.2.1.8",
+        "level": 4,
+        "chunk_content": "可逆带式输送机reversible belt conveyor 输送带可双向运行输送物料的带式输送机。[来源：GB/T14521-2015 连续搬运机械 术语，3.2.1.22] ",
+        "path": "输送设备  > 带式输送机  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.2.1.9",
+        "level": 4,
+        "chunk_content": "伸缩式带式输送机telescopic belt conveyor 头部卸料滚筒可以伸缩移动的带式输送机。[来源：GB/T14521-2015 连续搬运机械 术语，3.2.1.6，有修改] ",
+        "path": "输送设备  > 带式输送机  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.2.2",
+        "level": 3,
+        "chunk_content": "基础名词术语 ",
+        "path": "输送设备  > 带式输送机  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.2.2.1",
+        "level": 4,
+        "chunk_content": "松散密度bulk density 散装物料的一种特性参数，是散装物料自然堆积状态的密度。",
+        "path": "输送设备  > 带式输送机  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.2.2.2",
+        "level": 4,
+        "chunk_content": "安息角angle of repose  散装物料的一种特性参数，是散装物料自然堆积状态下，颗粒开始下滑时临界状态的角度。",
+        "path": "输送设备  > 带式输送机  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.2.2.3",
+        "level": 4,
+        "chunk_content": "带宽belt width 带式输送机的输送带宽度。[来源：GB/T14521-2015 连续搬运机械 术语，4.2.1.1.1，有修改] ",
+        "path": "输送设备  > 带式输送机  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.2.2.4",
+        "level": 4,
+        "chunk_content": "带速belt speed 带式输送机的输送带运行速度。[来源：GB/T14521-2015 连续搬运机械 术语，4.2.1.1.3，有修改] ",
+        "path": "输送设备  > 带式输送机  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.2.2.5",
+        "level": 4,
+        "chunk_content": "额定出力rated capacity 带式输送机在额定工况下的输送量。",
+        "path": "输送设备  > 带式输送机  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.2.2.6",
+        "level": 4,
+        "chunk_content": "倾角incline angle 带式输送机在运行方向与水平面间的夹角。",
+        "path": "输送设备  > 带式输送机  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.2.2.7",
+        "level": 4,
+        "chunk_content": "托辊槽角idler trough angle 槽形托辊两侧辊子中心线与水平面间的夹角。[来源：GB/T14521-2015 连续搬运机械 术语，4.2.1.3.7，有修改] DL/TXXXX—XXXX ",
+        "path": "输送设备  > 带式输送机  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.2.3",
+        "level": 3,
+        "chunk_content": "结构与辅助设备 ",
+        "path": "输送设备  > 带式输送机  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.2.3.1",
+        "level": 4,
+        "chunk_content": "输送带belt 带式输送机中的曳引构件和承载构件，是带式输送机最主要的部件。",
+        "path": "输送设备  > 带式输送机  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.2.3.2",
+        "level": 4,
+        "chunk_content": "织物芯层输送带fabric belt 以纺织物作芯层，表面覆盖橡胶的输送带。[来源：GB/T14521-2015 连续搬运机械 术语，5.1.6.1.1，有修改] ",
+        "path": "输送设备  > 带式输送机  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.2.3.3",
+        "level": 4,
+        "chunk_content": "棉（帆布）织物芯输送带cotton belt 芯层材料为棉（帆布）编织而成，上下表面覆盖橡胶的输送带。",
+        "path": "输送设备  > 带式输送机  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.2.3.4",
+        "level": 4,
+        "chunk_content": "尼龙织物芯输送带nylon belt 芯层材料为尼龙编织而成，上下表面覆盖橡胶的输送带。",
+        "path": "输送设备  > 带式输送机  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.2.3.5",
+        "level": 4,
+        "chunk_content": "聚酯织物芯输送带polyester belt 芯层材料为聚酯帆布编织而成，上下表面覆盖橡胶的输送带。",
+        "path": "输送设备  > 带式输送机  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.2.3.6",
+        "level": 4,
+        "chunk_content": "钢丝绳芯输送带steel cord belt，steel cable belt 芯层为单层平行布置的钢丝绳，上下表面覆盖橡胶的输送带。",
+        "path": "输送设备  > 带式输送机  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.2.3.7",
+        "level": 4,
+        "chunk_content": "阻燃型输送带fire/flame resistance belt 用于输送有阻燃要求的物料，或有阻燃要求的场所使用的输送带。",
+        "path": "输送设备  > 带式输送机  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.2.3.8",
+        "level": 4,
+        "chunk_content": "耐寒输送带cold resistant belt 适用于环境温度较低的寒冷地区的输送带。",
+        "path": "输送设备  > 带式输送机  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.2.3.9",
+        "level": 4,
+        "chunk_content": "输送带接头belt splice，belt joint 把输送带的两端通过机械、硫化或冷粘方法连接起来，此连接处为输送带接头。[来源：GB/T14521-2015 连续搬运机械 术语，5.1.6.1.9，有修改] ",
+        "path": "输送设备  > 带式输送机  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.3",
+        "level": 2,
+        "chunk_content": "转运站设备 ",
+        "path": "输送设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.3.1",
+        "level": 3,
+        "chunk_content": "头部护罩head shield 安装于输送带输送机头部滚筒上方的防护罩。",
+        "path": "输送设备  > 转运站设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.3.2",
+        "level": 3,
+        "chunk_content": "头部漏斗head infundibulum 安装于输送带输送机头部滚筒下方的锥形落煤斗。",
+        "path": "输送设备  > 转运站设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.3.3",
+        "level": 3,
+        "chunk_content": "头部集流导流装置head collecting and guiding device 安装于头部漏斗内，拟合输送物料下落的抛物线，对煤流下落进行导流和汇集输送的一种装置。",
+        "path": "输送设备  > 转运站设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.3.4",
+        "level": 3,
+        "chunk_content": "落煤管coal fall pipe 设置在带式运输机系统转运站上下层输送带间转移煤流的密闭管道。",
+        "path": "输送设备  > 转运站设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.3.5",
+        "level": 3,
+        "chunk_content": "曲线落煤管curved coal pipe 通过优化落煤管弧度、截面、煤流方向，能够减少诱导风量的定制落煤管。",
+        "path": "输送设备  > 转运站设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.3.6",
+        "level": 3,
+        "chunk_content": "电动（液）三通3-through-chute with electric drive gate；electric baffle tee DL/TXXXX—XXXX 通过电动（液压）执行机构驱动挡板切换物料流向的三通管。",
+        "path": "输送设备  > 转运站设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.3.7",
+        "level": 3,
+        "chunk_content": "气动三通3-through-chute with pneumatic gate 通过压缩空气执行机构驱动挡板切换物料流向的三通管。",
+        "path": "输送设备  > 转运站设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.3.8",
+        "level": 3,
+        "chunk_content": "导流挡板coal flow guard 将偏移的煤流借助机械办法改变流动方向的装置。",
+        "path": "输送设备  > 转运站设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "5.3.9",
+        "level": 3,
+        "chunk_content": "缓冲锁气器buffer and air lock device 燃煤输送系统中，减轻高速下落的煤流对输送带的冲击和阻断鼓风的一种装置。",
+        "path": "输送设备  > 转运站设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6",
+        "level": 1,
+        "chunk_content": "筛分破碎设备 ",
+        "path": ""
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.1",
+        "level": 2,
+        "chunk_content": "筛分设备 ",
+        "path": "筛分破碎设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.1.1",
+        "level": 3,
+        "chunk_content": "形式与种类 ",
+        "path": "筛分破碎设备  > 筛分设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.1.1.1",
+        "level": 4,
+        "chunk_content": "滚轴筛roller screen 具有横向排列的筛轴，各轴按同一方向旋转，轴上按一定间隙排列筛盘，搅动物料进行筛分。",
+        "path": "筛分破碎设备  > 筛分设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.1.1.2",
+        "level": 4,
+        "chunk_content": "固定筛fixed screen 不运动的筛分设备，筛面倾斜布置，靠物料在筛面上自然滑下进行筛分。",
+        "path": "筛分破碎设备  > 筛分设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.1.1.3",
+        "level": 4,
+        "chunk_content": "振动筛vibrating screen 泛指按各种振动原理制成的筛机。",
+        "path": "筛分破碎设备  > 筛分设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.1.1.4",
+        "level": 4,
+        "chunk_content": "滚筒筛roller screen 具有横向排列的筛轴，各轴按同一方向旋转，轴上按一定间隙排列筛盘，搅动物料进行筛分。",
+        "path": "筛分破碎设备  > 筛分设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.1.1.5",
+        "level": 4,
+        "chunk_content": "链条筛chain screen 由驱动装置，筛箱和带筛板的排链组成，煤从筛箱一端进入，随排链运动进行筛分。",
+        "path": "筛分破碎设备  > 筛分设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.1.1.6",
+        "level": 4,
+        "chunk_content": "高幅振动筛high amplitude vibrating screen 由电动机驱动筛面下部的激振器，在减振装置上做直径为15mm-25mm的圆形轨迹振动的筛分设备。[来源：DL/T1963-2019 高幅振动筛,3.1] ",
+        "path": "筛分破碎设备  > 筛分设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.1.1.7",
+        "level": 4,
+        "chunk_content": "弛张筛flip-flow screen 在筛机上安装弹性筛网面，通过筛机整体运动带动筛面做弛、张运动来筛分物料的振动筛。",
+        "path": "筛分破碎设备  > 筛分设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.1.1.8",
+        "level": 4,
+        "chunk_content": "循环流化床筛分机circulating fluidized bed screening machine 用于循环流化床锅炉固体燃料，将合格粒径燃料分离出来的设备。",
+        "path": "筛分破碎设备  > 筛分设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.1.2",
+        "level": 3,
+        "chunk_content": "基础名词术语 ",
+        "path": "筛分破碎设备  > 筛分设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.1.2.1",
+        "level": 4,
+        "chunk_content": "筛分screening 煤通过筛面按筛孔尺寸分成不同粒级的过程。",
+        "path": "筛分破碎设备  > 筛分设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.1.2.2",
+        "level": 4,
+        "chunk_content": "开孔率percentage of opening 筛孔总面积占筛子全面积的百分数。",
+        "path": "筛分破碎设备  > 筛分设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.1.2.3",
+        "level": 4,
+        "chunk_content": "筛面面积screen working area 筛分机工作部分的结构面积。",
+        "path": "筛分破碎设备  > 筛分设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.1.2.4",
+        "level": 4,
+        "chunk_content": "筛分效率efficiency of screening 燃煤经筛机透过筛孔的粒级含量与进入筛机前所含的同一粒级含量之比，以％表示，是评定筛机效果的指标。",
+        "path": "筛分破碎设备  > 筛分设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.1.2.5",
+        "level": 4,
+        "chunk_content": "筛上物(筛分剩余量)  screen overflow 经筛分未透过筛孔的煤量,以质量百分数表示。",
+        "path": "筛分破碎设备  > 筛分设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.1.2.6",
+        "level": 4,
+        "chunk_content": "筛下物（筛分通过量）screen underflow 经筛分透过筛孔的煤量，以质量百分数表示。",
+        "path": "筛分破碎设备  > 筛分设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.1.2.7",
+        "level": 4,
+        "chunk_content": "筛上粒级oversize 大于筛孔尺寸的颗粒度。DL/TXXXX—XXXX ",
+        "path": "筛分破碎设备  > 筛分设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.1.2.8",
+        "level": 4,
+        "chunk_content": "等厚筛分screening process with constant bed thickness 一种筛分原理，筛分过程中，筛面上的煤层厚度从入料端至排料端基本保持不变以提高透筛率。",
+        "path": "筛分破碎设备  > 筛分设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.1.2.9",
+        "level": 4,
+        "chunk_content": "概率筛分probability process 按照概率理论完成物料筛分的过程。",
+        "path": "筛分破碎设备  > 筛分设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.1.3",
+        "level": 3,
+        "chunk_content": "结构与辅助设备 ",
+        "path": "筛分破碎设备  > 筛分设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.2",
+        "level": 2,
+        "chunk_content": "破碎设备 ",
+        "path": "筛分破碎设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.2.1",
+        "level": 3,
+        "chunk_content": "形式与种类 ",
+        "path": "筛分破碎设备  > 破碎设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.2.1.1",
+        "level": 4,
+        "chunk_content": "锤式破碎机hammer crusher 主要由机架和带有若干锤头的转子组成，利用铰接在转子上的锤头回转时的高速冲击作用将进入锤头与筛板间的物料击碎，从筛间隙排出的机械。",
+        "path": "筛分破碎设备  > 破碎设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.2.1.2",
+        "level": 4,
+        "chunk_content": "环锤式破碎机ring hammer crusher 锤头为环形，环套在转子盘的销轴上，环锤既公转又自转，借高速旋转的转子上的浮动环锤，对物料施加挤压、冲击、碾磨，使之破碎，从筛篦间隙排出的机械。[来源：GB/T7679.5-2003 矿山机械术语 第 5 部分：破碎粉磨设备,2.7.2.6，有修改] ",
+        "path": "筛分破碎设备  > 破碎设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.2.1.3",
+        "level": 4,
+        "chunk_content": "反击式破碎机reaction-impact crusher 由机体、反击板和带有固定板锤的转子组成，借转子高速旋转，板锤对煤块冲击，使煤块在转子与反击板之间反复碰撞而破碎。",
+        "path": "筛分破碎设备  > 破碎设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.2.1.4",
+        "level": 4,
+        "chunk_content": "可逆反击锤式破碎机reversible impact hammer crusher 由破碎机主机、电动机、液力偶合器，液压站，减震系统等组成，靠冲击作用来破碎物料，破碎转子可以正转、反转的新型破碎设备。",
+        "path": "筛分破碎设备  > 破碎设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.2.1.5",
+        "level": 4,
+        "chunk_content": "链锤式破碎机chain-hammer crusher 由机壳、转子、锤头、挂锤盘、链环和衬板组成，整机轴向立式布置，煤由上而下，经1 层-5 层，在高速旋转的链锤与衬板间被击碎。",
+        "path": "筛分破碎设备  > 破碎设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.2.1.6",
+        "level": 4,
+        "chunk_content": "辊式破碎机roll crusher 利用辊子的旋转，使物料在两辊间或辊与板之间被破碎的机械；辊面带齿的称作齿辊破碎机，辊面为光滑表面或带有槽纹的称作光辊破碎机。[来源：GB/T7679.5-2003 矿山机械术语 第5部分：破碎粉磨设备,2.6.1] ",
+        "path": "筛分破碎设备  > 破碎设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.2.1.7",
+        "level": 4,
+        "chunk_content": "双齿辊破碎机double-toothed roller crusher 由两个处在同一水平面上的辊面带齿的辊子相向旋转，使物料在两辊间被破碎的机械。",
+        "path": "筛分破碎设备  > 破碎设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.2.1.8",
+        "level": 4,
+        "chunk_content": "颚式破碎机jaw crusher 具有固定颚板和摆动颚板，对进入两颚之间的煤块施加挤压而破碎的机械。",
+        "path": "筛分破碎设备  > 破碎设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.2.1.9",
+        "level": 4,
+        "chunk_content": "循环流化床破碎机circulating fluidized bed crusher 用于循环流化床锅炉固体燃料，将燃料破碎成要求粒度的设备。",
+        "path": "筛分破碎设备  > 破碎设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.2.2",
+        "level": 3,
+        "chunk_content": "基础名词术语 ",
+        "path": "筛分破碎设备  > 破碎设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.2.2.1",
+        "level": 4,
+        "chunk_content": "碎煤机额定出力crusher rated capacity 额定工况下碎煤机单位时间内的处理能力，单位为t/h。",
+        "path": "筛分破碎设备  > 破碎设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.2.2.2",
+        "level": 4,
+        "chunk_content": "煤的破碎coal crushing 将大煤块破碎至合格的粒度的过程。",
+        "path": "筛分破碎设备  > 破碎设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.2.2.3",
+        "level": 4,
+        "chunk_content": "破碎比size reduction ratio 破碎前的物料的最大粒度与破碎后最大粒度之比值。",
+        "path": "筛分破碎设备  > 破碎设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.2.2.4",
+        "level": 4,
+        "chunk_content": "给料粒度feed size 给入破碎机的物料粒度，一般地说是受破碎机进料口尺寸的限制，通常规定给料粒度为进料口尺寸的85％以下。 [来源：GB/T7679.5-2003 矿山机械术语 第 5 部分：破碎粉磨设备,2.1.5] ",
+        "path": "筛分破碎设备  > 破碎设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.2.2.5",
+        "level": 4,
+        "chunk_content": "排料粒度discharge size 经破碎机破碎后，由出料口排出的物料粒度。[来源：GB/T7679.5-2003 矿山机械术语 第 5 部分：破碎粉磨设备,2.1.6] ",
+        "path": "筛分破碎设备  > 破碎设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.2.3",
+        "level": 3,
+        "chunk_content": "结构与辅助设备 ",
+        "path": "筛分破碎设备  > 破碎设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.2.3.1",
+        "level": 4,
+        "chunk_content": "固定颚板stationary jaw plate 装在固定颚上的破碎板。[来源：GB/T7679.5-2003 矿山机械术语 第5部分：破碎粉磨设备,2.2.4.1] ",
+        "path": "筛分破碎设备  > 破碎设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.2.3.2",
+        "level": 4,
+        "chunk_content": "动颚moving jaw 对破碎腔中的物料施加压力进行破碎，由偏心轴（对简摆领式破碎机为心轴）、动颚体、动颚板和轴承等组成。[来源：GB/T7679.5-2003 矿山机械术语 第5部分：破碎粉磨设备,2.2.4.2] DL/TXXXX—XXXX ",
+        "path": "筛分破碎设备  > 破碎设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.2.3.3",
+        "level": 4,
+        "chunk_content": "活动颚板moving jaw plate 装在动颚上的破碎板。[来源：GB/T7679.5-2003 矿山机械术语 第5部分：破碎粉磨设备,2.2.4.3] ",
+        "path": "筛分破碎设备  > 破碎设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.2.3.4",
+        "level": 4,
+        "chunk_content": "排料口调整装置adjusting device of discharge opening 通过调整活动辊与固定辊之间的距离以控制被破碎物料粒度的楔铁或垫片等装置。",
+        "path": "筛分破碎设备  > 破碎设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.2.3.5",
+        "level": 4,
+        "chunk_content": "过载保护装置overload protector 为了防止因非破碎物进入破碎腔而损坏破碎机，在活动辊上设置的弹簧或液压装置，以起保护作用。[来源：GB/T7679.5-2003 矿山机械术语 第5部分：破碎粉磨设备,2.6.4.2] ",
+        "path": "筛分破碎设备  > 破碎设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.2.3.6",
+        "level": 4,
+        "chunk_content": "活动辊movable roll 浮动辊floatable roll 可调整排料口宽度、在工作中起过载保护作用的破碎辊。[来源：GB/T7679.5-2003 矿山机械术语 第5部分：破碎粉磨设备,2.6.4.3] ",
+        "path": "筛分破碎设备  > 破碎设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.2.3.7",
+        "level": 4,
+        "chunk_content": "固定辊stationary roll 不可调整的破碎辊。[来源：GB/T7679.5-2003 矿山机械术语 第5部分：破碎粉磨设备,2.6.4.4] ",
+        "path": "筛分破碎设备  > 破碎设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.2.3.8",
+        "level": 4,
+        "chunk_content": "锤头hammer 通过销轴装在转子上的工作零件，可以自由摆动。[来源：GB/T7679.5-2003 矿山机械术语 第5部分：破碎粉磨设备,2.7.4.2] ",
+        "path": "筛分破碎设备  > 破碎设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.2.3.9",
+        "level": 4,
+        "chunk_content": "环锤ring hammer 环锤破碎机上专用的锤头，套在销轴上，可以自由转动。[来源：GB/T7679.5-2003 矿山机械术语 第5部分：破碎粉磨设备,2.7.4.3] ",
+        "path": "筛分破碎设备  > 破碎设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.3",
+        "level": 2,
+        "chunk_content": "筛碎一体机 ",
+        "path": "筛分破碎设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.3.1",
+        "level": 3,
+        "chunk_content": "形式与种类 ",
+        "path": "筛分破碎设备  > 筛碎一体机  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.3.1.1",
+        "level": 4,
+        "chunk_content": "筛碎一体机screening crusher 集筛分和破碎功能于一体，将筛分系统和破碎系统进行重新配置，进行高度集成，形成整体一台设备。",
+        "path": "筛分破碎设备  > 筛碎一体机  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.3.1.2",
+        "level": 4,
+        "chunk_content": "循环流化床筛分破碎一体机circulating fluidized bed screening crusher 用于循环流化床锅炉固体燃料，及破碎、筛分于一体的筛分破碎处理一体机设备。",
+        "path": "筛分破碎设备  > 筛碎一体机  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.3.2",
+        "level": 3,
+        "chunk_content": "基础名词术语 ",
+        "path": "筛分破碎设备  > 筛碎一体机  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "6.3.2.1",
+        "level": 4,
+        "chunk_content": "处理能力capacity 单位时间内通过破碎筛分一体机的物料量。",
+        "path": "筛分破碎设备  > 筛碎一体机  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7",
+        "level": 1,
+        "chunk_content": "辅助设备 ",
+        "path": ""
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.1",
+        "level": 2,
+        "chunk_content": "采制样设备 ",
+        "path": "辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.1.1",
+        "level": 3,
+        "chunk_content": "形式与种类 ",
+        "path": "辅助设备  > 采制样设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.1.1.1",
+        "level": 4,
+        "chunk_content": "采样机sampling machine 从一批物料中获得一个其试验结果能代表整批被采样物料的试样，所采用的一种装置。",
+        "path": "辅助设备  > 采制样设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.1.1.2",
+        "level": 4,
+        "chunk_content": "制样机sample preparation machine 通过破碎、混合和缩分，使试样达到分析或试验状态的设备。",
+        "path": "辅助设备  > 采制样设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.1.1.3",
+        "level": 4,
+        "chunk_content": "全自动制样装置automatic equipment for sample preparation 按规定流程自动完成一般分析试验煤样、存查煤样、全水分试样等的制备而无需人工干预的装置（含样品收集封装等辅助设施）。[来源：T/CEC156.3-2018 火力发电企业智能燃煤系统技术规范 第 3 部分 燃煤计量，3.1] ",
+        "path": "辅助设备  > 采制样设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.1.1.4",
+        "level": 4,
+        "chunk_content": "煤样气动传输装置pneumatic transmission device for coal sample 通过管道将各工作站连接构成封闭管路，以气体驱动煤样容器，实现煤样往返传输的系统。[来源：T/CEC156.3-2018 火力发电企业智能燃煤系统技术规范 第 3 部分 燃煤计量，3.3] ",
+        "path": "辅助设备  > 采制样设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.1.1.5",
+        "level": 4,
+        "chunk_content": "自动存样装置automatic equipment for coal sampling storing 一种可自动存取煤样并可实现样品管理的装置，又称智能存样柜。[来源：T/CEC156.3-2018 火力发电企业智能燃煤系统技术规范 第 3 部分 燃煤计量，3.4] ",
+        "path": "辅助设备  > 采制样设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.1.1.6",
+        "level": 4,
+        "chunk_content": "存样柜sample storage cabinet 对煤样样品实现自动存取的一种装置。",
+        "path": "辅助设备  > 采制样设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.1.2",
+        "level": 3,
+        "chunk_content": "基础名词术语 DL/TXXXX—XXXX ",
+        "path": "辅助设备  > 采制样设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.1.2.1",
+        "level": 4,
+        "chunk_content": "采样sampling  从大量煤中采取具有代表性的一部分煤的过程。[来源：GB/T19494.1-2004 煤炭机械化采样 第 1 部分：采样方法，3.7] ",
+        "path": "辅助设备  > 采制样设备  > 基础名词术语 DL/TXXXX—XXXX  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.1.2.2",
+        "level": 4,
+        "chunk_content": "随机采样random sampling 在采取子样时，对采样的部位或时间均不施加任何人为的意志，能使任何部位的煤都有机会采出。[来源：GB/T19494.1-2004 煤炭机械化采样 第 1 部分：采样方法，3.18] ",
+        "path": "辅助设备  > 采制样设备  > 基础名词术语 DL/TXXXX—XXXX  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.1.2.3",
+        "level": 4,
+        "chunk_content": "系统采样systematic sampling 按相同的时间、空间或质量的间隔采取子样，但第一个子样在第一个间隔内随机采取，其余的子样按选定的间隔采取。[来源：GB/T19494.1-2004 煤炭机械化采样 第 1 部分：采样方法，3.17] ",
+        "path": "辅助设备  > 采制样设备  > 基础名词术语 DL/TXXXX—XXXX  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.1.2.4",
+        "level": 4,
+        "chunk_content": "采样单元sampling unit 从一批煤中采取一个总样的煤量。一批煤可以是一个或多个采样单元。[来源：GB/T19494.1-2004 煤炭机械化采样 第 1 部分：采样方法，3.13] ",
+        "path": "辅助设备  > 采制样设备  > 基础名词术语 DL/TXXXX—XXXX  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.1.2.5",
+        "level": 4,
+        "chunk_content": "标称最大粒度nominal top size 与筛上累计质量分数最接近（但不大于）5%的筛子相应的筛孔尺寸。[来源：GB/T3715-2007 煤质及煤分析有关术语，3.1.19] ",
+        "path": "辅助设备  > 采制样设备  > 基础名词术语 DL/TXXXX—XXXX  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.1.2.6",
+        "level": 4,
+        "chunk_content": "制样sample preparation 使煤样达到分析或试验状态的过程，主要包括破碎、混合和缩分，有时还包括筛分和空气干燥，它可以分为几个阶段进行。[来源：GB/T19494.2-2004 煤炭机械化采样 第 2 部分：煤样的制备，3.1，有修改] ",
+        "path": "辅助设备  > 采制样设备  > 基础名词术语 DL/TXXXX—XXXX  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.1.2.7",
+        "level": 4,
+        "chunk_content": "在线制样on-line sample preparation 用与机械化采样系统结成一体的设备制备煤样。[来源：GB/T19494.2-2004 煤炭机械化采样 第 2 部分：煤样的制备，3.2，有修改] ",
+        "path": "辅助设备  > 采制样设备  > 基础名词术语 DL/TXXXX—XXXX  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.1.2.8",
+        "level": 4,
+        "chunk_content": "离线制样off- line sample preparation 用不与机械化采样系统结成一体的设备，以人工或机械化方法对机械采样系统采取的煤样进行制备。[来源：GB/T19494.2-2004 煤炭机械化采样 第 2 部分：煤样的制备，3.3] ",
+        "path": "辅助设备  > 采制样设备  > 基础名词术语 DL/TXXXX—XXXX  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.1.2.9",
+        "level": 4,
+        "chunk_content": "在线水分分析online moisture analysis 一种实时在线测量煤中水分含量的分析技术。",
+        "path": "辅助设备  > 采制样设备  > 基础名词术语 DL/TXXXX—XXXX  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.1.3",
+        "level": 3,
+        "chunk_content": "结构与辅助设备  ",
+        "path": "辅助设备  > 采制样设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.1.3.1",
+        "level": 4,
+        "chunk_content": "机械采制样装置mechanical sampling and preparing system 用于现场采取和制备煤样的专门器械，通常包括采样器、破碎机和缩分器三个主要部分。",
+        "path": "辅助设备  > 采制样设备  > 结构与辅助设备   > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.1.3.2",
+        "level": 4,
+        "chunk_content": "采样器sampler 指机械采制样装置中采样部分，包括采样头及其转动机构。",
+        "path": "辅助设备  > 采制样设备  > 结构与辅助设备   > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.1.3.3",
+        "level": 4,
+        "chunk_content": "煤样破碎机coal crusher 通过机械力降低煤样粒度的机械设备。",
+        "path": "辅助设备  > 采制样设备  > 结构与辅助设备   > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.1.3.4",
+        "level": 4,
+        "chunk_content": "缩分器divider 以机械切割方式取出一部分或若干部分煤样以减少煤样质量的设备。",
+        "path": "辅助设备  > 采制样设备  > 结构与辅助设备   > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.1.3.5",
+        "level": 4,
+        "chunk_content": "铁路车辆识别装置railroad car identification device 一种对火车车辆进行自动识别的装置，由地面自动识别设备、标签、天线、车轮传感器及车载编DL/TXXXX—XXXX 码器等组成。[来源：T／CEC156.5-2018 火力发电企业智能燃煤系统技术规范 第 5 部分：智能化管控平台，3.3]",
+        "path": "辅助设备  > 采制样设备  > 结构与辅助设备   > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.1.3.6",
+        "level": 4,
+        "chunk_content": "汽车自动识别系统automobile identification system 由车辆识别、定位和控制装置组成，实现对运煤汽车在入厂、过衡、采样、卸煤、出厂等环节的信息自动识别。[来源：T／CEC156.5-2018 火力发电企业智能燃煤系统技术规范 第 5 部分：智能化管控平台，3.4]",
+        "path": "辅助设备  > 采制样设备  > 结构与辅助设备   > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.1.3.7",
+        "level": 4,
+        "chunk_content": "筛分机sieving machine 模拟人工筛分煤样操作的器械。",
+        "path": "辅助设备  > 采制样设备  > 结构与辅助设备   > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.1.3.8",
+        "level": 4,
+        "chunk_content": "二分器riffle 由一列平行而交替的宽度相等的斜槽所组成的用于缩分煤样的工具。",
+        "path": "辅助设备  > 采制样设备  > 结构与辅助设备   > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.1.3.9",
+        "level": 4,
+        "chunk_content": "空气干燥箱air drying oven 带有自动控温和鼓风装置，能控制温度在（30~40）℃和（105~110）℃范围内，有气体进、出口，有足够的换气量，如每小时可换气5 次以上。 ",
+        "path": "辅助设备  > 采制样设备  > 结构与辅助设备   > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.2",
+        "level": 2,
+        "chunk_content": "计量设备 ",
+        "path": "辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.2.1",
+        "level": 3,
+        "chunk_content": "形式与种类 ",
+        "path": "辅助设备  > 计量设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.2.1.1",
+        "level": 4,
+        "chunk_content": "轨道衡rail–weigh bridge 具有轨道和承载器，用于称量铁路车辆的衡器。[来源：GB/T14250-2008 衡器术语，3.3.4.3] ",
+        "path": "辅助设备  > 计量设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.2.1.2",
+        "level": 4,
+        "chunk_content": "汽车衡truck scale 承载器与道路相连接，适用于称量汽车、马车、人力车及各种公路车辆（铁路运输车除外）的衡器。[来源：GB/T14250-2008 衡器术语，3.3.4.2] ",
+        "path": "辅助设备  > 计量设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.2.1.3",
+        "level": 4,
+        "chunk_content": "标准轨道衡standard rail–weighbridge 在铁路线上装备的用于检定称量检衡车质量值的一种大型标准衡器。[来源：GB/T14250-2008 衡器术语，3.3.4.4] ",
+        "path": "辅助设备  > 计量设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.2.1.4",
+        "level": 4,
+        "chunk_content": "数字指示轨道衡digital indication rail–weighbridge  一种在铁路线上使用的装有电子装置具有数字指示功能的用于称量铁路货车的大型车辆衡器。[来源：GB/T14250-2008 衡器术语，3.3.4.5] ",
+        "path": "辅助设备  > 计量设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.2.1.5",
+        "level": 4,
+        "chunk_content": "非自行指示轨道衡non-self-indicating rail–weighbridges  一种靠操作者来获得平衡位置和称量结果的，用于铁路货车的大型车辆衡器。主要指静态称量机械轨道衡。[来源：GB/T14250-2008 衡器术语，3.3.4.6] ",
+        "path": "辅助设备  > 计量设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.2.1.6",
+        "level": 4,
+        "chunk_content": "轻轨衡light rail–weighbridge  DL/TXXXX—XXXX 在轻型轨道线路上安装的一种轨道衡，用于称量小型的轨道车辆。[来源：GB/T14250-2008 衡器术语，3.3.4.7] ",
+        "path": "辅助设备  > 计量设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.2.1.7",
+        "level": 4,
+        "chunk_content": "连续累计自动衡器（皮带秤）continuous totalising automatic weighing instrument（belt weigher）无需中断输送带的运动，而对输送带上的散状物料进行连续称量的自动衡器。[来源：GB/T7721-2017 连续累计自动衡器（皮带秤），3.1.3] ",
+        "path": "辅助设备  > 计量设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.2.1.8",
+        "level": 4,
+        "chunk_content": "自动轨道衡automatic rail–weighbridge 按预定程序对行进中的铁路货车进行称量，具有对称量数据进行处理、判断、指示和打印等功能的一种自动衡器。例如：动态轨道衡、非机车牵引轨道衡等。[来源：GB/T14250-2008 衡器术语，3.3.5.30]。 ",
+        "path": "辅助设备  > 计量设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.2.2",
+        "level": 3,
+        "chunk_content": "基础名词术语 ",
+        "path": "辅助设备  > 计量设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.2.2.1",
+        "level": 4,
+        "chunk_content": "轴称量axle weighing 被称车辆的轴逐次通过同一承载器进行的称量。[来源：GB/T11885-2015 自动轨道衡，3.15] ",
+        "path": "辅助设备  > 计量设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.2.2.2",
+        "level": 4,
+        "chunk_content": "转向架称量bogie weighing 被称车辆的转向架逐次通过同一承载器进行的称量。[来源：GB/T11885-2015 自动轨道衡，3.16] ",
+        "path": "辅助设备  > 计量设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.2.2.3",
+        "level": 4,
+        "chunk_content": "整车称量full draught weighing 在承载器上同时支撑着一整辆车或一整节货车的状况下，对其所进行的称量。[来源：GB/T11885-2015 自动轨道衡，3.17] ",
+        "path": "辅助设备  > 计量设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.2.2.4",
+        "level": 4,
+        "chunk_content": "静态称量static weighing 铁路车辆在静止状态下进行的称量。[来源：GB/T11885-2015 自动轨道衡，3.18] ",
+        "path": "辅助设备  > 计量设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.2.2.5",
+        "level": 4,
+        "chunk_content": "动态称量weighing-in-motion 铁路车辆在运行状态下进行的称量。[来源：GB/T11885-2015 自动轨道衡，3.19] ",
+        "path": "辅助设备  > 计量设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.2.2.6",
+        "level": 4,
+        "chunk_content": "承载器最大秤量maximum capacity of load receptor 一个承载器按设计规定可进行动态称量的最大质量值。",
+        "path": "辅助设备  > 计量设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.2.2.7",
+        "level": 4,
+        "chunk_content": "累计分度值（d）totalization scale interval（d） 衡器在正常的称量方式下，总累计显示器或部分累计显示器以质量单位表示的两个相邻显示值的差值。[来源：GB/T7721-2017 连续累计自动衡器（皮带秤），3.3.1.1] ",
+        "path": "辅助设备  > 计量设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.2.2.8",
+        "level": 4,
+        "chunk_content": "累计试验分度值totalization scale interval for testing 衡器在准备试验的特殊方式下，总累计显示器或部分累计显示器以质量单位表示的两个相邻显示值的差值。当这种特殊方式不易实现时，试验分度值应等于累计分度值。[来源：GB/T7721-2017 连续累计自动衡器（皮带秤），3.3.1.2] ",
+        "path": "辅助设备  > 计量设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.2.2.9",
+        "level": 4,
+        "chunk_content": "称量准确度weighing accuracy 表示称量结果与被称量的(约定)真值之间的一致程度。它反映了称量结果中系统误差与随机误差的综合。[来源：GB/T14250-2008 衡器术语，6.3] ",
+        "path": "辅助设备  > 计量设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.2.3",
+        "level": 3,
+        "chunk_content": "结构与辅助设备 ",
+        "path": "辅助设备  > 计量设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.2.3.1",
+        "level": 4,
+        "chunk_content": "动态检衡车组in-motion verification train with standard weights 用于对轨道衡的动态称量性能进行检定的一组检衡车。",
+        "path": "辅助设备  > 计量设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.2.3.2",
+        "level": 4,
+        "chunk_content": "临时检衡车temporary reference wagon 符合检衡车规定且一次性有效的检衡车。",
+        "path": "辅助设备  > 计量设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.2.3.3",
+        "level": 4,
+        "chunk_content": "承载器load receptor 轨道衡（或皮带秤）中用于承受载荷的装置。[来源：GB/T11885-2015 自动轨道衡，3.8] ",
+        "path": "辅助设备  > 计量设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.2.3.4",
+        "level": 4,
+        "chunk_content": "称重模块weighing unit 皮带秤上提供被测载荷质量信息的装置，可配有进一步处理（数字）数据和对衡器进行操作的装置。[来源：GB/T7721-2017 连续累计自动衡器（皮带秤），3.2.10.7] DL/TXXXX—XXXX ",
+        "path": "辅助设备  > 计量设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.2.3.5",
+        "level": 4,
+        "chunk_content": "位移传感器displacement transducer 输送机上提供对应给定输送带长度位移信息的装置或提供带速比信息的装置。[来源：GB/T7721-2017 连续累计自动衡器（皮带秤），3.2.10.2，有修改] ",
+        "path": "辅助设备  > 计量设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.2.3.6",
+        "level": 4,
+        "chunk_content": "累计器totalization device 该装置通过称重模块和位移传感器提供的信息完成部分载荷的累计或实现单位长度载荷（载荷/单位长度）与带速乘积的积分。[来源：GB/T7721-2017 连续累计自动衡器（皮带秤），3.2.5] ",
+        "path": "辅助设备  > 计量设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.2.3.7",
+        "level": 4,
+        "chunk_content": "累计显示器totalization indicating device 接收累计器的信息，并显示输送载荷质量的装置。[来源：GB/T7721-2017 连续累计自动衡器（皮带秤），3.4.2.3] ",
+        "path": "辅助设备  > 计量设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.2.3.8",
+        "level": 4,
+        "chunk_content": "称量标定装置weighing nominal device 测定校核皮带秤准确度的设备,一般分为实物校验和循环链码校验。",
+        "path": "辅助设备  > 计量设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.2.3.9",
+        "level": 4,
+        "chunk_content": "称量校验仓weighing check bin 用于校核皮带秤动态称量的准确度，校核仓内的物料重量，用静态称量求出。",
+        "path": "辅助设备  > 计量设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.3",
+        "level": 2,
+        "chunk_content": "其他 ",
+        "path": "辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.3.1",
+        "level": 3,
+        "chunk_content": "除铁器iron remover 在物料输送过程中，为使金属非破碎物不进入破碎机，在输送皮带机上安装的采用电磁场原理的除铁装置。分为带式和盘式除铁器。",
+        "path": "辅助设备  > 其他  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.3.2",
+        "level": 3,
+        "chunk_content": "传动滚筒电磁除铁器drive drum magnetic separator 可承受扭矩，兼作带式输送机的传动滚筒，借磁力作用将混入煤中的磁性金属吸附其上，随滚筒回转而卸除。",
+        "path": "辅助设备  > 其他  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.3.3",
+        "level": 3,
+        "chunk_content": "滚筒式电磁除铁器drum-type magnetic separator 不能承受扭矩，装在煤流拋卸处，借磁力作用将混入煤中的磁性金属吸附其上,随之旋转卸除。 ",
+        "path": "辅助设备  > 其他  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.3.4",
+        "level": 3,
+        "chunk_content": "带式电磁除铁器belt-type magnetic separator 具有电动滚筒驱动的输送带，绕电磁铁转动，悬挂于煤流处，连续地将混入煤中的磁性金属吸附在输送带上，传递至一端自动卸除。",
+        "path": "辅助设备  > 其他  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.3.5",
+        "level": 3,
+        "chunk_content": "盘式电磁除铁器hang-type magnetic separator 具有铁芯绕组的电磁铁悬挂于煤流处，将混入煤中的磁性金属吸附其上待停机断电后卸除。 ",
+        "path": "辅助设备  > 其他  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.3.6",
+        "level": 3,
+        "chunk_content": "金属探测器metal detector 具有环形或矩形线圈，与电磁除铁器配合使用，预先检测混入煤中的大块磁性金属，发出信号，使电磁除铁器加大瞬时电流，将磁性金属吸除。",
+        "path": "辅助设备  > 其他  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.3.7",
+        "level": 3,
+        "chunk_content": "木块分离器wood block separator 装在钢球磨煤机至粗粉分离器间管道上的一种除木块的装置。",
+        "path": "辅助设备  > 其他  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.3.8",
+        "level": 3,
+        "chunk_content": "除大块器large object separator 用于清除混入煤中的大块杂物比如石块、煤矸石等的装置，大块粒度一般不小于300mm。 ",
+        "path": "辅助设备  > 其他  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "7.3.9",
+        "level": 3,
+        "chunk_content": "犁式卸料器plough  以电动或液动推杆为动力源，带动机架升降，完成犁头下落，并支承平托辊放平输送带，犁刀下缘与输送带贴合，完成卸料的犁式卸料装置。卸料完毕后，机架后退，犁头上抬，变形托辊恢复槽形，输送带则恢复槽形，物料平稳通过。犁头可分为单犁头或双犁头。",
+        "path": "辅助设备  > 其他  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8",
+        "level": 1,
+        "chunk_content": "煤场环保设备 ",
+        "path": ""
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.1",
+        "level": 2,
+        "chunk_content": "除尘设备 ",
+        "path": "煤场环保设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.1.1",
+        "level": 3,
+        "chunk_content": "形式与种类 ",
+        "path": "煤场环保设备  > 除尘设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.1.1.1",
+        "level": 4,
+        "chunk_content": "除尘器dust separator 用于捕集、分离悬浮于空气或气体中粉尘粒子的设备。",
+        "path": "煤场环保设备  > 除尘设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.1.1.2",
+        "level": 4,
+        "chunk_content": "机械式除尘器mechanical dust collector 依靠机械力（重力、惯性力、离心力等）将尘粒从气流中去除的装置。按出尘粒的不同可设计为重力沉降室、惯性除尘器和旋风除尘器。适用于含尘浓度高和颗粒力度较大的气流。广泛用于除尘要求不高的场合或用作高效除尘装置的前置预除尘器。",
+        "path": "煤场环保设备  > 除尘设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.1.1.3",
+        "level": 4,
+        "chunk_content": "干式除尘器dry dust collector DL/TXXXX—XXXX 不使用液体（水）捕集含尘气体中粉尘的惯性除尘器、过滤式除尘器和干式电除尘器的总称。常见干式除尘器可以分为针对高浓度粗颗粒径粉尘的分离的干式机械除尘器；依靠纤维织造物或填充层来过滤介质的袋式除尘器；将含尘气流导入静电场，靠电吸附除尘的电除尘器。[来源：GB∕T16845-2017 除尘器 术语，2.1.1.7，有修改] ",
+        "path": "煤场环保设备  > 除尘设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.1.1.4",
+        "level": 4,
+        "chunk_content": "湿式除尘器wet dust collector 借含尘气体与液滴或液膜的接触、撞击等作用，使尘粒从气流中分离出来的设备。",
+        "path": "煤场环保设备  > 除尘设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.1.1.5",
+        "level": 4,
+        "chunk_content": "袋式除尘器bag type dust collector， fabric collector 用纤维性滤袋捕集粉尘的除尘器。袋式除尘器分反吹型袋式除尘器、回转式反吹型袋式除尘器、脉冲袋式除尘器3 种形式。 ",
+        "path": "煤场环保设备  > 除尘设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.1.1.6",
+        "level": 4,
+        "chunk_content": "电除尘器electrostatic precipitator 利用高压电场对荷电粉尘的吸附作用，把粉尘从含尘气体中分离出来的除尘器。分为干式静电电除尘器和湿式静电除尘器，一般采用干式静电电除尘器，特殊场合采用导电玻璃钢作阳极集尘表面的湿式静电除尘器。[来源：GB∕T16845-2017 除尘器 术语，2.1.1.4，有修改] ",
+        "path": "煤场环保设备  > 除尘设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.1.2",
+        "level": 3,
+        "chunk_content": "基础名词术语 ",
+        "path": "煤场环保设备  > 除尘设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.1.2.1",
+        "level": 4,
+        "chunk_content": "大气污染物排放质量浓度air pollutants emission concentration 指在温度273.15 K，压力为 101325 Pa 状态下，排气筒中污染物任何１h 的平均质量浓度，单位为：mg/m³。[来源：GB20426-2006 煤炭工业污染物排放标准，3.9] ",
+        "path": "煤场环保设备  > 除尘设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.1.2.2",
+        "level": 4,
+        "chunk_content": "粉尘dust 由自然力或机械力产生的，能够悬浮于空气中的固态微小颗粒。国际上将粒径小于75μm 的固体悬浮物定义为粉尘。在通风除尘技术中，一般lμm～200μm 乃至更大粒径的固体悬浮物均视为粉尘。在火电厂输煤系统中，原煤在卸车、转运、破碎等过程中经常产生大量粉尘，原煤表面水分低是煤尘飞扬的主要原因之一。",
+        "path": "煤场环保设备  > 除尘设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.1.2.3",
+        "level": 4,
+        "chunk_content": "诱导风扬尘induced air raise dust 无覆盖输送带和落料管以一定速度抖动、落料等扰动空气流产生的扬尘。",
+        "path": "煤场环保设备  > 除尘设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.1.2.4",
+        "level": 4,
+        "chunk_content": "二次扬尘dust reentrainment 沉积于设备和围护结构表面上的粉尘，在外力作用下重新悬浮于空气中的现象，以及除尘设备卸灰过程产生的扬尘。",
+        "path": "煤场环保设备  > 除尘设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.1.2.5",
+        "level": 4,
+        "chunk_content": "除尘duster moval,dust separation 捕集、分离含尘气流中的粉尘等固体颗粒的技术。",
+        "path": "煤场环保设备  > 除尘设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.1.2.6",
+        "level": 4,
+        "chunk_content": "含尘浓度dust concentration 单位体积的空气混合物中粉尘的质量含量。",
+        "path": "煤场环保设备  > 除尘设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.1.2.7",
+        "level": 4,
+        "chunk_content": "初始浓度initial concentration 空气过滤器或除尘器入口的含尘浓度。",
+        "path": "煤场环保设备  > 除尘设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.1.2.8",
+        "level": 4,
+        "chunk_content": "排放浓度concentration of emission 单位体积的排放气体中所含有害物质的质量。燃煤作业场（装卸场所、贮存场所）污染颗粒物无组织排放限值1.0（mg/ｍ³）。 ",
+        "path": "煤场环保设备  > 除尘设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.1.2.9",
+        "level": 4,
+        "chunk_content": "通风ventilation 为改善生产和生活条件，采用自然或机械方法，对某一空间进行换气，以形成卫生、安全等适宜空气环境的技术。",
+        "path": "煤场环保设备  > 除尘设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.1.3",
+        "level": 3,
+        "chunk_content": "结构与辅助设备 ",
+        "path": "煤场环保设备  > 除尘设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.1.3.1",
+        "level": 4,
+        "chunk_content": "旋风子cyclonic collection tube 使含尘气流旋转并分离粉尘的器件，通常具有较小的直径和较高的除尘效率。",
+        "path": "煤场环保设备  > 除尘设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.1.3.2",
+        "level": 4,
+        "chunk_content": "分室sectional，compartment 袋式除尘器分隔成若干单元，各单元可单独完成过滤与清灰功能的结构。",
+        "path": "煤场环保设备  > 除尘设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.1.3.3",
+        "level": 4,
+        "chunk_content": "袋室chamber 袋式除尘器中容纳过滤元件并在此进行气国分离的结构。",
+        "path": "煤场环保设备  > 除尘设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.1.3.4",
+        "level": 4,
+        "chunk_content": "滤袋filter bag 用滤料制成的袋状过滤元件。",
+        "path": "煤场环保设备  > 除尘设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.1.3.5",
+        "level": 4,
+        "chunk_content": "滤袋框架bag frame 滤袋骨架bag cage 支撑外滤式滤袋，使之在过滤状态下保持袋内气体流动空间的框架。",
+        "path": "煤场环保设备  > 除尘设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.1.3.6",
+        "level": 4,
+        "chunk_content": "供电分区power supply section DL/TXXXX—XXXX 电除尘器电场的最小供电单元。具有独立的支承绝缘系统，由独立电源单独供电。",
+        "path": "煤场环保设备  > 除尘设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.1.3.7",
+        "level": 4,
+        "chunk_content": "电场electric field 沿气流方向上的一级供电区域，由一组南极和阴极以及专为其供电的高压电源等构成。实施供电后可使气体电离，粉尘荷电以捕集粉尘的效应。同一个室中各级电场呈串联布置，相邻两室间各级电场呈并联布置，沿气流方向串联的各级电场依次称为第一级电场、第二级电场、……、第n 级电场。 ",
+        "path": "煤场环保设备  > 除尘设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.1.3.8",
+        "level": 4,
+        "chunk_content": "防雨棚anti-canopy 设置在电除尘器屋顶的相关部位，用于防护有关装置免遭风雨侵袭和为维修人员提供遮护的非密闭性棚罩。",
+        "path": "煤场环保设备  > 除尘设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.1.3.9",
+        "level": 4,
+        "chunk_content": "人孔门access door 安装于除尘器壳体上，供检修人员进、出的活动密封门。应设有安全联锁装置。",
+        "path": "煤场环保设备  > 除尘设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.2",
+        "level": 2,
+        "chunk_content": "抑尘设备 ",
+        "path": "煤场环保设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.2.1",
+        "level": 3,
+        "chunk_content": "形式与种类 ",
+        "path": "煤场环保设备  > 抑尘设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.2.1.1",
+        "level": 4,
+        "chunk_content": "微雾抑尘装置dry fog dust suppression device & system 由压缩空气驱动声波震荡器，使水分解成微米级的水雾颗粒并通过喷头喷射到尘源点的装置。",
+        "path": "煤场环保设备  > 抑尘设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.2.1.2",
+        "level": 4,
+        "chunk_content": "洒水喷枪抑尘装置和系统sprinkler spray gun dust suppression device & system 采用洒水喷枪喷出的水流覆盖煤堆，用于煤场防尘的装置和系统。",
+        "path": "煤场环保设备  > 抑尘设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.2.1.3",
+        "level": 4,
+        "chunk_content": "防风抑尘网wind dust network 利用空气动力学原理，按照实施现场环境风洞实验结果加工成一定几何形状、开孔率和不同孔形组合而成的墙体，使流通的空气（强风）外通过墙体时，在墙体内侧形成上、下干扰的气流以达到外侧强风，内侧弱风，外侧小风，内侧无风的效果，从而防止粉尘的飞扬。",
+        "path": "煤场环保设备  > 抑尘设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.2.2",
+        "level": 3,
+        "chunk_content": "基础名词术语 ",
+        "path": "煤场环保设备  > 抑尘设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.2.2.1",
+        "level": 4,
+        "chunk_content": "防尘dust control 对于机械转运中的设备等在生产运行过程中，采取防止粉尘外逸的措施。",
+        "path": "煤场环保设备  > 抑尘设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.2.2.2",
+        "level": 4,
+        "chunk_content": "降尘dust fall 使悬浮在含尘气流中的固体颗粒沉降而与含尘气流加速分离的措施。[来源：DL/T5187.2-2019 火力发电厂运煤设计技术规程 第 2 部分：煤尘防治，2.0.3] ",
+        "path": "煤场环保设备  > 抑尘设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.2.2.3",
+        "level": 4,
+        "chunk_content": "抑尘dust suppression 通过干预尘源抑制含尘气体向工作场所和大气扩散的技术。",
+        "path": "煤场环保设备  > 抑尘设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.2.2.4",
+        "level": 4,
+        "chunk_content": "空气动力抑尘unpowered dust suppression 运用空气动力学涡流、环流和虹吸原理，直接干预输送系统通道尘源，消除含尘气体中的粉尘颗粒飘浮动力，使粉尘颗粒迅速沉降，达到消除粉尘目的的抑尘技术。",
+        "path": "煤场环保设备  > 抑尘设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.2.2.5",
+        "level": 4,
+        "chunk_content": "水喷雾抑尘water spray dust suppression 在物料输送的产尘区域，设置喷嘴产生水雾，增加煤尘的表面水分，使含尘气体的湿度增加，尘粒互相黏结并逐渐增大粒径，增加沉降速度或黏附在大块煤上，减少煤尘飞扬的概率，达到有效抑尘的目的。[来源：DL/T5035-2016 发电厂供暖通风与空气调节设计规范，2.0.9] ",
+        "path": "煤场环保设备  > 抑尘设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.2.2.6",
+        "level": 4,
+        "chunk_content": "微雾抑尘microfog dust suppression 利用直径在10µm 及以下的细雾与空气中的粉尘尤其是呼吸性粉尘凝并、结团、沉降的抑尘方式。微雾抑尘包括双流体微雾抑尘和单流体微雾抑尘。[来源：DL/T5187.2-2019 火力发电厂运煤设计技术规程 第 2 部分：煤尘防治，2.0.4] ",
+        "path": "煤场环保设备  > 抑尘设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.2.2.7",
+        "level": 4,
+        "chunk_content": "诱导通风inductive ventilation 利用空气射流的引射作用进行通风的方式。",
+        "path": "煤场环保设备  > 抑尘设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.2.2.8",
+        "level": 4,
+        "chunk_content": "开孔率percentage of open area 防风抑尘网所有网孔总面积与网面总面积的比值，用百分比表示。",
+        "path": "煤场环保设备  > 抑尘设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.2.2.9",
+        "level": 4,
+        "chunk_content": "惯性流动技术IFT(Inertial Flow Technology) 通过模拟计算落煤管曲线引导煤流集中、连续移动并切换方向，从源头解决煤尘产生、飞扬问题，最终定型的漏斗、落煤管等转运设备可能是异型形状，材质及厚度等也可能异于常规类型。ITF技术主要特点为是煤流全程导流由无序坠落改可控滑落，以减小诱导风量；可严格控制煤流滑落过程的动势能大小和方向变化，兼顾能量衰减与流动顺畅；煤流终点水平出口速度与受煤输送带带速接近，以消除对设备的冲击，减少扬尘；控制煤流轨迹居中，消除跑偏和撒煤。",
+        "path": "煤场环保设备  > 抑尘设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.2.3",
+        "level": 3,
+        "chunk_content": "结构与辅助设备 ",
+        "path": "煤场环保设备  > 抑尘设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.2.3.1",
+        "level": 4,
+        "chunk_content": "容积式导料槽volumetric skirtboard 增大断面积和长度控制内部扬尘沉降的导料槽。[来源：DL/T5187.2-2019 火力发电厂运煤设计技术规程 第 2 部分：煤尘防治，2.0.6] ",
+        "path": "煤场环保设备  > 抑尘设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.2.3.2",
+        "level": 4,
+        "chunk_content": "惯性降尘装置inertial dust separator 使含尘气体与挡板撞击或者急剧改变气流方向，利用惯性力分离并捕集粉尘的除尘装置。DL/TXXXX—XXXX [来源：DL/T5187.2-2019 火力发电厂运煤设计技术规程 第 2 部分：煤尘防治，2.0.7] ",
+        "path": "煤场环保设备  > 抑尘设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.2.3.3",
+        "level": 4,
+        "chunk_content": "风幕air curtain 能喷出幕状气流，用以隔离室内、外空气的交换。也称空气幕。",
+        "path": "煤场环保设备  > 抑尘设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.2.3.4",
+        "level": 4,
+        "chunk_content": "吸尘集气罩vacuum gas collector 安装在主要尘源点上方的倒漏斗形集气罩，上部连接除尘器负压管道，利用负压将粉尘气体吸入罩内并转移到吸尘管道中的设施。",
+        "path": "煤场环保设备  > 抑尘设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.2.3.5",
+        "level": 4,
+        "chunk_content": "喷嘴spray nozzle 指将具有一定压力的水喷射成分散的细小水滴的元件。",
+        "path": "煤场环保设备  > 抑尘设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.3",
+        "level": 2,
+        "chunk_content": "清扫设备 ",
+        "path": "煤场环保设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.3.1",
+        "level": 3,
+        "chunk_content": "形式与种类 ",
+        "path": "煤场环保设备  > 清扫设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.3.1.1",
+        "level": 4,
+        "chunk_content": "水力清扫装置hydraulic cleaner 利用水冲洗方法清除物料的清扫装置。[来源：GB/T14521-2015  连续搬运机械  术语，5.1.3.5] ",
+        "path": "煤场环保设备  > 清扫设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.3.1.2",
+        "level": 4,
+        "chunk_content": "气力清扫装置pneumatic cleaner 利用压缩空气产生的动力，进行清扫的清扫装置。[来源：GB/T14521-2015 连续搬运机械 术语，5.1.3.6] ",
+        "path": "煤场环保设备  > 清扫设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.3.1.3",
+        "level": 4,
+        "chunk_content": "真空清扫系统vacuum cleaning system 利用高负压、小风量收集撒落、沉降在地面和设备表面上积尘的系统。由真空清扫装置、吸尘管网、吸尘软管、吸嘴及自动控制系统等组成。[来源：DL/T5035-2016 发电厂供暖通风与空气调节设计规范，2.0.7，有修改] ",
+        "path": "煤场环保设备  > 清扫设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.3.2",
+        "level": 3,
+        "chunk_content": "基础名词术语 ",
+        "path": "煤场环保设备  > 清扫设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.3.2.1",
+        "level": 4,
+        "chunk_content": "煤泥沉淀池slime sediment， slurry pond， settling pond 将煤泥水进行分级沉淀处理，并回收煤泥的机械和建筑设施。",
+        "path": "煤场环保设备  > 清扫设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "8.3.2.2",
+        "level": 4,
+        "chunk_content": "集水井pool 用于蓄积煤泥冲洗水的地坑。",
+        "path": "煤场环保设备  > 清扫设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9",
+        "level": 1,
+        "chunk_content": "监视及控制设备 ",
+        "path": ""
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.1",
+        "level": 2,
+        "chunk_content": "监视系统及设备 ",
+        "path": "监视及控制设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.1.1",
+        "level": 3,
+        "chunk_content": "形式与种类 ",
+        "path": "监视及控制设备  > 监视系统及设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.1.1.1",
+        "level": 4,
+        "chunk_content": "工业电视监控系统industrial TV monitoring system 用于监视工业生产过程及其环境的电视系统。主要由摄像机、传输通道、控制器和监视器组成。",
+        "path": "监视及控制设备  > 监视系统及设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.1.1.2",
+        "level": 4,
+        "chunk_content": "视频监控video monitoring 利用视频手段对目标进行监视和信息记录。[来源：GB50395-2007，2.0.5] ",
+        "path": "监视及控制设备  > 监视系统及设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.1.1.3",
+        "level": 4,
+        "chunk_content": "视频安防监控系统video surveillance & control system，VSCS 利用视频探测技术、监视设防区域并实时显示、记录现场图像的电子系统或网络。[来源：GB50395-2007，2.0.1] ",
+        "path": "监视及控制设备  > 监视系统及设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.1.1.4",
+        "level": 4,
+        "chunk_content": "模拟视频监控系统analog video surveillance system 除显示设备外的视频设备之间以端对端模拟视频信号传输方式的监控系统。[来源：GB50395-2007，2.0.11] ",
+        "path": "监视及控制设备  > 监视系统及设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.1.1.5",
+        "level": 4,
+        "chunk_content": "数字视频监控系统digital video surveillance system 除显示设备外的视频设备之间以数字视频方式进行传输的监控系统。由于使用数字网络传输，所以又称网络视频监控系统。[来源：GB50395-2007，2.0.12] ",
+        "path": "监视及控制设备  > 监视系统及设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.1.1.6",
+        "level": 4,
+        "chunk_content": "视频探测video detection 采用光电成像技术(从近红外到可见光谱范围内)对目标进行感知并生成视频图像信号的一种探测手段。[来源：GB50395-2007，2.0.4] ",
+        "path": "监视及控制设备  > 监视系统及设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.1.1.7",
+        "level": 4,
+        "chunk_content": "数字视频digital video 利用数字化技术将模拟视频信号经过处理，或从光学图像直接经数字转换获得的具有严格时间顺序的数字信号，表示为特定数据结构的能够表征原始图像信息的数据。[来源：GB50395-2007，2.0.3] ",
+        "path": "监视及控制设备  > 监视系统及设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.1.1.8",
+        "level": 4,
+        "chunk_content": "视频主机video controller／switcher 通常指视频控制主机，它是视频系统操作控制的核心设备，通常可以完成对图像的切换、云台和镜头的控制等。[来源：GB50395-2007，2.0.8] ",
+        "path": "监视及控制设备  > 监视系统及设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.1.1.9",
+        "level": 4,
+        "chunk_content": "监视器monitor 监控系统的显示部分，是监控系统的终端设备，充当着监控人员的“眼睛”，同时也为事后调查起到关键性作用。",
+        "path": "监视及控制设备  > 监视系统及设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.1.2",
+        "level": 3,
+        "chunk_content": "基础名词术语 ",
+        "path": "监视及控制设备  > 监视系统及设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.1.2.1",
+        "level": 4,
+        "chunk_content": "前端设备front—end device 指摄像机以及与之配套的相关设备(如镜头、云台、解码驱动器、防护罩等)。[来源：GB50395-2007，2.0.7] ",
+        "path": "监视及控制设备  > 监视系统及设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.1.2.2",
+        "level": 4,
+        "chunk_content": "数字图像压缩digital compression for video 利用图像空间域、时间域和变换域等分布特点，采用特殊的算法，减少表征图像信息冗余数据的处理过程。[来源：GB50395-2007，2.0.19] ",
+        "path": "监视及控制设备  > 监视系统及设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.1.2.3",
+        "level": 4,
+        "chunk_content": "环境照度environmental illumination 反映目标所处环境明暗(可见光谱范围内)的物理量，数值上等于垂直通过单位面积的光通量。[来源：GB50395-2007，2.0.13] ",
+        "path": "监视及控制设备  > 监视系统及设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.1.2.4",
+        "level": 4,
+        "chunk_content": "图像质量picture quality 图像信息的完整性，包括图像帧内对原始信息记录的完整性和图像帧连续关联的完整性。它通常按照如下的指标进行描述：像素构成、分辨率、信噪比、原始完整性等。[来源：GB50395-2007，2.0.14] ",
+        "path": "监视及控制设备  > 监视系统及设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.1.2.5",
+        "level": 4,
+        "chunk_content": "实时性real time 一般指图像记录或显示的连续性(通常指帧率不低于25fps 的图像为实时图像)；在视频传输中，指终端图像显示与现场发生的同时性或者及时性，它通常由延迟时间表征。[来源：GB50395-2007，2.0.16] ",
+        "path": "监视及控制设备  > 监视系统及设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.1.2.6",
+        "level": 4,
+        "chunk_content": "图像分辨率picture resolution 人眼对电视图像细节辨认清晰程度的量度，在数值上等于在显示平面水平扫描方向上，能够分辨的最多的目标图像的电视线数。[来源：GB50395-2007，2.0.17] ",
+        "path": "监视及控制设备  > 监视系统及设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.1.2.7",
+        "level": 4,
+        "chunk_content": "图像数据格式video data format 数字视频图像的表示方法，用像素点阵序列来表征。[来源：GB50395-2007，2.0.18] ",
+        "path": "监视及控制设备  > 监视系统及设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.1.2.8",
+        "level": 4,
+        "chunk_content": "视频音频同步synchronization of video and audio 视频显示的动作信息与音频的对应的动作信息具有一致性。[来源：GB50395-2007，2.0.20] ",
+        "path": "监视及控制设备  > 监视系统及设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.1.3",
+        "level": 3,
+        "chunk_content": "结构与辅助设备 ",
+        "path": "监视及控制设备  > 监视系统及设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.1.3.1",
+        "level": 4,
+        "chunk_content": "云台pan/tilt head 安装、固定摄像机的支撑设备，分为固定云台和电动云台两种，根据其回转的特点可分为只能左右旋转的水平旋转云台和既能左右旋转又能上下旋转的全方位云台。",
+        "path": "监视及控制设备  > 监视系统及设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.1.3.2",
+        "level": 4,
+        "chunk_content": "视频矩阵切换器video matrix switcher 为高分辨率图像信号的显示切换而设计的高性能智能矩阵开关设备。",
+        "path": "监视及控制设备  > 监视系统及设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.1.3.3",
+        "level": 4,
+        "chunk_content": "视频分配器video distributor 把一个视频信号源平均分配成多路视频信号的设备，也称为视频分配放大器。",
+        "path": "监视及控制设备  > 监视系统及设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.1.3.4",
+        "level": 4,
+        "chunk_content": "视频光端机video optical transceiver 把一到多路的模拟视频信号通过各种编码转换成光信号通过光纤介质来传输的设备，分为模拟光端机和数字光端机。",
+        "path": "监视及控制设备  > 监视系统及设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.2",
+        "level": 2,
+        "chunk_content": "控制系统及设备 ",
+        "path": "监视及控制设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.2.1",
+        "level": 3,
+        "chunk_content": "形式与种类 ",
+        "path": "监视及控制设备  > 控制系统及设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.2.1.1",
+        "level": 4,
+        "chunk_content": "分散控制系统distributed control system，DCS 以微处理器为基础，采用控制功能分散、显示操作集中、兼顾分而自治和综合协调的设计原则的新一代仪表控制系统。简称DCS。",
+        "path": "监视及控制设备  > 控制系统及设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.2.1.2",
+        "level": 4,
+        "chunk_content": "顺序控制系统sequence control system，SCS 对机组的主机或某一工艺系统或主要辅机按一定规律（输入信号条件顺序、动作顺序或时间顺序）进行控制的控制系统。又称两位式控制系统或开关量控制系统。[来源：GB/T26863-2011 火电站监控系统术语，6.30] ",
+        "path": "监视及控制设备  > 控制系统及设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.2.1.3",
+        "level": 4,
+        "chunk_content": "输煤程控系统coal transport program control system 按预先设定好的程序（顺序）对运煤系统设备进行控制的系统，包括卸煤程控、上煤程控、配煤程控和上位机监控。主要完成自动卸煤，自动上煤，自动配煤，分炉计量，自动入炉煤采、制样，自动振打消堵，输送带保护等功能。系统主要采用集散控制系统（DCS）或可编程控制器（PLC)和上位机组成冗余控制网络系统，充分满足输煤工艺和设备运行要求。",
+        "path": "监视及控制设备  > 控制系统及设备  > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.2.2",
+        "level": 3,
+        "chunk_content": "基础名词术语 ",
+        "path": "监视及控制设备  > 控制系统及设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.2.2.1",
+        "level": 4,
+        "chunk_content": "手动控制manual control 由人直接或间接操纵的控制。",
+        "path": "监视及控制设备  > 控制系统及设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.2.2.2",
+        "level": 4,
+        "chunk_content": "自动控制automatic control 在没有人直接参与的情况下，利用外加的设备或装置，使机器、设备或生产过程的某个工作状态或参数自动地按照预定的规律运行。",
+        "path": "监视及控制设备  > 控制系统及设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.2.2.3",
+        "level": 4,
+        "chunk_content": "模拟量控制analog control  以模拟信号为工作信号的控制，模拟信号指所有在时间和数值上都连续的信号，以该种信号作为输入（一般从主电路中采样进行前馈或者反馈），实现某种控制功能，一般模拟控制电路具备采样模块、A/D、D/A数据采集、I/O模块等。DL/TXXXX—XXXX ",
+        "path": "监视及控制设备  > 控制系统及设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.2.2.4",
+        "level": 4,
+        "chunk_content": "数字控制numerical control 一种借助数字、字符或者其他符号对某一工作过程进行编程控制的自动化方法。",
+        "path": "监视及控制设备  > 控制系统及设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.2.2.5",
+        "level": 4,
+        "chunk_content": "就地控制local control 输煤系统控制权限在本地输煤控制室。",
+        "path": "监视及控制设备  > 控制系统及设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.2.2.6",
+        "level": 4,
+        "chunk_content": "辅网控制auxiliary network control 控制权限在全厂辅网系统。",
+        "path": "监视及控制设备  > 控制系统及设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.2.2.7",
+        "level": 4,
+        "chunk_content": "系统自动management automation 系统在没有人参与下,按上下级的设备的上下级运行联锁关系，经过自动检测、信息处理、分析判断、操纵控制，进行流程启动或停止。",
+        "path": "监视及控制设备  > 控制系统及设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.2.2.8",
+        "level": 4,
+        "chunk_content": "流程technological process 输煤设备在启动或切换运行方式时为满足生产需要所选择的上煤和堆煤路线。",
+        "path": "监视及控制设备  > 控制系统及设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.2.2.9",
+        "level": 4,
+        "chunk_content": "预启动pre start 在自动上煤方式下，运行流程选择正确后，按下启动按钮，所选流程挡板开始自动对位，现场流程范围内各设备警铃依次响起为设备的整体启动做好前期准备。",
+        "path": "监视及控制设备  > 控制系统及设备  > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.2.3",
+        "level": 3,
+        "chunk_content": "结构与辅助设备 ",
+        "path": "监视及控制设备  > 控制系统及设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.2.3.1",
+        "level": 4,
+        "chunk_content": "传感器transducer/sensor 感受被测量，并按一定规律将其转换成同种或别种性质的输出量的仪表。按照感受的被测量的不同，分为温度传感器、速度传感器、振动传感器、称重传感器等。[来源：GB/T26863-2011 火电站监控系统术语，4.2.3，有修改] ",
+        "path": "监视及控制设备  > 控制系统及设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.2.3.2",
+        "level": 4,
+        "chunk_content": "速度传感器speed sensor 测量速度的传感器。包括线速度传感器和角速度传感器。",
+        "path": "监视及控制设备  > 控制系统及设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.2.3.3",
+        "level": 4,
+        "chunk_content": "温度传感器temperature transducer 能感受温度并转换成可用输出信号的传感器。",
+        "path": "监视及控制设备  > 控制系统及设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.2.3.4",
+        "level": 4,
+        "chunk_content": "振动传感器vibration sensor 用于检测冲击力或加速度的传感器，可用于机械中的振动和位移、转子与机壳的热膨胀量的长期监测。",
+        "path": "监视及控制设备  > 控制系统及设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.2.3.5",
+        "level": 4,
+        "chunk_content": "称重传感器weighing sensor/load cell 将被测量（质量）转换成另一种可测量的信号（如电信号）的测量质量的力传感器。主要有S 型、悬臂型、轮辐式、板环式、膜盒式、桥式、柱筒式等几种样式。",
+        "path": "监视及控制设备  > 控制系统及设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.2.3.6",
+        "level": 4,
+        "chunk_content": "煤流传感器coal flow sensor 检测输煤煤流信号的一种设备，一般有机械式、电子感应式、机械电子感应式等几种。",
+        "path": "监视及控制设备  > 控制系统及设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.2.3.7",
+        "level": 4,
+        "chunk_content": "撕裂传感器tear sensor 带式输送机正常工作时，撕裂传感器进入检测状态，当输送带有撕裂故障时，传感器发出输送带撕裂信号、报警，并延时1s～2s 控制输送带机停机。 ",
+        "path": "监视及控制设备  > 控制系统及设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.2.3.8",
+        "level": 4,
+        "chunk_content": "联锁装置interlocking device 具有联锁功能的技术装置。",
+        "path": "监视及控制设备  > 控制系统及设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.2.3.9",
+        "level": 4,
+        "chunk_content": "堵煤开关coal plug switch  堵煤开关用于输煤系统落煤管、导料槽发生堵塞时的检测，并可提供报警或停机信号，也可与振动电机连接，用以排除堵塞故障。主要有溜槽式、阻旋式、振棒式、接近开关式、射频导纳料位开关式（电容式）等几种形式的堵煤开关。",
+        "path": "监视及控制设备  > 控制系统及设备  > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.3",
+        "level": 2,
+        "chunk_content": "智能化系统及设备  ",
+        "path": "监视及控制设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.3.1",
+        "level": 3,
+        "chunk_content": "形式与种类 ",
+        "path": "监视及控制设备  > 智能化系统及设备   > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.3.1.1",
+        "level": 4,
+        "chunk_content": "智能燃煤系统intelligent coal system 综合利用信息技术、网络技术、控制技术及相关专业技术，集成了燃煤接卸输送与掺配设备、燃煤计量与质量检测设备设施、储煤场设备设施、智能化管控平台、燃料管理信息系统等，以火力发电企业燃煤为对象，实现管控燃煤科学合理流动为目的的智能化有机结合体。[来源：T／CEC156.1-2018 火力发电企业智能燃煤系统技术规范 第 1 部分：智能燃煤系统结构和功能，3.1]",
+        "path": "监视及控制设备  > 智能化系统及设备   > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.3.1.2",
+        "level": 4,
+        "chunk_content": "智能化管控平台intelligent control platform 综合利用控制技术、信息技术、物联网技术和相关专业技术，将燃煤接卸输送与掺配、存储、计量、质量检测、样品管理等作业设备与互联网相连接，以实现远程状态监视、信息自动反馈、自动控制、自动诊断与报警、自动采集与管理数据为目的的一体化系统。[来源：T／CEC156.5-2018 火力发电企业智能燃煤系统技术规范 第 5 部分：智能化管控平台，3.1]",
+        "path": "监视及控制设备  > 智能化系统及设备   > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.3.1.3",
+        "level": 4,
+        "chunk_content": "智能煤场管控系统intelligent coal yard management and control system 将三维建模激光成像技术、大数据分析技术、智能算法等技术与智能控制、智能安全防护、总线通讯控制等多项先进技术进行高度融合的系统，以实现高精度全自动盘料、斗轮堆取料机全自动化作业、三维可视化管理、煤场数字精益化管理、煤场环境在线监测、煤场防自燃安全管理、高效自动作业与安全防护、输煤生产考核智能化管理、自动配煤等核心业务功能，并能自动关联供应商、煤种、煤质、重量、时间等参数，自动提供燃煤堆取方案，结合锅炉工况，自动提供、优化燃煤掺配方案，监测堆取及掺配方案的有效执行，实现价值寻优。",
+        "path": "监视及控制设备  > 智能化系统及设备   > 形式与种类  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.3.2",
+        "level": 3,
+        "chunk_content": "基础名词术语 ",
+        "path": "监视及控制设备  > 智能化系统及设备   > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.3.2.1",
+        "level": 4,
+        "chunk_content": "输送带工作表面缺陷视觉诊断machine vision diagnosis of defect of belt face 通过激光线性光源垂直照射于输送带表面，同步采用线阵相机采集反射的与输送带表面完全一致的轮廓线，识别输送带表面破损、划伤、撕裂、边沿破损等缺陷。",
+        "path": "监视及控制设备  > 智能化系统及设备   > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.3.2.2",
+        "level": 4,
+        "chunk_content": "电机、减速机轴承状态诊断diagnosis of bearing status of motor and reducer  利用数据采集器对电机、减速机轴承温度信号、震动信号进行采集、传输，通过智能处理器分析所采集数据，从而判断电机、减速机滚动轴承的运行状态以及故障发生的部位和故障程度。",
+        "path": "监视及控制设备  > 智能化系统及设备   > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.3.2.3",
+        "level": 4,
+        "chunk_content": "减速机齿轮故障诊断fault diagnosis of gear of reducer 利用数据采集器对减速机齿轮振动信号进行采集、传输，通过智能处理器分析所采集数据，从而判断齿轮的运行状态以及故障发生的部位和故障程度。",
+        "path": "监视及控制设备  > 智能化系统及设备   > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.3.2.4",
+        "level": 4,
+        "chunk_content": "清扫器压力状态诊断cleaner stress state diagnosis 采用基于物联网的技术（IOT）的预应力传感器对清扫器工作压力大小进行监测，指导清扫器的运行维护，对使用寿命进行科学的评价。",
+        "path": "监视及控制设备  > 智能化系统及设备   > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.3.2.5",
+        "level": 4,
+        "chunk_content": "托辊状态诊断sound simulation roller status diagnosis 利用音频矩阵和声源定位技术对托辊和滚筒运行时产生的噪音进行采集分析，判断托辊和滚筒的运行故障。",
+        "path": "监视及控制设备  > 智能化系统及设备   > 基础名词术语  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.3.3",
+        "level": 3,
+        "chunk_content": "结构与辅助设备 ",
+        "path": "监视及控制设备  > 智能化系统及设备   > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.3.3.1",
+        "level": 4,
+        "chunk_content": "输送带跑偏视觉诊断纠偏系统machine vision of belt deviation diagnosis 带式输送机工作时，高清摄像机准确获取皮带的实时跑偏量，通过智能处理器进行诊断并控制电动纠偏装置工作，从而实现皮带的主动纠偏的系统。",
+        "path": "监视及控制设备  > 智能化系统及设备   > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.3.3.2",
+        "level": 4,
+        "chunk_content": "输送带物料堆形视觉识别系统machine vision recognition of material on belt 通过高清摄像机和激光线性光源实时判断燃煤输送过程中煤流与输送带相对位置、形状及截面积的变化，进行输送带煤流堆型识别、计算出煤流的瞬时体积和输送量的系统。",
+        "path": "监视及控制设备  > 智能化系统及设备   > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.3.3.3",
+        "level": 4,
+        "chunk_content": "落煤管堵料视觉诊断系统machine vision diagnosis of blocking of coal pipe 利用图像识别的方法对转运站落煤管上、下输送带上煤流的断面体积进行判断和计算，通过比对上、下输送带上煤流输送量的变化来判断落煤管是否发生堵料的系统。",
+        "path": "监视及控制设备  > 智能化系统及设备   > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.3.3.4",
+        "level": 4,
+        "chunk_content": "转运站及输煤栈桥巡检机器人inspection robot for transfer station and coal handling trestle应用于输煤系统转运站及输煤栈桥进行巡检的机器人。采用机器人、红外测温、摄像头、气体及声音传感器等物联网设备对现场设备及环境进行巡检，对设备健康状态精准判断，并依据相关险情进行及时预警，保障人员安全以及设备安全运行，实现智能巡检综合管理，提升设备管理效能与缺陷管理的及时性。",
+        "path": "监视及控制设备  > 智能化系统及设备   > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.3.3.5",
+        "level": 4,
+        "chunk_content": "堆取料机自动化作业系统automated operation system for stacker and reclaimer  DL/TXXXX—XXXX 采用精确定位、激光扫描、三维建模、智能控制、安全防护、视频融合等技术，实现堆取料机就地无人值守及远程集中一键式智能控制的自动化作业系统，又叫堆取料机无人值守。",
+        "path": "监视及控制设备  > 智能化系统及设备   > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.3.3.6",
+        "level": 4,
+        "chunk_content": "激光盘煤仪laser disc coal meter 采用激光测距技术，快速测量煤堆上特征点的三维数据，并自动记录其空间坐标，然后，将测量数据传到PC机上，采用数字内插技术拟合煤堆表面形状，从而求出整个煤场的存煤体积的盘煤仪。适用于任何形状的煤堆、土方、矿石方、砂石方、矿石堆、填方等的高度、长度、体积进行测量。",
+        "path": "监视及控制设备  > 智能化系统及设备   > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.3.3.7",
+        "level": 4,
+        "chunk_content": "封闭煤场自动盘煤系统automatic coal handling system in closed coal yard 将多个三维激光扫描仪安装在全封闭煤棚顶部，旋转云台驱动二维激光扫描仪（或利用封闭煤场盘煤巡检机器人携带三维激光扫描仪）对下方料堆进行快速扫描获得数据，采集完成后将数据传输到服务器上，进行数据合成计算，生成煤场的立体数学模型并计算出煤场的体积，再结合煤场堆体比重即可得出煤场的存煤量并生成相应数据报表的系统。",
+        "path": "监视及控制设备  > 智能化系统及设备   > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.3.3.8",
+        "level": 4,
+        "chunk_content": "煤场红外扫描测温系统infrared scanning temperature measurement system for coal yard 采用红外热成像仪和云台，利用热成像技术、图像处理技术、云台控制技术、嵌入式控制以及计算机网络等综合技术，对煤场内煤堆温度进行巡检、预警，自动生成相应的温度变化报表，并将实时画面和数据传至监测中心和输煤控制系统，实现煤场全覆盖测温，系统具有自燃准确定位、实时高效预报警、远程预报警发布、灾后数据分析等功能的系统。",
+        "path": "监视及控制设备  > 智能化系统及设备   > 结构与辅助设备  > "
+    },
+    {
+        "doc_id": "84644",
+        "doc_name": "电力燃煤机械名词术语",
+        "chunk_id": "9.3.3.9",
+        "level": 4,
+        "chunk_content": "封闭煤场环境在线监测系统on line monitoring system for closed coal yard 在封闭煤场上方合适的位置安装多台一氧化碳、甲烷、粉尘浓度等检测传感器，分别通过通讯线缆将检测传感器测量的数据汇总到监控服务器进行数据综合分析，同时数据传送至煤场智能一体化管控平台上进行监控，对于超出规定标准的一氧化碳、甲烷、粉尘浓度进行现场声光报警，提示煤场内人员及时撤离、煤场外人员禁止入内，防止中毒发生人身伤害的系统。",
+        "path": "监视及控制设备  > 智能化系统及设备   > 结构与辅助设备  > "
+    }
+]

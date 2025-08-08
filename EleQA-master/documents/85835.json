@@ -1,0 +1,2194 @@
+[
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "1",
+        "level": 1,
+        "chunk_content": "范围 本文件规定了电站汽轮机专用名词术语及其定义。本文件适用于汽轮机相关的科研、设计、制造、安装、调试、试验、运行，制定与汽轮机有关的行业标准、编制技术文件，编写和翻译手册、教材及书刊时也可参照使用。",
+        "path": ""
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2",
+        "level": 1,
+        "chunk_content": "汽轮机 ",
+        "path": ""
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.1",
+        "level": 2,
+        "chunk_content": "汽轮机种类与型式 ",
+        "path": "汽轮机  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.1.1",
+        "level": 3,
+        "chunk_content": "汽轮机steam turbine 又称蒸汽透平,使蒸汽膨胀将热能转换为机械能的具有叶片的旋转式动力机械。",
+        "path": "汽轮机  > 汽轮机种类与型式  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.1.2",
+        "level": 3,
+        "chunk_content": "冲动式汽轮机impulse turbine 蒸汽主要在喷嘴或静叶栅中膨胀的汽轮机。",
+        "path": "汽轮机  > 汽轮机种类与型式  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.1.3",
+        "level": 3,
+        "chunk_content": "反动式汽轮机reaction turbine 蒸汽在喷嘴（或静叶栅）和动叶栅中均膨胀的汽轮机。",
+        "path": "汽轮机  > 汽轮机种类与型式  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.1.4",
+        "level": 3,
+        "chunk_content": "轴流式汽轮机axial flow turbine 蒸汽沿轴向流动的汽轮机。",
+        "path": "汽轮机  > 汽轮机种类与型式  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.1.5",
+        "level": 3,
+        "chunk_content": "辐流式汽轮机radial flow turbine 蒸汽沿径向(辐向)流动的汽轮机。",
+        "path": "汽轮机  > 汽轮机种类与型式  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.1.6",
+        "level": 3,
+        "chunk_content": "凝汽式汽轮机condensing turbine 蒸汽在汽轮机内膨胀后排入凝汽器或排汽装置的汽轮机。",
+        "path": "汽轮机  > 汽轮机种类与型式  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.1.7",
+        "level": 3,
+        "chunk_content": "背压式汽轮机backpressure turbine 排汽用于热用户且不带凝汽器或排汽装置的汽轮机，其排汽压力一般高于大气压力。",
+        "path": "汽轮机  > 汽轮机种类与型式  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.1.8",
+        "level": 3,
+        "chunk_content": "抽汽式汽轮机extraction turbine 从汽轮机中间级抽出部分蒸汽供回热系统或抽汽用户使用的汽轮机。",
+        "path": "汽轮机  > 汽轮机种类与型式  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.1.9",
+        "level": 3,
+        "chunk_content": "调节抽汽式汽轮机regulated extraction turbine/adjusting extraction turbine 抽汽压力可以调节的抽汽式汽轮机。",
+        "path": "汽轮机  > 汽轮机种类与型式  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.2",
+        "level": 2,
+        "chunk_content": "汽轮机一般术语与原理 ",
+        "path": "汽轮机  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.2.1",
+        "level": 3,
+        "chunk_content": "主蒸汽main steam 汽轮机主汽阀进口处的蒸汽。",
+        "path": "汽轮机  > 汽轮机一般术语与原理  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.2.2",
+        "level": 3,
+        "chunk_content": "再热蒸汽reheat steam 从汽轮机中抽出引至锅炉再热器加热后并在再热汽阀进口处的蒸汽。",
+        "path": "汽轮机  > 汽轮机一般术语与原理  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.2.3",
+        "level": 3,
+        "chunk_content": "二次再热蒸汽second-reheat steam 在超高压缸和高压缸中做功后然后在锅炉的一次再热器和二次再热器中加热的蒸汽。",
+        "path": "汽轮机  > 汽轮机一般术语与原理  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.2.4",
+        "level": 3,
+        "chunk_content": "低压缸冷却蒸汽cooling steam 在低压缸切缸条件下对低压缸通流部分冷却的蒸汽。",
+        "path": "汽轮机  > 汽轮机一般术语与原理  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.2.5",
+        "level": 3,
+        "chunk_content": "抽汽extraction steam 自汽轮机中间级抽出的蒸汽。",
+        "path": "汽轮机  > 汽轮机一般术语与原理  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.2.6",
+        "level": 3,
+        "chunk_content": "回热抽汽regenerative extraction steam 加热锅炉或蒸汽发生器给水的抽汽。",
+        "path": "汽轮机  > 汽轮机一般术语与原理  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.2.7",
+        "level": 3,
+        "chunk_content": "调节抽汽regulated extraction steam 又称调整抽汽，自汽轮机中间级抽出，并保证一定压力范围的蒸汽。",
+        "path": "汽轮机  > 汽轮机一般术语与原理  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.2.8",
+        "level": 3,
+        "chunk_content": "排汽exhaust steam 从汽轮机低压缸排出的的蒸汽。",
+        "path": "汽轮机  > 汽轮机一般术语与原理  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.2.9",
+        "level": 3,
+        "chunk_content": "轴封供汽steam supply for shaft sealing 通入汽轮机轴封的蒸汽以防止汽缸蒸汽外泄和外部空气进入汽缸。",
+        "path": "汽轮机  > 汽轮机一般术语与原理  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.3",
+        "level": 2,
+        "chunk_content": "汽轮机本体结构及零部件 ",
+        "path": "汽轮机  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.3.1",
+        "level": 3,
+        "chunk_content": "蒸汽室steam chest 又称进汽室，蒸汽通过主汽阀后进入调节汽阀前，为均衡汽流而设置的腔室。",
+        "path": "汽轮机  > 汽轮机本体结构及零部件  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.3.2",
+        "level": 3,
+        "chunk_content": "汽缸casing cylinder 承受压力，包容转子并供安装持环、隔板、静叶、汽封等零部件的壳体。DL/T893-XXXX ",
+        "path": "汽轮机  > 汽轮机本体结构及零部件  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.3.3",
+        "level": 3,
+        "chunk_content": "筒形汽缸barreltype casing 呈筒形的无水平法兰的汽缸。",
+        "path": "汽轮机  > 汽轮机本体结构及零部件  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.3.4",
+        "level": 3,
+        "chunk_content": "超高压缸ultra-high pressure cylinder 通常是指二次再热机组汽轮机主蒸汽进入的汽缸。",
+        "path": "汽轮机  > 汽轮机本体结构及零部件  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.3.5",
+        "level": 3,
+        "chunk_content": "夹层interlayer 双层汽缸的汽轮机内外缸的中间部分。",
+        "path": "汽轮机  > 汽轮机本体结构及零部件  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.3.6",
+        "level": 3,
+        "chunk_content": "喷嘴室nozzle box 安装喷嘴组的腔室。",
+        "path": "汽轮机  > 汽轮机本体结构及零部件  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.3.7",
+        "level": 3,
+        "chunk_content": "叶片blade 使蒸汽的热能有效转换为动能或机械功并对汽流起导向作用的零件。",
+        "path": "汽轮机  > 汽轮机本体结构及零部件  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.3.8",
+        "level": 3,
+        "chunk_content": "静叶（片）stator blade 隔板、汽缸等静止部件上的叶片，使蒸汽的热能有效转换为动能并对汽流起导向作用。",
+        "path": "汽轮机  > 汽轮机本体结构及零部件  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.3.9",
+        "level": 3,
+        "chunk_content": "喷嘴nozzle 汽轮机第一级的静叶片（栅）。",
+        "path": "汽轮机  > 汽轮机本体结构及零部件  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.4",
+        "level": 2,
+        "chunk_content": "通流部分热力气动设计 ",
+        "path": "汽轮机  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.4.1",
+        "level": 3,
+        "chunk_content": "通流部分through-flow parts-flow passage   形成从主汽阀进口到汽轮机排汽口汽流通道的部件组合，由进汽机构、叶栅和排汽缸等部件组成。",
+        "path": "汽轮机  > 通流部分热力气动设计  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.4.2",
+        "level": 3,
+        "chunk_content": "热力过程曲线thermal process curve   流经通流部分膨胀做功的蒸汽，在焓熵图或温熵图上表示的热力状态点的连线。",
+        "path": "汽轮机  > 通流部分热力气动设计  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.4.3",
+        "level": 3,
+        "chunk_content": "焓降分配distribution of enthalpy drop   汽轮机做功蒸汽的等熵焓降在各级之间的分配。",
+        "path": "汽轮机  > 通流部分热力气动设计  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.4.4",
+        "level": 3,
+        "chunk_content": "重热系数reheat factor 多级汽轮机各级等熵焓降之和与整机等熵焓降的差值与整机等熵焓降值之比。",
+        "path": "汽轮机  > 通流部分热力气动设计  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.4.5",
+        "level": 3,
+        "chunk_content": "一元流设计one-dimensional flow design 基于一元流动假设的汽轮机通流部分设计方法。所谓一元流动假设是认为流动是定常且绝热的，并且只考虑汽流参数沿轴向的变化，忽略汽流参数沿径向和周向的变化。",
+        "path": "汽轮机  > 通流部分热力气动设计  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.4.6",
+        "level": 3,
+        "chunk_content": "二元流设计one-dimensional flow design   在一元流假设的基础上，进一步考虑汽流参数沿径向的变化。汽流参数沿径向的变化通过求解简化的简单径向平衡方程或完全径向平衡方程得到。基于此展开的汽轮机通流部分设计称之为二元流设计。",
+        "path": "汽轮机  > 通流部分热力气动设计  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.4.7",
+        "level": 3,
+        "chunk_content": "准三元设计quasi three-dimensional design   将实际三元流动问题分解为两组流面上的两个二维流动问题，分别求解和 流面上的流动，在两个流面的相交线上，要求其解同时满足和 流面的规律，通过反复迭代求解，可以获得汽流参数在空间的分布。基于此展开的汽轮机通流部分设计称之为准三元流设计。",
+        "path": "汽轮机  > 通流部分热力气动设计  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.4.8",
+        "level": 3,
+        "chunk_content": "三元流设计three-dimensional flow design   实际流场中的流动参数是空间坐标系上三个方向变量的函数。给定初始条件、边界条件，求解由连续性方程、动量方程、能量方程组成的方程组，可以获得汽流参数在空间的分布。基于此展开的汽轮机通流部分设计称之为三元流设计。",
+        "path": "汽轮机  > 通流部分热力气动设计  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.4.9",
+        "level": 3,
+        "chunk_content": "全三元设计full three-dimensional design DL/T893-XXXX     利用高精度数值方法预测汽轮机内部流场参数，基于此展开的汽轮机通流部分设计称之为全三元流设计。",
+        "path": "汽轮机  > 通流部分热力气动设计  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.5",
+        "level": 2,
+        "chunk_content": "汽轮机主要零部件强度与振动 ",
+        "path": "汽轮机  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.5.1",
+        "level": 3,
+        "chunk_content": "叶片 ",
+        "path": "汽轮机  > 汽轮机主要零部件强度与振动  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.5.1.1",
+        "level": 4,
+        "chunk_content": "蒸汽(静)弯应力steam (static) bending stress 蒸汽流过叶片产生的汽流力在叶片横截面上所引起的弯应力。",
+        "path": "汽轮机  > 汽轮机主要零部件强度与振动  > 叶片  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.5.1.2",
+        "level": 4,
+        "chunk_content": "叶片(离心)拉应力blade centrifugal pull stress 由动叶片和围带及拉筋质量所产生的离心力在叶片中引起的拉应力。",
+        "path": "汽轮机  > 汽轮机主要零部件强度与振动  > 叶片  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.5.1.3",
+        "level": 4,
+        "chunk_content": "叶片偏心弯应力blade off centred stress 当动叶片工作部分的质心与径向基准面不重合时，离心力在叶片中引起的弯应力。",
+        "path": "汽轮机  > 汽轮机主要零部件强度与振动  > 叶片  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.5.1.4",
+        "level": 4,
+        "chunk_content": "叶片动应力blade dynamic stress 在动载荷作用下导致叶片受迫振动时引起的振动应力。",
+        "path": "汽轮机  > 汽轮机主要零部件强度与振动  > 叶片  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.5.1.5",
+        "level": 4,
+        "chunk_content": "叶片振动特性blade vibration characteristics 叶片自身所固有的振动特点，包括频率、阻尼和模态振型等。",
+        "path": "汽轮机  > 汽轮机主要零部件强度与振动  > 叶片  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.5.1.6",
+        "level": 4,
+        "chunk_content": "模态分析modal analysis 根据结构的固有特性（包括频率、阻尼和模态振型）研究结构动力特性的近代方法，并描述结构的过程。",
+        "path": "汽轮机  > 汽轮机主要零部件强度与振动  > 叶片  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.5.1.7",
+        "level": 4,
+        "chunk_content": "叶片调频blade tuning   DL/T893-XXXX     为防止发生共振，对叶片进行调整使其固有频率避开汽轮机转子工作转速或激振力频率一定安全范围的工艺。",
+        "path": "汽轮机  > 汽轮机主要零部件强度与振动  > 叶片  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.5.1.8",
+        "level": 4,
+        "chunk_content": "叶片共振blade resonant vibration 当作用于叶片上的激振力频率与叶片固有振动频率相等或相近时，叶片产生的剧烈振动。",
+        "path": "汽轮机  > 汽轮机主要零部件强度与振动  > 叶片  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.5.1.9",
+        "level": 4,
+        "chunk_content": "长叶片颤振long blade flutter 在高背压、小容积流量的工况下运行时，叶片周围非稳定流场的气动力与振动着的叶片之间相互耦合作用引起的自激振动。",
+        "path": "汽轮机  > 汽轮机主要零部件强度与振动  > 叶片  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.5.2",
+        "level": 3,
+        "chunk_content": "转子 ",
+        "path": "汽轮机  > 汽轮机主要零部件强度与振动  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.5.2.1",
+        "level": 4,
+        "chunk_content": "汽轮发电机组轴系turbinegenerator shaft system 汽轮发电机组中由联轴器连接的各个转子及其支持轴承组成的系统。",
+        "path": "汽轮机  > 汽轮机主要零部件强度与振动  > 转子  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.5.2.2",
+        "level": 4,
+        "chunk_content": "转子径向振动radial vibration of rotor   在转轴上产生、与转轴垂直方向上的振动。",
+        "path": "汽轮机  > 汽轮机主要零部件强度与振动  > 转子  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.5.2.3",
+        "level": 4,
+        "chunk_content": "轴系扭振torsional vibration of shafting   轴系绕自身轴线扭曲而产生的周期振动。",
+        "path": "汽轮机  > 汽轮机主要零部件强度与振动  > 转子  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.5.2.4",
+        "level": 4,
+        "chunk_content": "转子共振转速rotor vibration resonance speed   当转子不平衡力产生的激振力频率与支承系统固有频率一致时，引起共振所对应的转速。",
+        "path": "汽轮机  > 汽轮机主要零部件强度与振动  > 转子  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.5.2.5",
+        "level": 4,
+        "chunk_content": "转子临界转速rotor critical speed 当激振力频率与转子弯曲振动固有频率一致时所对应的转速。",
+        "path": "汽轮机  > 汽轮机主要零部件强度与振动  > 转子  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.5.2.6",
+        "level": 4,
+        "chunk_content": "转子副临界转速secondary critical speed of rotor 由于转子截面刚度不对称而产生的低于其自振频率的临界转速，数值约为转子临界转速的一半。DL/T893-XXXX ",
+        "path": "汽轮机  > 汽轮机主要零部件强度与振动  > 转子  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.5.2.7",
+        "level": 4,
+        "chunk_content": "转子失稳转速rotor instability speed   受滑动轴承油膜反作用力影响转子出现振动不稳定的阈值转速。",
+        "path": "汽轮机  > 汽轮机主要零部件强度与振动  > 转子  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.5.2.8",
+        "level": 4,
+        "chunk_content": "转子振型rotor vibration mode 转子对应固有频率运动的三维动态偏转形状。按照固有频率从低到高的排列，转子有第一阶振型，第二阶振型，第三阶振型等。",
+        "path": "汽轮机  > 汽轮机主要零部件强度与振动  > 转子  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.5.2.9",
+        "level": 4,
+        "chunk_content": "刚性转子rigid rotor 在不平衡离心力作用下没有轴线变形的转子，其工作转速通常远低于转子一阶临界转速。",
+        "path": "汽轮机  > 汽轮机主要零部件强度与振动  > 转子  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.6",
+        "level": 2,
+        "chunk_content": "轴承座 ",
+        "path": "汽轮机  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.6.1",
+        "level": 3,
+        "chunk_content": "轴承座bearing pedestal 又称轴承箱。装在汽轮机底盘或基础或直接坐落于汽缸壳体上用以支撑轴承的构件。",
+        "path": "汽轮机  > 轴承座  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.6.2",
+        "level": 3,
+        "chunk_content": "支持轴承journal bearing 又称径向轴承，承受汽轮机转子径向载荷的滑动轴承。可分为圆筒形轴承、椭圆形轴承、多油楔轴承和可倾瓦（密切尔式径向轴承）等。",
+        "path": "汽轮机  > 轴承座  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.6.3",
+        "level": 3,
+        "chunk_content": "推力轴承thrust bearing 又称止推轴承，承受汽轮机转子轴向载荷的滑动轴承。",
+        "path": "汽轮机  > 轴承座  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.6.4",
+        "level": 3,
+        "chunk_content": "DL/T893-XXXX     推力径向轴承thrust journal bearing 又称推力—支持联合轴承，同时承受汽轮机转子轴向载荷和径向载荷的滑动轴承。",
+        "path": "汽轮机  > 轴承座  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.6.5",
+        "level": 3,
+        "chunk_content": "轴承油挡bearing oil baffle 安装在轴承座或轴瓦上阻止轴承润滑油外泄以及防止异物进入轴承内部污染润滑油的一种装置。",
+        "path": "汽轮机  > 轴承座  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.6.6",
+        "level": 3,
+        "chunk_content": "浮动、气密性油档seal oil floating stalls 在油档内外档中间通入一股干净、净化、常温及恒压的压缩空气，在内外档中间形成一道气密封腔室，利用气压密封，有效阻止轴承箱外侧蒸汽漏入轴轴承箱内。",
+        "path": "汽轮机  > 轴承座  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.6.7",
+        "level": 3,
+        "chunk_content": "轴承径向振动radial vibration of bearing 发生在轴轴承座或轴承盖、与转轴垂直方向上的振动。",
+        "path": "汽轮机  > 轴承座  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.6.8",
+        "level": 3,
+        "chunk_content": "轴向振动axial vibration 发生在轴轴承座或轴承盖、与转轴平行方向上的振动。",
+        "path": "汽轮机  > 轴承座  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.6.9",
+        "level": 3,
+        "chunk_content": "轴承座结构共振structural resonance of bearing pedestal 激振力的频率与轴承座结构固有频率一致时出现的振动现象。",
+        "path": "汽轮机  > 轴承座  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.7",
+        "level": 2,
+        "chunk_content": "本体阀门及管道 ",
+        "path": "汽轮机  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.7.1",
+        "level": 3,
+        "chunk_content": "主汽阀main stop valve 又称自动主汽门，安装在汽轮机进汽口附近的主蒸汽管道上、能快速关闭的阀门。",
+        "path": "汽轮机  > 本体阀门及管道  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.7.2",
+        "level": 3,
+        "chunk_content": "调节汽阀governing valve 位于主汽阀后，调节进入汽轮机主蒸汽流量以控制功率或转速的阀门。",
+        "path": "汽轮机  > 本体阀门及管道  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.7.3",
+        "level": 3,
+        "chunk_content": "再热汽阀reheat stop valve 控制再热蒸汽流量进入汽轮机中压缸并能自动快速关闭及截断进汽流量的阀门。",
+        "path": "汽轮机  > 本体阀门及管道  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.7.4",
+        "level": 3,
+        "chunk_content": "再热调节汽阀intercept valve 控制再热蒸汽流量的阀门。",
+        "path": "汽轮机  > 本体阀门及管道  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.7.5",
+        "level": 3,
+        "chunk_content": "联合汽阀combined valve 主汽阀与调节汽阀组合成一体，主汽阀和调节阀共用一个阀座，两阀杆轴心同轴的阀门。",
+        "path": "汽轮机  > 本体阀门及管道  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.7.6",
+        "level": 3,
+        "chunk_content": "调节抽汽阀regulating extraction steam valve 控制调节抽汽汽轮机抽汽量的阀门。",
+        "path": "汽轮机  > 本体阀门及管道  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.7.7",
+        "level": 3,
+        "chunk_content": "再热联合汽阀combined reheat valve 再热主汽阀与再热调节汽阀组合成一体，主汽阀和调节阀共用一个阀座，两阀杆轴心同轴的阀门。",
+        "path": "汽轮机  > 本体阀门及管道  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.7.8",
+        "level": 3,
+        "chunk_content": "预启阀equalizing valve 为减轻阀门提升力设置的，或内置或外置的可预先开启的旁通阀。",
+        "path": "汽轮机  > 本体阀门及管道  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.7.9",
+        "level": 3,
+        "chunk_content": "抽汽逆止阀extraction check valve 故障及紧急情况下防止蒸汽和水由抽汽管向汽轮机倒流的快速关闭阀。",
+        "path": "汽轮机  > 本体阀门及管道  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.8",
+        "level": 2,
+        "chunk_content": "调节、保安和控制系统 ",
+        "path": "汽轮机  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.8.1",
+        "level": 3,
+        "chunk_content": "调节系统governing system 控制汽轮机转速和输出功率或抽汽压力以维持机组正常运行的设备与仪器的组合。",
+        "path": "汽轮机  > 调节、保安和控制系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.8.2",
+        "level": 3,
+        "chunk_content": "机械液压调节系统mechanical hydraulic control system 按机械、液压原理设计的敏感元件和液压执行机构等部件组成的汽轮机调节系统。",
+        "path": "汽轮机  > 调节、保安和控制系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.8.3",
+        "level": 3,
+        "chunk_content": "电液转换器electro hydraulic servovalve 将电信号转换为液压信号的机构。",
+        "path": "汽轮机  > 调节、保安和控制系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.8.4",
+        "level": 3,
+        "chunk_content": "电液调节系统electro hydraulic control system DL/T893-XXXX     汽轮机的蒸汽压力、功率、转速等参数的电信号经综合与放大后，通过电液转换器操纵液压执行机构，以控制汽轮机运行的调节系统。",
+        "path": "汽轮机  > 调节、保安和控制系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.8.5",
+        "level": 3,
+        "chunk_content": "数字式电液调节系统digital electro hydraulic control system 利用数字计算机实现电信号综合与放大的电液调节系统。",
+        "path": "汽轮机  > 调节、保安和控制系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.8.6",
+        "level": 3,
+        "chunk_content": "模拟式电液调节系统analogical electro hydraulic control system   利用模拟计算机或分立元件实现电信号综合与放大的电液调节系统。",
+        "path": "汽轮机  > 调节、保安和控制系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.8.7",
+        "level": 3,
+        "chunk_content": "调速器speed governor 调速装置中感受汽轮机转速变化，并输出相应物理量变化信号使调节汽阀动作的转速敏感机构。",
+        "path": "汽轮机  > 调节、保安和控制系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.8.8",
+        "level": 3,
+        "chunk_content": "机械离心式调速器mechanical–centrifugal speed governor 利用由主轴带动旋转的飞锤使离心力与弹簧或钢带弹性力的平衡关系产生转速变化信号的调速器。",
+        "path": "汽轮机  > 调节、保安和控制系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.8.9",
+        "level": 3,
+        "chunk_content": "液压式调速器hydraulic speed governor 利用由主轴带动旋转的压力油输送装置的出口油压或进出口油压压差随转速变化的关系产生转速变化信号的调速器。",
+        "path": "汽轮机  > 调节、保安和控制系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.9",
+        "level": 2,
+        "chunk_content": "本体辅助设备 ",
+        "path": "汽轮机  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.9.1",
+        "level": 3,
+        "chunk_content": "调节油系统control oil system DL/T893-XXXX     采用液压调节或电液调节系统的汽轮机中，提供调节系统及控制系统等设备的油动机所用压力油的供油系统。向汽轮机调节保安系统相关部件提供高质量工作油的供油系统。对于中低压汽轮机，该系统与汽轮机润滑油公用，其油质为透平油；对于高压以上汽轮机采用单独的抗燃油系统。",
+        "path": "汽轮机  > 本体辅助设备  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.9.2",
+        "level": 3,
+        "chunk_content": "润滑油系统lubricating oil system   向汽轮发电机组轴承、传动装置及其附属设备提供一定温度和压力的洁净润滑油，对设备进行润滑和冷却，以保证机组安全可靠运行的系统，包括油箱、油泵、滤油器、冷油器、阀门和管道等部件。",
+        "path": "汽轮机  > 本体辅助设备  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.9.3",
+        "level": 3,
+        "chunk_content": "主油泵main oil pump   汽轮机运行时，为调节油系统及润滑油系统提供压力油的泵。向汽轮发电机组各个轴承及盘车装置提供压力润滑油的泵。",
+        "path": "汽轮机  > 本体辅助设备  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.9.4",
+        "level": 3,
+        "chunk_content": "辅助油泵auxiliary oil pump 又称交流事故油泵，在起动或主油泵发生故障时，为调节油系统及润滑油系统提供压力油的泵。",
+        "path": "汽轮机  > 本体辅助设备  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.9.5",
+        "level": 3,
+        "chunk_content": "事故油泵emergency oil pump 又称备用润滑油泵、直流事故油泵,辅助润滑油泵的备用泵，在交流电源或者辅助润滑油泵发生故障时轴承油压过低时自动起动供给润滑油的泵。",
+        "path": "汽轮机  > 本体辅助设备  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.9.6",
+        "level": 3,
+        "chunk_content": "顶轴油泵jacking oil pump 起动和停机时，为减轻转子的旋转摩擦力并保护轴颈和轴瓦而向轴承注入高压油的泵。大容量汽轮发电机组起动和停机的盘车阶段时，为顶起转子轴径建立各个轴颈和轴瓦之间油膜、防止其摩擦损坏而向轴承注入高压油的泵。",
+        "path": "汽轮机  > 本体辅助设备  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.9.7",
+        "level": 3,
+        "chunk_content": "高压启动油泵High pressure starting oil pump   ",
+        "path": "汽轮机  > 本体辅助设备  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.9.8",
+        "level": 3,
+        "chunk_content": "汽轮机组在起动和停机时，代替主油泵向汽轮机油系统提供高压油的油泵，也可在机组主油泵故障时，能替代主油泵向机组油系统供油。油透平oil turbine 又称油涡轮，是润滑油系统中主油泵入口前的升压泵驱动装置，用由主油泵出口的压力油驱动的小透平。",
+        "path": "汽轮机  > 本体辅助设备  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.9.9",
+        "level": 3,
+        "chunk_content": "增压油泵booster oil pump   用油透平驱动向主油泵供给压力油的泵。",
+        "path": "汽轮机  > 本体辅助设备  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.10",
+        "level": 2,
+        "chunk_content": "汽轮机运行 ",
+        "path": "汽轮机  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.10.1",
+        "level": 3,
+        "chunk_content": "暖机warm-up/heat soak 送入少量蒸汽使汽轮机在较低转速下维持一段时间运行，使部件均匀受热膨胀的操作过程。",
+        "path": "汽轮机  > 汽轮机运行  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.10.2",
+        "level": 3,
+        "chunk_content": "停机shut down   机组从带负荷运行状态→减去全部负荷→解列发电机→切断汽轮机进汽→转子静止→投入盘车等的过程。DL/T893-XXXX     ",
+        "path": "汽轮机  > 汽轮机运行  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.10.3",
+        "level": 3,
+        "chunk_content": "破坏真空停机vacuum break shut down 打开真空破坏阀，使空气进入凝汽器缩短汽轮机停机时空转时间的操作过程。",
+        "path": "汽轮机  > 汽轮机运行  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.10.4",
+        "level": 3,
+        "chunk_content": "起动start-up   汽轮机从静止状态升速到带到规定负荷状态的运行过程。",
+        "path": "汽轮机  > 汽轮机运行  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.10.5",
+        "level": 3,
+        "chunk_content": "冷态起动cold startup   汽轮机停机超过72h（某些部件如高压内缸的金属温度已下降至约为其满负荷值的 40%以下）的重新起动。",
+        "path": "汽轮机  > 汽轮机运行  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.10.6",
+        "level": 3,
+        "chunk_content": "温态起动warm startup   汽轮机停机在10 至 72h 之间（某些部件如高压内缸的金属温度约为其满负荷值的 40%至 80%之间）的重新起动。",
+        "path": "汽轮机  > 汽轮机运行  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.10.7",
+        "level": 3,
+        "chunk_content": "热态起动hot startup   汽轮机停机不到10h（某些部件如高压内缸的金属温度约为其满负荷值的 80%以上）的重新起动。 ",
+        "path": "汽轮机  > 汽轮机运行  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.10.8",
+        "level": 3,
+        "chunk_content": "极热态起动very hot start-up   汽轮机在脱扣后1h 以内（某些部件如高压内缸的金属温度仍维持或接近满负荷时的温度值）的重新起动。",
+        "path": "汽轮机  > 汽轮机运行  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.10.9",
+        "level": 3,
+        "chunk_content": "高、中压缸联合起动hybrid start-up of high-medium pressure cylinder couplet 汽轮机起动时，高、中缸同时进汽，冲转、升速、带负荷的过程。",
+        "path": "汽轮机  > 汽轮机运行  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.11",
+        "level": 2,
+        "chunk_content": "寿命和可靠性 ",
+        "path": "汽轮机  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.11.1",
+        "level": 3,
+        "chunk_content": "寿命life   零部件从投运直至由于损伤失效或经济性等原因，不能继续服役经历的总时间。",
+        "path": "汽轮机  > 寿命和可靠性  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.11.2",
+        "level": 3,
+        "chunk_content": "设计寿命design life 在设计条件下保证安全经济运行的最小预计运行时间。",
+        "path": "汽轮机  > 寿命和可靠性  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.11.3",
+        "level": 3,
+        "chunk_content": "剩余寿命residual life   构件或设备系统安全运行寿命与已消耗寿命的差值。",
+        "path": "汽轮机  > 寿命和可靠性  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.11.4",
+        "level": 3,
+        "chunk_content": "寿命预测life prediction 采用科学方法分析构件、系统或汽轮发电机组可能的安全运行时间。DL/T893-XXXX ",
+        "path": "汽轮机  > 寿命和可靠性  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.11.5",
+        "level": 3,
+        "chunk_content": "延寿评估life-extension assessment ",
+        "path": "汽轮机  > 寿命和可靠性  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.11.6",
+        "level": 3,
+        "chunk_content": "寿命诊断技术diagnosis technique for residual life   预测剩余寿命的试验、分析、监测和判断技术。",
+        "path": "汽轮机  > 寿命和可靠性  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.11.7",
+        "level": 3,
+        "chunk_content": "寿命损耗life loss/life consumption   由于疲劳、蠕变、蠕变疲劳、腐蚀、磨蚀和材质老化等因素引起的寿命消耗。",
+        "path": "汽轮机  > 寿命和可靠性  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.11.8",
+        "level": 3,
+        "chunk_content": "寿命管理life management 以评估被管理对象寿命损耗为基础，使电厂以最低成本安全运行的技术和管理方法。被管理的对象可以是部件、材料、设备、机组、电厂以至地区电力公司所属电厂和系统等。",
+        "path": "汽轮机  > 寿命和可靠性  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.11.9",
+        "level": 3,
+        "chunk_content": "役龄calendar age 从第一次投运算起，汽轮机经历的总的日历时间，以月或年表示。",
+        "path": "汽轮机  > 寿命和可靠性  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.12",
+        "level": 2,
+        "chunk_content": "性能与试验 ",
+        "path": "汽轮机  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.12.1",
+        "level": 3,
+        "chunk_content": "热力性能试验thermal performance test 测定汽轮发电机组的功率、热耗率、热效率等性能指标的试验。",
+        "path": "汽轮机  > 性能与试验  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.12.2",
+        "level": 3,
+        "chunk_content": "全面性试验full-scale test 对汽轮机和热力系统全面测试和计算，提供汽轮机高压、中压和低压单个组件的性能的试验。",
+        "path": "汽轮机  > 性能与试验  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.12.3",
+        "level": 3,
+        "chunk_content": "简化试验alternative test 对汽轮机和热力系统使用少量的测量值，根据试验目的提供需求资料的试验。DL/T893-XXXX ",
+        "path": "汽轮机  > 性能与试验  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.12.4",
+        "level": 3,
+        "chunk_content": "额定工况rated condition 在额定的主蒸汽参数、再热蒸汽参数以及规定的背压、补给水率为零条件下，不超过规定寿命时，发电机端子处的保证连续功率所运行的工况。注：此处背压应考虑冷却介质的全年平均温度。",
+        "path": "汽轮机  > 性能与试验  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.12.5",
+        "level": 3,
+        "chunk_content": "TRL（能力）工况turbine rated load condition 在额定的主蒸汽、再热蒸汽参数、夏季设计排汽压力、规定的补水率，发电机输出额定功率时的工况。",
+        "path": "汽轮机  > 性能与试验  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.12.6",
+        "level": 3,
+        "chunk_content": "最大连续出力工况（TMCR）turbine maximum continous   汽轮机主蒸汽流量为TRL 工况主蒸汽流量，在额定的主蒸汽参数、再热蒸汽参数，规定的排汽压力、补水率为0%的运行工况。 ",
+        "path": "汽轮机  > 性能与试验  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.12.7",
+        "level": 3,
+        "chunk_content": "阀全开工况（VWO）valve wide open conditon 汽轮机在调节汽阀全开，在额定进主蒸汽参数、再热蒸汽参数，规定的排汽压力、补水率为0%的运行工况。",
+        "path": "汽轮机  > 性能与试验  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.12.8",
+        "level": 3,
+        "chunk_content": "退高压加热器工况HP heater out of service with THA load condition 发电机功率与额定工况功率相同，在额定进主蒸汽参数、再热蒸汽参数，规定的排汽压力、补水率为0%，全部高压加热器退出运行的工况。 ",
+        "path": "汽轮机  > 性能与试验  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "2.12.9",
+        "level": 3,
+        "chunk_content": "经济工况economic condition 在规定的条件下汽轮发电机组发经济功率时的运行状况。",
+        "path": "汽轮机  > 性能与试验  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "3",
+        "level": 1,
+        "chunk_content": "汽轮机热力系统及旁路系统 ",
+        "path": ""
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "3.1",
+        "level": 2,
+        "chunk_content": "汽轮机热力系统 ",
+        "path": "汽轮机热力系统及旁路系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "3.1.1",
+        "level": 3,
+        "chunk_content": "热力系统thermal power system 按蒸汽热力循环完成热功转换的设备和系统的组合。",
+        "path": "汽轮机热力系统及旁路系统  > 汽轮机热力系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "3.1.2",
+        "level": 3,
+        "chunk_content": "给水加热系统feed water heating system 汽轮机的热力系统中利用汽轮机抽汽加热锅炉给水的汽水系统。",
+        "path": "汽轮机热力系统及旁路系统  > 汽轮机热力系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "3.1.3",
+        "level": 3,
+        "chunk_content": "给水加热器feed water heater 用汽轮机的抽汽加热锅炉给水的热交换器。",
+        "path": "汽轮机热力系统及旁路系统  > 汽轮机热力系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "3.1.4",
+        "level": 3,
+        "chunk_content": "给水温度feed water temperature 给水在最后一级加热器出口处的温度。",
+        "path": "汽轮机热力系统及旁路系统  > 汽轮机热力系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "3.1.5",
+        "level": 3,
+        "chunk_content": "除氧器deaerator 利用汽轮机的抽汽与给水混合，加热给水，除去水中的溶解氧和其他气体，同时提高给水温度的一种混合式加热器。",
+        "path": "汽轮机热力系统及旁路系统  > 汽轮机热力系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "3.1.6",
+        "level": 3,
+        "chunk_content": "凝汽设备condenser device 由凝汽器、凝结水泵、循环水泵和抽气设备等组成的使汽轮机排汽凝结成水的换热设备。",
+        "path": "汽轮机热力系统及旁路系统  > 汽轮机热力系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "3.1.7",
+        "level": 3,
+        "chunk_content": "热平衡计算heat balance calculation 根据汽轮机原理、工程热力学、流体力学等原理并根据汽轮机相关热力系统以及热力设备的进出口设计参数确定其热功转换或热交换的程度与效率等目标的热力计算过程。",
+        "path": "汽轮机热力系统及旁路系统  > 汽轮机热力系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "3.1.8",
+        "level": 3,
+        "chunk_content": "汽水分离再热器moisture separator reheater 用于除去饱和蒸汽汽轮机高压缸排汽中所含的水分并再热的装置。",
+        "path": "汽轮机热力系统及旁路系统  > 汽轮机热力系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "3.1.9",
+        "level": 3,
+        "chunk_content": "二回路secondary coolant circuit 用于循环二次冷却剂的系统。存在于具有两个以上回路的反应堆核电厂中。",
+        "path": "汽轮机热力系统及旁路系统  > 汽轮机热力系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "3.2",
+        "level": 2,
+        "chunk_content": "汽轮机旁路系统 ",
+        "path": "汽轮机热力系统及旁路系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "3.2.1",
+        "level": 3,
+        "chunk_content": "旁路系统bypass system 与汽轮机并联的蒸汽减温减压系统。",
+        "path": "汽轮机热力系统及旁路系统  > 汽轮机旁路系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "3.2.2",
+        "level": 3,
+        "chunk_content": "整体旁路系统integral bypass system 又称一级旁路系统(onestagebypass system)，蒸汽旁通整台汽轮机 ,经减温减压后直接引至凝汽器的汽轮机旁路系统。",
+        "path": "汽轮机热力系统及旁路系统  > 汽轮机旁路系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "3.2.3",
+        "level": 3,
+        "chunk_content": "高压旁路系统high pressure bypass system 蒸汽旁通汽轮机高压缸，经减温减压后直接引入高压缸排汽管道的汽轮机旁路系统。",
+        "path": "汽轮机热力系统及旁路系统  > 汽轮机旁路系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "3.2.4",
+        "level": 3,
+        "chunk_content": "低压旁路系统low pressure bypass system 蒸汽旁通汽轮机中低压缸，经减温减压后直接引入凝汽器的汽轮机旁路系统。",
+        "path": "汽轮机热力系统及旁路系统  > 汽轮机旁路系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "3.2.5",
+        "level": 3,
+        "chunk_content": "二级旁路系统twostage bypass system 高压旁路通过锅炉再热器后再连接低压旁路的串联旁路系统。",
+        "path": "汽轮机热力系统及旁路系统  > 汽轮机旁路系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "3.2.6",
+        "level": 3,
+        "chunk_content": "高压旁路容量capacity of high pressure bypass system 又称整体旁路容量（capacityof integral bypass system），蒸汽在额定参数下通过高压或整体旁路的最大流量(t/h)与锅炉最大连续蒸发量或额定蒸发量(t/h)的比值,以百分比表示。",
+        "path": "汽轮机热力系统及旁路系统  > 汽轮机旁路系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "3.2.7",
+        "level": 3,
+        "chunk_content": "低压旁路系统容量capacity of low pressure bypass system 再热蒸汽在额定参数下通过低压旁路(旁路阀全开时)的最大流量(t/h)与高压旁路容量为100%时的蒸汽出口流量的比值,以百分比表示。",
+        "path": "汽轮机热力系统及旁路系统  > 汽轮机旁路系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4",
+        "level": 1,
+        "chunk_content": "凝汽设备与冷却系统 ",
+        "path": ""
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.1",
+        "level": 2,
+        "chunk_content": "凝汽器种类与型式 ",
+        "path": "凝汽设备与冷却系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.1.1",
+        "level": 3,
+        "chunk_content": "凝汽器condenser 又称冷凝器，使汽轮机排汽冷却凝结成水并形成真空的换热器。",
+        "path": "凝汽设备与冷却系统  > 凝汽器种类与型式  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.1.2",
+        "level": 3,
+        "chunk_content": "表面式凝汽器surface condenser 又称间壁式凝汽器，汽轮机排汽不直接与水或其他冷却介质接触的凝汽器。",
+        "path": "凝汽设备与冷却系统  > 凝汽器种类与型式  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.1.3",
+        "level": 3,
+        "chunk_content": "混合式凝汽器mixing condenser 又称接触式凝汽器，汽轮机排汽与冷却水直接接触的凝汽器。",
+        "path": "凝汽设备与冷却系统  > 凝汽器种类与型式  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.1.4",
+        "level": 3,
+        "chunk_content": "多压凝汽器multipressure condenser 由多个不同工作压力、互不相通汽室组成的凝汽器。从同一台汽轮机多个排汽口排出的不同压力的排汽，进入相对应的汽室，被同一股串行流过的冷却水冷却，凝结成不同温度的凝结水。",
+        "path": "凝汽设备与冷却系统  > 凝汽器种类与型式  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.2",
+        "level": 2,
+        "chunk_content": "凝汽设备与冷却系统 ",
+        "path": "凝汽设备与冷却系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.2.1",
+        "level": 3,
+        "chunk_content": "冷端系统cold end system 又称排热系统（heatsink），由汽轮机低压排汽缸、凝汽器、冷却水系统、抽真空系统及部分其DL/T893-XXXX 他设备组成的系统。",
+        "path": "凝汽设备与冷却系统  > 凝汽设备与冷却系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.2.2",
+        "level": 3,
+        "chunk_content": "凝结水condensate water 又称冷凝水（condensingwater），汽轮机排汽在凝汽器中凝结成的水。 ",
+        "path": "凝汽设备与冷却系统  > 凝汽设备与冷却系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.2.3",
+        "level": 3,
+        "chunk_content": "冷却水cooling water 又称循环水（circulatingwater），吸收凝汽器中蒸汽的热量，并使蒸汽凝结成水的冷却介质。 ",
+        "path": "凝汽设备与冷却系统  > 凝汽设备与冷却系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.2.4",
+        "level": 3,
+        "chunk_content": "凝结水流量condensate flow rate 单位时间内凝结的凝结水量。",
+        "path": "凝汽设备与冷却系统  > 凝汽设备与冷却系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.2.5",
+        "level": 3,
+        "chunk_content": "凝结水温度condensate temperature 凝结水在凝汽器热井内的温度。",
+        "path": "凝汽设备与冷却系统  > 凝汽设备与冷却系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.2.6",
+        "level": 3,
+        "chunk_content": "冷却水流量cooling water flow rate 单位时间内通过凝汽器的冷却水量。",
+        "path": "凝汽设备与冷却系统  > 凝汽设备与冷却系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.2.7",
+        "level": 3,
+        "chunk_content": "冷却水温度cooling water temperature 冷却水在凝汽器进口处的温度。",
+        "path": "凝汽设备与冷却系统  > 凝汽设备与冷却系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.2.8",
+        "level": 3,
+        "chunk_content": "冷却水温升cooling water temperature rise 冷却水在凝汽器出口处的温度与冷却水温度之差。",
+        "path": "凝汽设备与冷却系统  > 凝汽设备与冷却系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.2.9",
+        "level": 3,
+        "chunk_content": "凝结水含氧量oxygen content of condensate 溶解在单位质量凝结水中的氧气量。",
+        "path": "凝汽设备与冷却系统  > 凝汽设备与冷却系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.3",
+        "level": 2,
+        "chunk_content": "凝汽器结构及零部件 ",
+        "path": "凝汽设备与冷却系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.3.1",
+        "level": 3,
+        "chunk_content": "喉部throat 凝汽器接受汽轮机排汽的进口部分。",
+        "path": "凝汽设备与冷却系统  > 凝汽器结构及零部件  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.3.2",
+        "level": 3,
+        "chunk_content": "DL/T893-XXXX 冷却水管coolingwater tube 表面式凝汽器中通过冷却水凝结蒸汽的换热管。",
+        "path": "凝汽设备与冷却系统  > 凝汽器结构及零部件  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.3.3",
+        "level": 3,
+        "chunk_content": "管束tube bundle 又称管簇，一定数量的冷却水管按规定方式排列在一起的组合体。",
+        "path": "凝汽设备与冷却系统  > 凝汽器结构及零部件  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.3.4",
+        "level": 3,
+        "chunk_content": "水室water chamber 表面式凝汽器中管束两端汇集冷却水的腔室。",
+        "path": "凝汽设备与冷却系统  > 凝汽器结构及零部件  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.3.5",
+        "level": 3,
+        "chunk_content": "热井hot well 又称凝结水汇集箱，表面式凝汽器底部汇集凝结水的容器。",
+        "path": "凝汽设备与冷却系统  > 凝汽器结构及零部件  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.3.6",
+        "level": 3,
+        "chunk_content": "凝汽区condensing zone 又称凝结区（coolingzone），表面式凝汽器中使汽轮机排汽和其他方面排来的蒸汽的绝大部分凝结为水的区域。",
+        "path": "凝汽设备与冷却系统  > 凝汽器结构及零部件  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.3.7",
+        "level": 3,
+        "chunk_content": "空气冷却区air cooling zone 凝汽器中空气抽出前专门设置的冷却汽-气混合物的管束区域。",
+        "path": "凝汽设备与冷却系统  > 凝汽器结构及零部件  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.3.8",
+        "level": 3,
+        "chunk_content": "管子有效长度effective length of tube 表面式凝汽器中两端管板内侧面之间冷却水管的长度。",
+        "path": "凝汽设备与冷却系统  > 凝汽器结构及零部件  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.3.9",
+        "level": 3,
+        "chunk_content": "管板tube plate 安装与固定冷却水管并将冷却水和蒸汽隔开的部件。",
+        "path": "凝汽设备与冷却系统  > 凝汽器结构及零部件  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.4",
+        "level": 2,
+        "chunk_content": "凝汽设备与冷却系统辅助设备 ",
+        "path": "凝汽设备与冷却系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.4.1",
+        "level": 3,
+        "chunk_content": "凝结水泵condensate pump 用以把凝汽器中的凝结水抽出并泵送到除氧器的泵。",
+        "path": "凝汽设备与冷却系统  > 凝汽设备与冷却系统辅助设备  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.4.2",
+        "level": 3,
+        "chunk_content": "循环水泵circulating water pump 向凝汽器输送冷却水的泵。",
+        "path": "凝汽设备与冷却系统  > 凝汽设备与冷却系统辅助设备  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.4.3",
+        "level": 3,
+        "chunk_content": "罗茨真空泵roots vacuum pump 泵内装有两个相反方向同步旋转的叶形转子，转子间、转子与泵壳内壁间有细小间隙而互不接触的一种变容真空泵。",
+        "path": "凝汽设备与冷却系统  > 凝汽设备与冷却系统辅助设备  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.4.4",
+        "level": 3,
+        "chunk_content": "水环式真空泵water ring vacuum pump 带有叶片的叶轮偏心安装在泵壳中的一种容积式泵。叶轮在泵壳中旋转形成水环，其作用相当于一个活塞，依靠改变体积抽出空气形成真空，用以抽出凝汽器内部的空气的一种装置。",
+        "path": "凝汽设备与冷却系统  > 凝汽设备与冷却系统辅助设备  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.4.5",
+        "level": 3,
+        "chunk_content": "起动抽气器startup ejector DL/T893-XXXX     汽轮机起动时使用的抽气器。",
+        "path": "凝汽设备与冷却系统  > 凝汽设备与冷却系统辅助设备  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.4.6",
+        "level": 3,
+        "chunk_content": "射水抽气器water jet air ejector 以水为工质的抽气器。",
+        "path": "凝汽设备与冷却系统  > 凝汽设备与冷却系统辅助设备  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.4.7",
+        "level": 3,
+        "chunk_content": "射汽抽气器steam jet air ejector 以蒸汽为工质的抽气器。",
+        "path": "凝汽设备与冷却系统  > 凝汽设备与冷却系统辅助设备  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.4.8",
+        "level": 3,
+        "chunk_content": "中间冷却器intercooler 将多级抽气器前级抽出的蒸汽和空气的混合物中的部分蒸汽凝结,使空气冷却，然后引入后一级的装置。",
+        "path": "凝汽设备与冷却系统  > 凝汽设备与冷却系统辅助设备  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.4.9",
+        "level": 3,
+        "chunk_content": "后冷却器aftercooler 在多级抽气器后使抽出的蒸汽凝结，并将空气排入大气的装置。",
+        "path": "凝汽设备与冷却系统  > 凝汽设备与冷却系统辅助设备  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.5",
+        "level": 2,
+        "chunk_content": "空冷式凝汽设备 ",
+        "path": "凝汽设备与冷却系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.5.1",
+        "level": 3,
+        "chunk_content": "空气凝汽器air condenser 以空气作为冷却介质，使汽轮机排汽直接冷却凝结成水的表面式换热器。",
+        "path": "凝汽设备与冷却系统  > 空冷式凝汽设备  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.5.2",
+        "level": 3,
+        "chunk_content": "空气冷却器air cooler 以空气作为冷却介质，对吸收汽轮机排汽热量后的冷却水或其他冷却介质进行冷却的表面式换热器。",
+        "path": "凝汽设备与冷却系统  > 空冷式凝汽设备  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.5.3",
+        "level": 3,
+        "chunk_content": "空气冷却塔air cooling tower 又称空冷岛或干式冷却塔，装有空气凝汽器或空气冷却器的塔形建筑物。",
+        "path": "凝汽设备与冷却系统  > 空冷式凝汽设备  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.5.4",
+        "level": 3,
+        "chunk_content": "喷射式凝汽器jet condenser 冷却水由高压喷管组喷入并凝结汽轮机排汽的混合式凝汽器。",
+        "path": "凝汽设备与冷却系统  > 空冷式凝汽设备  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.5.5",
+        "level": 3,
+        "chunk_content": "干式冷却系统dry cooling system 以空气为冷却介质直接或间接地将汽轮机排汽热量带走的冷却系统。DL/T893-XXXX ",
+        "path": "凝汽设备与冷却系统  > 空冷式凝汽设备  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.5.6",
+        "level": 3,
+        "chunk_content": "直接干式冷却系统direct dry cooling system 采用空气凝汽器的干式冷却系统。",
+        "path": "凝汽设备与冷却系统  > 空冷式凝汽设备  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.5.7",
+        "level": 3,
+        "chunk_content": "间接干式冷却系统indirect dry cooling system 采用空气冷却器的干式冷却系统。",
+        "path": "凝汽设备与冷却系统  > 空冷式凝汽设备  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.5.8",
+        "level": 3,
+        "chunk_content": "海勒系统Heller system 采用喷射式凝汽器的间接干式冷却系统。",
+        "path": "凝汽设备与冷却系统  > 空冷式凝汽设备  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.5.9",
+        "level": 3,
+        "chunk_content": "哈蒙系统Hamon system 采用表面式凝汽器的间接干式冷却系统。",
+        "path": "凝汽设备与冷却系统  > 空冷式凝汽设备  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.6",
+        "level": 2,
+        "chunk_content": "凝汽器运行及清洗 ",
+        "path": "凝汽设备与冷却系统  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.6.1",
+        "level": 3,
+        "chunk_content": "真空下降率vacuum decreasing rate 凝汽器真空降低的速率。",
+        "path": "凝汽设备与冷却系统  > 凝汽器运行及清洗  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.6.2",
+        "level": 3,
+        "chunk_content": "凝汽器性能试验condenser performance test 凝汽器传热、除氧和气密性等性能的试验。",
+        "path": "凝汽设备与冷却系统  > 凝汽器运行及清洗  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.6.3",
+        "level": 3,
+        "chunk_content": "凝汽器变工况off design conditions of condenser 凝汽器在非设计条件下的工况。",
+        "path": "凝汽设备与冷却系统  > 凝汽器运行及清洗  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.6.4",
+        "level": 3,
+        "chunk_content": "凝汽器特性condenser characteristics 凝汽器压力随凝结蒸汽量、冷却水进口温度及冷却水流量变化的规律。",
+        "path": "凝汽设备与冷却系统  > 凝汽器运行及清洗  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.6.5",
+        "level": 3,
+        "chunk_content": "机械清洗mechanical cleaning 用专门工具清除冷却水管中污垢物的方法。",
+        "path": "凝汽设备与冷却系统  > 凝汽器运行及清洗  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.6.6",
+        "level": 3,
+        "chunk_content": "化学清洗chemical cleaning 采用适当浓度的酸和缓蚀剂清除冷却水管中污垢物的方法。",
+        "path": "凝汽设备与冷却系统  > 凝汽器运行及清洗  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.6.7",
+        "level": 3,
+        "chunk_content": "水力清洗hydraulic cleaning 采用高压水冲刷清除冷却水管中污垢物的方法。",
+        "path": "凝汽设备与冷却系统  > 凝汽器运行及清洗  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.6.8",
+        "level": 3,
+        "chunk_content": "胶球清洗sponge ball cleaning 用特制的海绵橡胶球连续通过凝汽器冷却水管清除管内壁上污垢物的方法。",
+        "path": "凝汽设备与冷却系统  > 凝汽器运行及清洗  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "4.6.9",
+        "level": 3,
+        "chunk_content": "炉烟处理flue gas water treatment 将炉烟通入冷却水，降低水的碱度防止冷却水管结垢的方法。",
+        "path": "凝汽设备与冷却系统  > 凝汽器运行及清洗  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "5",
+        "level": 1,
+        "chunk_content": "给水加热设备 DL/T893-XXXX     ",
+        "path": ""
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "5.1",
+        "level": 2,
+        "chunk_content": "加热器种类与形式 ",
+        "path": "给水加热设备 DL/T893-XXXX      > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "5.1.1",
+        "level": 3,
+        "chunk_content": "混合式加热器mixing heater 接触式加热器direct contact heater 汽轮机抽汽与给水直接接触的给水加热器。",
+        "path": "给水加热设备 DL/T893-XXXX      > 加热器种类与形式  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "5.1.2",
+        "level": 3,
+        "chunk_content": "表面式加热器surface heater 又称间壁式加热器，汽轮机抽汽与给水在不同通道流动通过传热表面传热的给水加热器。",
+        "path": "给水加热设备 DL/T893-XXXX      > 加热器种类与形式  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "5.1.3",
+        "level": 3,
+        "chunk_content": "管壳式加热器shellandtube heater 又称管式加热器，抽汽在管外表面加热管内流动给水的表面式加热器。",
+        "path": "给水加热设备 DL/T893-XXXX      > 加热器种类与形式  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "5.1.4",
+        "level": 3,
+        "chunk_content": "管板式加热器tubeinsheet heater 传热管与管板连接，并有水室作为给水进口和出口腔室的表面式加热器。",
+        "path": "给水加热设备 DL/T893-XXXX      > 加热器种类与形式  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "5.1.5",
+        "level": 3,
+        "chunk_content": "U形管式加热器    Utube type heater 传热管呈U 形，且其两端与管板连接的管板式加热器。 ",
+        "path": "给水加热设备 DL/T893-XXXX      > 加热器种类与形式  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "5.1.6",
+        "level": 3,
+        "chunk_content": "直管式加热器straighttube type heater 传热管为直管，并有水室作为进口和出口腔室的管板式加热器。",
+        "path": "给水加热设备 DL/T893-XXXX      > 加热器种类与形式  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "5.1.7",
+        "level": 3,
+        "chunk_content": "联箱式加热器header type heater 由给水进出口联箱和与其相连的传热管组成的表面式加热器。",
+        "path": "给水加热设备 DL/T893-XXXX      > 加热器种类与形式  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "5.1.8",
+        "level": 3,
+        "chunk_content": "螺旋管联箱式加热器coil tube headertype heater 传热面由水平螺旋管圈组成，在垂直方向排列成若干管组布置在立式壳体内的联箱式加热器。",
+        "path": "给水加热设备 DL/T893-XXXX      > 加热器种类与形式  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "5.1.9",
+        "level": 3,
+        "chunk_content": "蛇形管联箱式加热器serpentinetube headertype heater 传热面由若干平行的蛇形管屏组成的联箱式加热器。",
+        "path": "给水加热设备 DL/T893-XXXX      > 加热器种类与形式  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "5.2",
+        "level": 2,
+        "chunk_content": "加热器结构 ",
+        "path": "给水加热设备 DL/T893-XXXX      > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "5.2.1",
+        "level": 3,
+        "chunk_content": "加热器过热蒸汽冷却区heater desuperheating zone 在给水加热器中过热蒸汽冷却成为饱和蒸汽之前将热量传给给水的区域。",
+        "path": "给水加热设备 DL/T893-XXXX      > 加热器结构  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "5.2.2",
+        "level": 3,
+        "chunk_content": "加热器凝汽区heater condensing zone DL/T893-XXXX 在给水加热器中饱和蒸汽凝结时把热量传给给水的区域。",
+        "path": "给水加热设备 DL/T893-XXXX      > 加热器结构  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "5.2.3",
+        "level": 3,
+        "chunk_content": "加热器疏水冷却区heater drain cooling zone 给水加热器中，使汽轮机来的抽汽凝结成的水继续将热量传给给水的区域。",
+        "path": "给水加热设备 DL/T893-XXXX      > 加热器结构  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "5.2.4",
+        "level": 3,
+        "chunk_content": "过热蒸汽冷却器superheated steam cooler 利用蒸汽较高的过热度将给水加热到不低于抽汽压力下的饱和温度的换热器。",
+        "path": "给水加热设备 DL/T893-XXXX      > 加热器结构  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "5.2.5",
+        "level": 3,
+        "chunk_content": "疏水冷却器drain cooler 在疏水离开表面式加热器后，将热量传递给进入该级给水的换热器。",
+        "path": "给水加热设备 DL/T893-XXXX      > 加热器结构  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "5.3",
+        "level": 2,
+        "chunk_content": "给水加热系统辅助设备 ",
+        "path": "给水加热设备 DL/T893-XXXX      > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "5.3.1",
+        "level": 3,
+        "chunk_content": "加热器疏水系统heater drain system 将加热器疏水与相邻加热器等外部设备和系统相连的系统。",
+        "path": "给水加热设备 DL/T893-XXXX      > 给水加热系统辅助设备  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "5.3.2",
+        "level": 3,
+        "chunk_content": "疏水泵drain pump 将一级加热器疏水送入本级加热器出口给水管中的泵。",
+        "path": "给水加热设备 DL/T893-XXXX      > 给水加热系统辅助设备  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "5.3.3",
+        "level": 3,
+        "chunk_content": "危急疏水装置emergency drain device 当高压加热器水位突然升高时,紧急排出疏水的装置。",
+        "path": "给水加热设备 DL/T893-XXXX      > 给水加热系统辅助设备  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "5.3.4",
+        "level": 3,
+        "chunk_content": "疏水调节阀regulated drain valve 调整疏水流量控制加热器水位的阀门。",
+        "path": "给水加热设备 DL/T893-XXXX      > 给水加热系统辅助设备  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "5.3.5",
+        "level": 3,
+        "chunk_content": "给水自动旁路装置automatic feed water bypass device 当加热器出现事故时,自动切断给水进入事故加热器或事故加热器组直接进入后一级（或组）加热器或锅炉的装置。",
+        "path": "给水加热设备 DL/T893-XXXX      > 给水加热系统辅助设备  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "5.3.6",
+        "level": 3,
+        "chunk_content": "超压保护装置overpressure protection device 防止给水加热器管侧和壳侧压力超过允许值的设备，包括安全阀和报警装置。",
+        "path": "给水加热设备 DL/T893-XXXX      > 给水加热系统辅助设备  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "5.3.7",
+        "level": 3,
+        "chunk_content": "加热器空气排放系统heater air vent system 排放加热器壳侧空气或其他不凝结气体的系统。",
+        "path": "给水加热设备 DL/T893-XXXX      > 给水加热系统辅助设备  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "5.4",
+        "level": 2,
+        "chunk_content": "加热器性能与试验 ",
+        "path": "给水加热设备 DL/T893-XXXX      > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "5.4.1",
+        "level": 3,
+        "chunk_content": "加热器下端差heater initial temperature difference 又称疏水端差，加热器抽汽疏水出口温度与给水入口温度的差值。",
+        "path": "给水加热设备 DL/T893-XXXX      > 加热器性能与试验  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "5.4.2",
+        "level": 3,
+        "chunk_content": "加热器上端差terminal temperature difference of heater 抽汽在加热器进口压力对应的饱和温度与给水出口温度的差值。",
+        "path": "给水加热设备 DL/T893-XXXX      > 加热器性能与试验  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "5.4.3",
+        "level": 3,
+        "chunk_content": "给水温升feed water temperature rise 加热器给水出口处温度与进口处温度之差。",
+        "path": "给水加热设备 DL/T893-XXXX      > 加热器性能与试验  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "5.4.4",
+        "level": 3,
+        "chunk_content": "管侧阻力tubeside pressure loss   又称给水压力损失feed water pressure loss 加热器给水进口压力与出口压力之差。DL/T893-XXXX     ",
+        "path": "给水加热设备 DL/T893-XXXX      > 加热器性能与试验  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "5.4.5",
+        "level": 3,
+        "chunk_content": "壳侧阻力shell side pressure loss 加热器蒸汽进口压力与疏水出口压力之差。",
+        "path": "给水加热设备 DL/T893-XXXX      > 加热器性能与试验  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "5.4.6",
+        "level": 3,
+        "chunk_content": "给水泵feedwater pump 将除氧器水箱中抽出的水、加压并输送到锅炉的泵。",
+        "path": "给水加热设备 DL/T893-XXXX      > 加热器性能与试验  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "5.4.7",
+        "level": 3,
+        "chunk_content": "液力联轴器hydraulic coupling 利用液力传递扭转力矩的变速装置。",
+        "path": "给水加热设备 DL/T893-XXXX      > 加热器性能与试验  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "5.5",
+        "level": 2,
+        "chunk_content": "加热器运行与维护 ",
+        "path": "给水加热设备 DL/T893-XXXX      > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "5.5.1",
+        "level": 3,
+        "chunk_content": "加热器投运率heater operation rate 在统计时间内（一般为一年），加热器投运小时数与汽轮发电机组运行小时数的比值，以百分数表示。",
+        "path": "给水加热设备 DL/T893-XXXX      > 加热器运行与维护  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "5.5.2",
+        "level": 3,
+        "chunk_content": "加热器堵管率heater tubeblocking rate 加热器被堵传热管数与总传热管数之比，以百分数表示。",
+        "path": "给水加热设备 DL/T893-XXXX      > 加热器运行与维护  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "5.5.3",
+        "level": 3,
+        "chunk_content": "加热器温升率heater temperature rise rate 加热器给水温度在单位时间内升高的数值。",
+        "path": "给水加热设备 DL/T893-XXXX      > 加热器运行与维护  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "5.5.4",
+        "level": 3,
+        "chunk_content": "加热器降温率heater temperature decrease rate 加热器给水温度在单位时间内降低的数值。",
+        "path": "给水加热设备 DL/T893-XXXX      > 加热器运行与维护  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "6",
+        "level": 1,
+        "chunk_content": "给水除氧设备 ",
+        "path": ""
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "6.1",
+        "level": 2,
+        "chunk_content": "除氧设备种类与型式 ",
+        "path": "给水除氧设备  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "6.1.1",
+        "level": 3,
+        "chunk_content": "化学除氧chemical deaeration 根据化学原理除去水中溶解的氧气等气体的方法。",
+        "path": "给水除氧设备  > 除氧设备种类与型式  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "6.1.2",
+        "level": 3,
+        "chunk_content": "热力除氧thermal deaeration 利用加热给水除去水中溶解的氧气等气体的方法。",
+        "path": "给水除氧设备  > 除氧设备种类与型式  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "6.1.3",
+        "level": 3,
+        "chunk_content": "真空除氧vacuum deaeration 在真空状态下采用的一种热力除氧方法。",
+        "path": "给水除氧设备  > 除氧设备种类与型式  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "6.1.4",
+        "level": 3,
+        "chunk_content": "高压式除氧器high pressure deaerator 压力式除氧器工作压力（表压）大于0.098MPa 的除氧器。 ",
+        "path": "给水除氧设备  > 除氧设备种类与型式  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "6.1.5",
+        "level": 3,
+        "chunk_content": "大气式除氧器atmospheric deaerator 工作压力（表压）为（0.066～0.098）MPa的除氧器。 ",
+        "path": "给水除氧设备  > 除氧设备种类与型式  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "6.1.6",
+        "level": 3,
+        "chunk_content": "立式除氧器vertical deaerator 除氧头轴线与贮水箱中心线垂直的除氧器。",
+        "path": "给水除氧设备  > 除氧设备种类与型式  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "6.1.7",
+        "level": 3,
+        "chunk_content": "卧式除氧器horizontal type deaerator DL/T893-XXXX 除氧头轴线与贮水箱中心线平行的除氧器。",
+        "path": "给水除氧设备  > 除氧设备种类与型式  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "6.1.8",
+        "level": 3,
+        "chunk_content": "喷雾淋盘式除氧器spray tray deaerator 具有喷嘴和淋水盘的除氧器。",
+        "path": "给水除氧设备  > 除氧设备种类与型式  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "6.1.9",
+        "level": 3,
+        "chunk_content": "喷雾填料式除氧器spray stuffing type deaerator 具有喷嘴和填料的除氧器。",
+        "path": "给水除氧设备  > 除氧设备种类与型式  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "6.2",
+        "level": 2,
+        "chunk_content": "除氧设备结构及零部件 ",
+        "path": "给水除氧设备  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "6.2.1",
+        "level": 3,
+        "chunk_content": "除氧头deaeration head 除氧器中完成除氧主要任务的部件。",
+        "path": "给水除氧设备  > 除氧设备结构及零部件  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "6.2.2",
+        "level": 3,
+        "chunk_content": "除氧器喷嘴deaerator nozzle 除氧器中将除氧的水雾化成水滴的装置。",
+        "path": "给水除氧设备  > 除氧设备结构及零部件  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "6.2.3",
+        "level": 3,
+        "chunk_content": "淋水装置dripping device 使除氧水呈膜状或细小水流流下的装置。",
+        "path": "给水除氧设备  > 除氧设备结构及零部件  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "6.2.4",
+        "level": 3,
+        "chunk_content": "填料层filler layer 使除氧水呈膜状迂回流动，达到深度除氧的装置。",
+        "path": "给水除氧设备  > 除氧设备结构及零部件  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "6.2.5",
+        "level": 3,
+        "chunk_content": "除氧器贮水箱water storage tank of deaerator 贮存除氧后的给水和除氧用蒸汽凝结水的箱体。",
+        "path": "给水除氧设备  > 除氧设备结构及零部件  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "6.2.6",
+        "level": 3,
+        "chunk_content": "除氧器安全门safety valve of deaerator 为防止除氧器内部压力超过允许值设置的蒸汽排放装置。",
+        "path": "给水除氧设备  > 除氧设备结构及零部件  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "6.3",
+        "level": 2,
+        "chunk_content": "除氧设备运行 ",
+        "path": "给水除氧设备  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "6.3.1",
+        "level": 3,
+        "chunk_content": "除氧器定压运行fixed pressure operation of deaerator 无论机组负荷高低，除氧器压力始终维持为定值的运行方式。",
+        "path": "给水除氧设备  > 除氧设备运行  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "6.3.2",
+        "level": 3,
+        "chunk_content": "除氧器滑压运行sliding pressure operation of deaerator 除氧器压力随机组负荷的变化变化的运行方式。",
+        "path": "给水除氧设备  > 除氧设备运行  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "6.4",
+        "level": 2,
+        "chunk_content": "除氧设备性能 ",
+        "path": "给水除氧设备  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "6.4.1",
+        "level": 3,
+        "chunk_content": "除氧器出水温度outlet water temperature of deaerator 除氧器水箱出口处的水温。",
+        "path": "给水除氧设备  > 除氧设备性能  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "6.4.2",
+        "level": 3,
+        "chunk_content": "DL/T893-XXXX     除氧器出力deaerator output 除氧器在单位时间内输出符合规定溶解氧含量的给水量。",
+        "path": "给水除氧设备  > 除氧设备性能  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "6.4.3",
+        "level": 3,
+        "chunk_content": "除氧器额定出力deaerator rated output 在设计条件下运行时的除氧器出力。",
+        "path": "给水除氧设备  > 除氧设备性能  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "6.4.4",
+        "level": 3,
+        "chunk_content": "除氧器温升temperature rise of deaerator 除氧器中工作蒸汽压力相应的饱和温度与除氧器进水温度之差。",
+        "path": "给水除氧设备  > 除氧设备性能  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "6.4.5",
+        "level": 3,
+        "chunk_content": "出水含氧量oxygen content of outlet water 从除氧器中排出的单位质量水中氧的含量。",
+        "path": "给水除氧设备  > 除氧设备性能  > "
+    },
+    {
+        "doc_id": "85835",
+        "doc_name": "电站汽轮机名词术语",
+        "chunk_id": "6.4.6",
+        "level": 3,
+        "chunk_content": "除氧器暂态运行工况transient operation condition of deaerator 在机组甩负荷时，除氧器内压力突然降低，水箱内热水沸腾，使经过水泵的给水有可能汽化的工况。",
+        "path": "给水除氧设备  > 除氧设备性能  > "
+    }
+]

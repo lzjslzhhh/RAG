@@ -14,7 +14,7 @@ print("现有集合:", [col.name for col in collections.collections])
 # '光伏发电系统接入配电网时如何进行防孤岛保护检测?'光伏发电系统接入配电网检测规程.pdf11页
 # '电化学储能电站接入电网的额定能量如何进行测试?'电化学储能电站接入电网测试规程.pdf13页
 # '风力发电机在电网中的谐波电压适应性如何测试?'风力发电机组%20电网适应性测试规程.pdf第12页
-query_text = '光伏发电系统接入配电网时无功功率调节的测试功率区间如何划分？'
+query_text = '主动干预型消弧装置能够有效熄灭接地电弧，从而降低单相接地故障对人身和设备的危害。'
 query_vector = model.encode(query_text, normalize_embeddings=True)
 search_result = client.query_points(
     collection_name=COLLECTION_NAME,

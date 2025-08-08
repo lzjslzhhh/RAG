@@ -69,7 +69,16 @@ def generate_prompt_a3(inputs):
 
     return f"""
     请用纯文本格式回答，不要包含Markdown、代码块等特殊格式,可能存在ocr识别错误（如："整定值"可能被误识别为"设定值"）,请按照你的理解纠正：
-
+    1. **题型判断**：
+    - 陈述句→判断题
+    - 含选项编号(A/B/C)或"下列哪项"→单选题
+    - 含下划线"___"或疑问句→填空题
+     不用输出判断题型、仅当作划分输出规范的依据、按从上到下的优先级判断
+     2. **输出规范**：
+    - 判断题→仅输出"正确"或"错误"（无需解释）
+    - 选择题→仅输出选项字母（如"A"）仅有一个正确选项
+    - 填空题→仅输出缺失内容（含下划线）或正常回答疑问句
+    - 对于单选和判断、禁止输出解析或选项内容
     【权威依据】
     {context}
     请根据信息回答以下问题，仅给出回答即可，不需要给出思考过程：
@@ -83,6 +92,18 @@ def generate_prompt_a4(inputs):
 
     return f"""
     请你扮演一位具有深厚电力系统背景的智能助手，针对电网相关的技术规程、检测标准、控制规范等文档内容，进行**严谨、分步骤**的推理和问答。请务必严格依赖提供的上下文，不得编造内容。
+    要求如下：
+    1. **题型判断**：
+    - 陈述句→判断题
+    - 含选项编号(A/B/C)→单选题
+    - 含下划线或疑问句→填空题
+     不用输出判断题型、仅当作划分输出规范的依据、按从上到下的优先级判断
+    2.对于单选和判断、请将最终答案置于<answer>和</answer>之间。
+    3. **电力特化要求**：
+   - 涉及安全规程时自动引用GB/T标准条款
+   - 参数题保留单位（kV/MW/Hz）
+   - 保护定值题标注误差范围（±5%）
+    
     【权威依据】
     {context}
     ---
@@ -97,13 +118,13 @@ def generate_prompt_a4(inputs):
     8. **最终回答** :对于操作规程和技术规范等，按照你的表述逐条给出，不许进行总结或简化，回答中仅包含最终答案即可
     问题如下：
     {question}
-    请开始逐步推理并给出答案，仅给出回答即可，不需要给出思考过程：
+    请开始逐步推理并给出答案，严格遵循给出的根据不同问题类型的输出规范，仅给出回答即可，不需要给出思考过程：
     """
 
 
 def build_rag_chain(isA3=True):
     vectorstore, client = load_qdrant_vectorstore()
-    retriever = vectorstore.as_retriever(search_type="similarity", search_kwargs={'k': 5})
+    retriever = vectorstore.as_retriever(search_type="similarity", search_kwargs={'k': 3})
     # test_docs = retriever.invoke("光伏发电防孤岛保护")
     # print(f"检索到文档数: {len(test_docs)}")
     # for doc in test_docs:
@@ -114,7 +135,7 @@ def build_rag_chain(isA3=True):
     #     template=template,
     # )
 
-    llm = load_llm()
+    llm = load_llm(enable_thinking=True)
 
     # 文档格式化处理器
     def format_doc(doc):
@@ -122,8 +143,8 @@ def build_rag_chain(isA3=True):
         metadata = doc.metadata
         return (
             f"【{metadata.get('source', '未命名文档')}】\n"
-            f"标准号：{metadata.get('standard_id', '未知')} | "
-            f"条款：{metadata.get('chunk', '无')}\n"
+            f"文档id：{metadata.get('doc_id', '未知')} | "
+            f"条款：{metadata.get('chunk_id', '无')}\n"
             f"内容：{content[:500]}{'...' if len(content) > 500 else ''}"
         )
 
@@ -188,7 +209,7 @@ def build_rag_chain(isA3=True):
                 "metadata": lambda x: {
                     "type": x["question_type"],
                     "sources": [
-                        f"{doc.metadata.get('standard_id', '未知')} {doc.metadata.get('chunk_id', '无')}"
+                        f"{doc.metadata.get('doc_id', '未知')} {doc.metadata.get('source', '未知')} {doc.metadata.get('chunk_id', '无')}"
                         for doc in x["docs"]
                     ],
                     "contexts": [

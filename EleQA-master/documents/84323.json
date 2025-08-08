@@ -1,0 +1,714 @@
+[
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "1",
+        "level": 1,
+        "chunk_content": "范围 本文件规定了混合式高压直流断路器（以下简称直流断路器）相关的术语和定义。本文件适用于100kV及以上电压等级的混合式直流断路器，其他电压等级的混合式直流断路器或机械式直流断路器可参照使用。",
+        "path": ""
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "2",
+        "level": 1,
+        "chunk_content": "规范性引用文件 下列文件中的内容通过文中的规范性引用而构成本文件必不可少的条款。其中，注日期的引用文件，仅该日期对应的版本适用于本文件；不注日期的引用文件，其最新版本（包括所有的修改单）适用于本文件。GB1984—2003 GB/T2900.20—2016 GB/T2900.32—1994 GB11032—2010 GB/T13498—2017 GB/T30425 高压交流断路器电工术语高压开关设备与控制设备 电工术语电力半导体器件 交流无间隙金属氧化物避雷器高压直流输电术语高压直流输电换流阀水冷却设备",
+        "path": ""
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "3",
+        "level": 1,
+        "chunk_content": "术语和定义 本文件没有需要界定的术语和定义。",
+        "path": ""
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "4",
+        "level": 1,
+        "chunk_content": "符号和缩略语 ",
+        "path": ""
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "4.1",
+        "level": 2,
+        "chunk_content": "文字符号 直流电流额定电流主支路电流转移支路电流耗能支路电流主支路电压转移支路电压耗能支路电压快速机械开关电压以下所列仅覆盖最常用的符号，见图1。IdINIMBITBIEBUMBUTBUEBUmecUm_PE主支路电力电子开关电压 Ut_PEUMOV转移支路电力电子开关电压耗能支路金属氧化锌电阻器电压DL/TXXXX—XXXX UBULGUVGUTIVTLTV直流断路器端电压直流断路器线路侧对地电压直流断路器换流阀侧对地电压直流断路器暂态开断电压直流断路器线路侧端子直流断路器换流阀侧端子图1混合式高压直流断路器符号标识 ",
+        "path": "符号和缩略语  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "4.2",
+        "level": 2,
+        "chunk_content": "下标 dNGLV直流电流或电压额定值大地直流断路器线路侧直流断路器阀侧",
+        "path": "符号和缩略语  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "4.3",
+        "level": 2,
+        "chunk_content": "缩略语 下列缩略语适用于本文件。HVDCHVDCCBMBTBEBHDCCBTIVTMBIGBTIGCTIEGT高压直流(high-voltagedirect current) 高压直流断路器(high-voltagedirect current circuit breaker)(见5.1) 主支路(mainbranch)(见5.4) 转移支路(transferbranch)(见5.5) 耗能支路(energy dissipation branch)(见5. 6) 混合式直流断路器(hybriddirect current circuit breaker)(见5.2) 暂态开断电压(transientinterruption voltage)(见6.7) 触发与监控板(triggerand monitoring board)(见5.13) 绝缘栅双极晶体管(insulatedgate bipolar transistor)(见8.1.2) 集成门极换流晶闸管(integratedgate commutated thyristors)(见8.1.3) 栅极注入增强型晶体管(injectionenhanced gate transistor)(见8.1.4) 主支路快速机械开关转移支路耗能支路MOV电力电子开关（如有）IMBITBIEBIdUMBUTBUMOVUBULGUVGUmecUm_PEUt_PEUEB电力电子开关MOVTVTL交/直流换流阀直流输电线路电流注入部件（如有）DL/TXXXX—XXXX MOVVBEVCU金属氧化锌电阻器(metaloxide varistor)(见8.3.2) 阀基电子设备(valvebase electronics)(见10.1.1) 阀控单元(valvecontrol unit)(见10.1.2) ",
+        "path": "符号和缩略语  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "5",
+        "level": 1,
+        "chunk_content": "图形符号 表1所示的特定图形符号仅用于本文件定义的对象。表1图形符号 序号符号描述带反并联二极管IGBT快速机械开关电力电子开关（双向）交/直流换流阀直流输电线路",
+        "path": ""
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "6",
+        "level": 1,
+        "chunk_content": "通用术语 ",
+        "path": ""
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "6.1",
+        "level": 2,
+        "chunk_content": "高压直流断路器high-voltage direct current circuit breaker；HVDCCB 能够关合、承载和开断高压直流系统正常回路条件下的电流，并能关合、在规定的时间内承载和开断异常回路条件下电流的设备。[来源：GB1984—2003，3.4 103，有修改] ",
+        "path": "通用术语  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "6.2",
+        "level": 2,
+        "chunk_content": "混合式高压直流断路器hybrid HVDC circuit breaker；HDCCB 由电力电子器件和机械开关构成，并通过电力电子器件实现电流开断的高压直流断路器。",
+        "path": "通用术语  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "6.3",
+        "level": 2,
+        "chunk_content": "电流转移current transfer 在直流断路器内部，电流由一条并联支路转换至另一条并联支路。DL/TXXXX—XXXX ",
+        "path": "通用术语  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "6.4",
+        "level": 2,
+        "chunk_content": "主支路main branch；MB 直流断路器中用于承载直流系统运行电流的通路。",
+        "path": "通用术语  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "6.5",
+        "level": 2,
+        "chunk_content": "转移支路transfer branch；TB 直流断路器中用于短时承载电流，并能建立暂态开断电压实现电流转移的通路。",
+        "path": "通用术语  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "6.6",
+        "level": 2,
+        "chunk_content": "耗能支路energy dissipation branch；EB 直流断路器中用于完成系统感性元件储存能量耗散，清除直流电流的通路。",
+        "path": "通用术语  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "6.7",
+        "level": 2,
+        "chunk_content": "直流断路器组件HVDC circuit breaker component 构成直流断路器部件的基本功能单元，包含电力电子组件、快速机械开关单元、电流注入部件及能量吸收组件等。",
+        "path": "通用术语  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "6.8",
+        "level": 2,
+        "chunk_content": "换流部件commutation component 直流断路器主支路中用于实现电流向转移支路转移的电力电子开关设备，由电力电子组件串并联组合构成。",
+        "path": "通用术语  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "6.9",
+        "level": 2,
+        "chunk_content": "开断部件interruption component 直流断路器转移支路中用于建立暂态开断电压，实现电流向耗能支路转移的电力电子开关设备，由电力电子组件串联构成。",
+        "path": "通用术语  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "7",
+        "level": 1,
+        "chunk_content": "特征参量 ",
+        "path": ""
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "7.1",
+        "level": 2,
+        "chunk_content": "额定电流rated current 在规定的使用性能条件下，直流断路器能够连续承载的电流。",
+        "path": "特征参量  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "7.2",
+        "level": 2,
+        "chunk_content": "额定短时耐受电流rated short time withstand current 在规定的使用和性能条件下，在规定的时间内，直流断路器在合状态下能够承载的最大稳态直流电流。",
+        "path": "特征参量  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "7.3",
+        "level": 2,
+        "chunk_content": "额定短路开断电流rated breaking current 在规定的使用和性能条件下，直流断路器能够开断的最大故障电流。",
+        "path": "特征参量  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "7.4",
+        "level": 2,
+        "chunk_content": "额定短路关合电流rated short-circuit making current 在规定的使用和性能条件下，直流断路器能够关合的最大故障电流。",
+        "path": "特征参量  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "7.5",
+        "level": 2,
+        "chunk_content": "泄漏电流leakage current 直流系统额定电压施加于断态下直流断路器两端所产生的电流。",
+        "path": "特征参量  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "7.6",
+        "level": 2,
+        "chunk_content": "额定电压rated voltage 直流断路器所在直流系统最高运行电压。",
+        "path": "特征参量  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "7.7",
+        "level": 2,
+        "chunk_content": "暂态开断电压transient interruption voltage；TIV  直流断路器开断过程中在其端间出现的电压。",
+        "path": "特征参量  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "7.8",
+        "level": 2,
+        "chunk_content": "暂态开断电压峰值peak transient interruption voltage  直流断路器开断过程中在其端间出现的最大电压。",
+        "path": "特征参量  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "7.9",
+        "level": 2,
+        "chunk_content": "阀侧暂态对地电压valve-side transient pole-ground voltage  直流断路器开断过程中阀侧端子与地电位之间出现的电压。",
+        "path": "特征参量  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "8",
+        "level": 1,
+        "chunk_content": "直流断路器拓扑结构 ",
+        "path": ""
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "8.1",
+        "level": 2,
+        "chunk_content": "组件拓扑component topology 直流断路器中实现电流转移或开断功能部件的电路形式。",
+        "path": "直流断路器拓扑结构  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "8.2",
+        "level": 2,
+        "chunk_content": "串联型拓扑series connection type  采用全控电力电子器件直接串联方式构成的电力电子组件形式，可通过反向串联组件形式实现双向通流（见图3）。DL/TXXXX—XXXX ",
+        "path": "直流断路器拓扑结构  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "8.3",
+        "level": 2,
+        "chunk_content": "图3串联型拓扑 全桥模块型拓扑full-bridge module type 由全桥模块串联形成的电力电子组件形式，包含有二极管全桥模块和IGBT全桥模块两种形式（见图4）。二极管全桥模块指由四个桥臂二极管和IGBT等全控电力电子器件构成的桥式电路，IGBT全桥模块指由四个桥臂IGBT构成的桥式电路。a)二极管全桥模块型                 b) IGBT全桥模块型 图4全桥模块型拓扑 ",
+        "path": "直流断路器拓扑结构  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "8.4",
+        "level": 2,
+        "chunk_content": "桥式整流型拓扑bridge rectifier type 由四组串联桥臂二极管阀和IGBT阀构成的桥式电力电子组件形式（见图5）。",
+        "path": "直流断路器拓扑结构  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "8.5",
+        "level": 2,
+        "chunk_content": "图5桥式整流拓扑 电磁感应电流注入拓扑forced current injection type 由耦合电抗器、储能电容等构成的组件形式，通过感应注入反向电流实现从主支路向转移支路转移（见图6）。DL/TXXXX—XXXX 图6电磁感应电流注入拓扑 ",
+        "path": "直流断路器拓扑结构  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "8.6",
+        "level": 2,
+        "chunk_content": "整体拓扑overall topology 构成高压直流断路器的电路形式。",
+        "path": "直流断路器拓扑结构  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "8.6.1",
+        "level": 3,
+        "chunk_content": "直串拓扑series connection topology 主支路换流部件和转移支路开断部件均采用串联型组件拓扑的直流断路器形式（见图7）。",
+        "path": "直流断路器拓扑结构  > 整体拓扑overall topology 构成高压直流断路器的电路形式 > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "8.6.2",
+        "level": 3,
+        "chunk_content": "图7直串拓扑 模块级联拓扑module cascade topology 主支路换流部件和转移支路开断部件均采用全桥模块型组件拓扑的直流断路器形式（见图8）。a)二极管全桥模块型                     b) IGBT全桥模块型 图8模块级联拓扑  能量吸收组件耗能支路转移支路主支路快速机械开关换流部件电力电子组件子单元开断部件快速机械开关单元能量吸收部件耗能支路转移支路主支路子单元电力电子组件开断部件换流部件快速机械开关能量吸收部件耗能支路转移支路主支路子单元电力电子组件开断部件换流部件快速机械开关能量吸收部件",
+        "path": "直流断路器拓扑结构  > 整体拓扑overall topology 构成高压直流断路器的电路形式 > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "8.6.3",
+        "level": 3,
+        "chunk_content": "桥式串联拓扑bridge series topology 主支路换流部件采用串联型组件拓扑和转移支路开断部件采用桥式整流组件拓扑的直流断路器形式（见图9）。DL/TXXXX—XXXX ",
+        "path": "直流断路器拓扑结构  > 整体拓扑overall topology 构成高压直流断路器的电路形式 > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "8.6.4",
+        "level": 3,
+        "chunk_content": "图9桥式串联拓扑 耦合负压拓扑coupled negative voltage topology 主支路无换流部件，转移支路由采用全桥模块型组件开断部件和电磁感应电流注入拓扑串联构成的直流断路器形式（见图10）。转移支路利用耦合负压组件（电流注入部件的一种形式）注入电流（呈现负压）实现电流转移。图10耦合负压拓扑 ",
+        "path": "直流断路器拓扑结构  > 整体拓扑overall topology 构成高压直流断路器的电路形式 > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "9",
+        "level": 1,
+        "chunk_content": "直流断路器组件 ",
+        "path": ""
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "9.1",
+        "level": 2,
+        "chunk_content": "电力电子组件power electronics valve 由多个子单元并联和（或）串联构成的组件，作为换流或开断部件的基本构成单元。耗能支路转移支路主支路快速机械开关换流部件子单元电力电子组件能量吸收部件开断部件耗能支路主支路耦合负压组件转移支路子单元电力电子组件开断部件快速机械开关能量吸收部件DL/TXXXX—XXXX 注：对于直串型和模块级联拓扑，电力电子组件指由多个子模块串联形成。对于桥式串联拓扑，电力电子组件由二极管阀串、IGBT阀串以及辅助设备构成。",
+        "path": "直流断路器组件  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "9.1.1",
+        "level": 3,
+        "chunk_content": "功率开关器件（全控型）turn-off semiconductor device  能通过控制信号进行开通和关断的可控半导体器件，如IGBT、IGCT和IEGT等。",
+        "path": "直流断路器组件  > 电力电子组件power electronics valve 由多个子单元并联和（或）串联构成的组件，作为换流或开断部件的基本构成单元耗能支路转移支路主支路快速机械开关换流部件子单元电力电子组件能量吸收部件开断部件耗能支路主支路耦合负压组件转移支路子单元电力电子组件开断部件快速机械开关能量吸收部件DL/TXXXX—XXXX 注：对于直串型和模块级联拓扑，电力电子组件指由多个子模块串联形成对于桥式串联拓扑，电力电子组件由二极管阀串、IGBT阀串以及辅助设备构成 > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "9.1.2",
+        "level": 3,
+        "chunk_content": "绝缘栅双极晶体管insulated gate bipolar transistor；IGBT 一种控制电极是场效应栅极，主电流路径主要是双极基区的晶体管。[来源：GB/T2900.32—1994，2.3.36]。 ",
+        "path": "直流断路器组件  > 电力电子组件power electronics valve 由多个子单元并联和（或）串联构成的组件，作为换流或开断部件的基本构成单元耗能支路转移支路主支路快速机械开关换流部件子单元电力电子组件能量吸收部件开断部件耗能支路主支路耦合负压组件转移支路子单元电力电子组件开断部件快速机械开关能量吸收部件DL/TXXXX—XXXX 注：对于直串型和模块级联拓扑，电力电子组件指由多个子模块串联形成对于桥式串联拓扑，电力电子组件由二极管阀串、IGBT阀串以及辅助设备构成 > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "9.1.3",
+        "level": 3,
+        "chunk_content": "集成门极换流晶闸管integrated gate commutated thyristor；IGCT 一种通过施加适当门极电流脉冲控制开通和关断的晶闸管。",
+        "path": "直流断路器组件  > 电力电子组件power electronics valve 由多个子单元并联和（或）串联构成的组件，作为换流或开断部件的基本构成单元耗能支路转移支路主支路快速机械开关换流部件子单元电力电子组件能量吸收部件开断部件耗能支路主支路耦合负压组件转移支路子单元电力电子组件开断部件快速机械开关能量吸收部件DL/TXXXX—XXXX 注：对于直串型和模块级联拓扑，电力电子组件指由多个子模块串联形成对于桥式串联拓扑，电力电子组件由二极管阀串、IGBT阀串以及辅助设备构成 > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "9.1.4",
+        "level": 3,
+        "chunk_content": "栅极注入增强型晶体管injection enhanced gate transistor；IEGT 一种通过栅极注入增强降低器件导通压降的IGBT器件。",
+        "path": "直流断路器组件  > 电力电子组件power electronics valve 由多个子单元并联和（或）串联构成的组件，作为换流或开断部件的基本构成单元耗能支路转移支路主支路快速机械开关换流部件子单元电力电子组件能量吸收部件开断部件耗能支路主支路耦合负压组件转移支路子单元电力电子组件开断部件快速机械开关能量吸收部件DL/TXXXX—XXXX 注：对于直串型和模块级联拓扑，电力电子组件指由多个子模块串联形成对于桥式串联拓扑，电力电子组件由二极管阀串、IGBT阀串以及辅助设备构成 > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "9.1.5",
+        "level": 3,
+        "chunk_content": "二极管diode 具有两个电极和不对称电压-电流特性的两端半导体器件。[来源：GB/T2900.32—1994，2.3.3]。 ",
+        "path": "直流断路器组件  > 电力电子组件power electronics valve 由多个子单元并联和（或）串联构成的组件，作为换流或开断部件的基本构成单元耗能支路转移支路主支路快速机械开关换流部件子单元电力电子组件能量吸收部件开断部件耗能支路主支路耦合负压组件转移支路子单元电力电子组件开断部件快速机械开关能量吸收部件DL/TXXXX—XXXX 注：对于直串型和模块级联拓扑，电力电子组件指由多个子模块串联形成对于桥式串联拓扑，电力电子组件由二极管阀串、IGBT阀串以及辅助设备构成 > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "9.1.6",
+        "level": 3,
+        "chunk_content": "子单元subunit 由电力电子器件及其触发与监控板等辅助设备组成的不可分割的基本功能单元。注：对于串联拓扑，子单元包括一个功率开关器件及其辅助设备。对于全桥拓扑，子单元包括一个桥式模块及其辅助设备。",
+        "path": "直流断路器组件  > 电力电子组件power electronics valve 由多个子单元并联和（或）串联构成的组件，作为换流或开断部件的基本构成单元耗能支路转移支路主支路快速机械开关换流部件子单元电力电子组件能量吸收部件开断部件耗能支路主支路耦合负压组件转移支路子单元电力电子组件开断部件快速机械开关能量吸收部件DL/TXXXX—XXXX 注：对于直串型和模块级联拓扑，电力电子组件指由多个子模块串联形成对于桥式串联拓扑，电力电子组件由二极管阀串、IGBT阀串以及辅助设备构成 > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "9.2",
+        "level": 2,
+        "chunk_content": "快速机械开关单元fast mechanical switch unit 由快速机械开关断口、操动机构、均压单元和高电位触发与监控单元等组成的基本功能单元，可实现毫秒级分合闸操作，合位时导通系统电流，分位时通过物理断口耐受直流电压。",
+        "path": "直流断路器组件  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "9.2.1",
+        "level": 3,
+        "chunk_content": "快速机械开关断口fast mechanical switch break 快速机械开关内部承担绝缘性能的构造，绝缘介质一般为真空或者六氟化硫。注：对于直串、模块级联和桥式串联拓扑，快速机械开关断口不需要灭弧能力。对于耦合负压拓扑，快速机械开关断口要求具备灭弧能力。",
+        "path": "直流断路器组件  > 快速机械开关单元fast mechanical switch unit 由快速机械开关断口、操动机构、均压单元和高电位触发与监控单元等组成的基本功能单元，可实现毫秒级分合闸操作，合位时导通系统电流，分位时通过物理断口耐受直流电压 > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "9.2.2",
+        "level": 3,
+        "chunk_content": "操动机构operating mechanism 快速机械开关内部用以实现快速机械开关断口分合闸操作的设备，一般由斥力单元、缓冲单元、控DL/TXXXX—XXXX 制单元、储能单元构成。",
+        "path": "直流断路器组件  > 快速机械开关单元fast mechanical switch unit 由快速机械开关断口、操动机构、均压单元和高电位触发与监控单元等组成的基本功能单元，可实现毫秒级分合闸操作，合位时导通系统电流，分位时通过物理断口耐受直流电压 > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "9.2.3",
+        "level": 3,
+        "chunk_content": "额定开距rated open distance 快速机械开关动触头从合闸位置运动到分闸位置的距离。",
+        "path": "直流断路器组件  > 快速机械开关单元fast mechanical switch unit 由快速机械开关断口、操动机构、均压单元和高电位触发与监控单元等组成的基本功能单元，可实现毫秒级分合闸操作，合位时导通系统电流，分位时通过物理断口耐受直流电压 > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "9.2.4",
+        "level": 3,
+        "chunk_content": "动态绝缘开距dynamic insulation distance 快速机械开关动触头从合闸位置运动到有效耐受操作冲击电压位置的距离。",
+        "path": "直流断路器组件  > 快速机械开关单元fast mechanical switch unit 由快速机械开关断口、操动机构、均压单元和高电位触发与监控单元等组成的基本功能单元，可实现毫秒级分合闸操作，合位时导通系统电流，分位时通过物理断口耐受直流电压 > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "9.2.5",
+        "level": 3,
+        "chunk_content": "合闸时间closing time 从控制单元接收到合闸指令，到各快速机械开关单元的触头全部接触的时间间隔。[来源：GB/T2900.20—2016，9.38，有修改] ",
+        "path": "直流断路器组件  > 快速机械开关单元fast mechanical switch unit 由快速机械开关断口、操动机构、均压单元和高电位触发与监控单元等组成的基本功能单元，可实现毫秒级分合闸操作，合位时导通系统电流，分位时通过物理断口耐受直流电压 > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "9.2.6",
+        "level": 3,
+        "chunk_content": "分闸时间opening time 从控制单元接收到分闸指令，到各快速机械开关单元的动触头与静触头分离的时间间隔。[来源：GB/T2900.20—2016，9.33，有修改] ",
+        "path": "直流断路器组件  > 快速机械开关单元fast mechanical switch unit 由快速机械开关断口、操动机构、均压单元和高电位触发与监控单元等组成的基本功能单元，可实现毫秒级分合闸操作，合位时导通系统电流，分位时通过物理断口耐受直流电压 > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "9.2.7",
+        "level": 3,
+        "chunk_content": "动态绝缘分闸时间dynamic insulation opening time 从控制单元接收到分闸指令，到各快速机械开关单元的触头全部到达动作绝缘开距的时间间隔。",
+        "path": "直流断路器组件  > 快速机械开关单元fast mechanical switch unit 由快速机械开关断口、操动机构、均压单元和高电位触发与监控单元等组成的基本功能单元，可实现毫秒级分合闸操作，合位时导通系统电流，分位时通过物理断口耐受直流电压 > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "9.2.8",
+        "level": 3,
+        "chunk_content": "额定开距分闸时间rated distance opening time 从控制单元接收到分闸指令，到各快速机械开关单元的动触头到达额定开距的时间间隔。",
+        "path": "直流断路器组件  > 快速机械开关单元fast mechanical switch unit 由快速机械开关断口、操动机构、均压单元和高电位触发与监控单元等组成的基本功能单元，可实现毫秒级分合闸操作，合位时导通系统电流，分位时通过物理断口耐受直流电压 > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "9.2.9",
+        "level": 3,
+        "chunk_content": "合闸同步性closing synchronism 快速机械开关中，多个快速机械开关单元合闸时间的相对偏差。",
+        "path": "直流断路器组件  > 快速机械开关单元fast mechanical switch unit 由快速机械开关断口、操动机构、均压单元和高电位触发与监控单元等组成的基本功能单元，可实现毫秒级分合闸操作，合位时导通系统电流，分位时通过物理断口耐受直流电压 > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "9.3",
+        "level": 2,
+        "chunk_content": "能量吸收组件energy absorption component 由多个能量吸收单元并联（或）串联组成的组件，作为能量吸收部件的基本构成单元（见图11）。DL/TXXXX—XXXX 能量吸收部件图11能量吸收组件内部结构示意图 ",
+        "path": "直流断路器组件  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "9.3.1",
+        "level": 3,
+        "chunk_content": "非线性金属氧化物电阻片non-linear metal oxide resistor [来源：GB/T11032—2000，2.22] ",
+        "path": "直流断路器组件  > 能量吸收组件energy absorption component 由多个能量吸收单元并联（或）串联组成的组件，作为能量吸收部件的基本构成单元（见图11）DL/TXXXX—XXXX 能量吸收部件图11能量吸收组件内部结构示意图  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "9.3.2",
+        "level": 3,
+        "chunk_content": "能量吸收单元energy absorption unit 一个完全封装的非线性金属氧化物电阻器，由绝缘外套、内部的电阻片以及相应的零部件组成。可与其他单元串联和（或）并联，提升额定电压和（或）标称放电电流。",
+        "path": "直流断路器组件  > 能量吸收组件energy absorption component 由多个能量吸收单元并联（或）串联组成的组件，作为能量吸收部件的基本构成单元（见图11）DL/TXXXX—XXXX 能量吸收部件图11能量吸收组件内部结构示意图  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "9.4",
+        "level": 2,
+        "chunk_content": "耦合负压组件coupled negative voltage component 由耦合电抗器、储能电容器、晶闸管阀、充电装置以及辅助部件组成的基本功能单元，采用电流注入方式实现电流从主通流支路向转移支路转移。",
+        "path": "直流断路器组件  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "9.5",
+        "level": 2,
+        "chunk_content": "耦合电抗器coupled reactor 由具有强磁耦合的两个绕组构成，原边绕组和储能电容器、晶闸管阀接成闭合回路，副边绕组串联在转移支路中，晶闸管阀导通时可通过副边绕组向转移支路注入电流。",
+        "path": "直流断路器组件  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "10",
+        "level": 1,
+        "chunk_content": "直流断路器运行状态 ",
+        "path": ""
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "10.1",
+        "level": 2,
+        "chunk_content": "合状态close state  直流断路器主支路或转移支路导通，在直流回路中呈现短路的状态。",
+        "path": "直流断路器运行状态  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "10.2",
+        "level": 2,
+        "chunk_content": "旁路状态bypass state 直流断路器合状态下，换流部件或开断部件故障导致并联旁路开关（如有）闭合，系统电流经旁路DL/TXXXX—XXXX 开关导通的状态。",
+        "path": "直流断路器运行状态  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "10.3",
+        "level": 2,
+        "chunk_content": "分状态open state 直流断路器主支路和转移支路均未导通，在直流回路中呈现断路的状态。",
+        "path": "直流断路器运行状态  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "10.4",
+        "level": 2,
+        "chunk_content": "停运状态outage state  直流断路器分状态下，供能系统未带电的状态。",
+        "path": "直流断路器运行状态  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "11",
+        "level": 1,
+        "chunk_content": "直流断路器控制保护 ",
+        "path": ""
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "11.1",
+        "level": 2,
+        "chunk_content": "控制系统control system 组成控制保护系统的一部分，管理直流断路器的运行，并根据换流站控制命令完成直流断路器的分合控制与监视。",
+        "path": "直流断路器控制保护  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "11.1.1",
+        "level": 3,
+        "chunk_content": "阀基电子设备valve based electronics；VBE  处于地电位的电子设备，在断路器阀控单元和快速机械开关、开断部件等之间，提供光-电转换的电子设备单元。[来源：GB/T13498—2017，6.15，有修改]   ",
+        "path": "直流断路器控制保护  > 控制系统control system 组成控制保护系统的一部分，管理直流断路器的运行，并根据换流站控制命令完成直流断路器的分合控制与监视 > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "11.1.2",
+        "level": 3,
+        "chunk_content": "阀控单元valve control unit；VCU 处于地电位的电子设备，实现断路器控制和保护功能。",
+        "path": "直流断路器控制保护  > 控制系统control system 组成控制保护系统的一部分，管理直流断路器的运行，并根据换流站控制命令完成直流断路器的分合控制与监视 > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "11.2",
+        "level": 2,
+        "chunk_content": "保护系统protection system 组成控制保护系统的一部分，检测直流断路器的运行信息，发出过流、冗余丢失、冷却装置故障等保护命令，实现对直流断路器保护功能。",
+        "path": "直流断路器控制保护  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "11.3",
+        "level": 2,
+        "chunk_content": "监测装置monitoring equipment 组成保护系统的一部分，用于监测直流断路器电气、机械、热参量及供能、冷却装置状态等信息。[来源：GB/T13498—2017，10.7.4，有修改] ",
+        "path": "直流断路器控制保护  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "11.4",
+        "level": 2,
+        "chunk_content": "DL/TXXXX—XXXX 控制保护系统control and protection system 用于实现直流断路器控制、保护和监测等功能的设备。",
+        "path": "直流断路器控制保护  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "11.5",
+        "level": 2,
+        "chunk_content": "控制方式control method 直流断路器改变运行状态的方法。",
+        "path": "直流断路器控制保护  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "11.5.1",
+        "level": 3,
+        "chunk_content": "控制分opening operation  直流断路器收到直流系统控制装置命令完成开断。",
+        "path": "直流断路器控制保护  > 控制方式control method 直流断路器改变运行状态的方法 > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "11.5.2",
+        "level": 3,
+        "chunk_content": "控制合closing operation    直流断路器收到直流系统控制装置命令完成关合。",
+        "path": "直流断路器控制保护  > 控制方式control method 直流断路器改变运行状态的方法 > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "11.5.3",
+        "level": 3,
+        "chunk_content": "保护分protection opening 直流断路器收到直流系统保护装置命令完成开断。",
+        "path": "直流断路器控制保护  > 控制方式control method 直流断路器改变运行状态的方法 > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "11.5.4",
+        "level": 3,
+        "chunk_content": "自保护分self-protection opening 直流断路器依据自身控制保护系统逻辑完成开断。",
+        "path": "直流断路器控制保护  > 控制方式control method 直流断路器改变运行状态的方法 > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "11.5.5",
+        "level": 3,
+        "chunk_content": "分级控制step by step control 直流断路器逐级导通或关断转移支路开断部件，使能量吸收组件分级被短接或投入的控制方式。",
+        "path": "直流断路器控制保护  > 控制方式control method 直流断路器改变运行状态的方法 > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "11.6",
+        "level": 2,
+        "chunk_content": "控制模式control mode 直流断路器在不同状态下所允许的控制方式。",
+        "path": "直流断路器控制保护  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "11.6.1",
+        "level": 3,
+        "chunk_content": "运行模式operation model 直流断路器处于非停运状态，直流断路器控制保护系统可依据运行状态逻辑，按照直流系统命令或者自身命令操作直流断路器。",
+        "path": "直流断路器控制保护  > 控制模式control mode 直流断路器在不同状态下所允许的控制方式 > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "11.6.2",
+        "level": 3,
+        "chunk_content": "检修模式test model 直流断路器处于检修状态，直流断路器控制保护系统依据检修状态逻辑，按照自身命令操作直流断路器。",
+        "path": "直流断路器控制保护  > 控制模式control mode 直流断路器在不同状态下所允许的控制方式 > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "12",
+        "level": 1,
+        "chunk_content": "直流断路器辅助设备 ",
+        "path": ""
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "12.1",
+        "level": 2,
+        "chunk_content": "供能装置power supply system 具有电压隔离能力，用于向直流断路器电力电子开关和快速机械开关提供实现其正常工作所需要的能量，包含电磁供能（见图13）和激光供能两种形式。DL/TXXXX—XXXX ",
+        "path": "直流断路器辅助设备  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "12.1.1",
+        "level": 3,
+        "chunk_content": "图13电磁供能系统示意图 对地隔离变压器ground isolation transformer 由单级或多级变压器串联组成，一组绕组或绕组屏蔽与地电位进行等电位连接，另一组绕组与直流断路器阀侧或者线路侧端子连接，具有隔离直流系统额定电压及暂态过电压能力，为直流断路器正常工作提供电能。",
+        "path": "直流断路器辅助设备  > 供能装置power supply system 具有电压隔离能力，用于向直流断路器电力电子开关和快速机械开关提供实现其正常工作所需要的能量，包含电磁供能（见图13）和激光供能两种形式DL/TXXXX—XXXX  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "12.1.2",
+        "level": 3,
+        "chunk_content": "层间隔离变压器interlayer isolation transformer 由单级或多级变压器串联组成，输入和输出绕组间具有隔直流断路器内部相邻层级之间电压能力，为直流断路器对应层级负载提供电能。",
+        "path": "直流断路器辅助设备  > 供能装置power supply system 具有电压隔离能力，用于向直流断路器电力电子开关和快速机械开关提供实现其正常工作所需要的能量，包含电磁供能（见图13）和激光供能两种形式DL/TXXXX—XXXX  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "12.1.3",
+        "level": 3,
+        "chunk_content": "供能磁环magnetic ring  通过电磁感应从供能电缆上隔离取电并进行电能输出的装置。",
+        "path": "直流断路器辅助设备  > 供能装置power supply system 具有电压隔离能力，用于向直流断路器电力电子开关和快速机械开关提供实现其正常工作所需要的能量，包含电磁供能（见图13）和激光供能两种形式DL/TXXXX—XXXX  > "
+    },
+    {
+        "doc_id": "84323",
+        "doc_name": "混合式高压直流断路器术语",
+        "chunk_id": "12.2",
+        "level": 2,
+        "chunk_content": "冷却设备cooling equipment 用于实现主支路换流部件（如有）冷却，若采用水冷却形式，GB/T30425适用。 ",
+        "path": "直流断路器辅助设备  > "
+    }
+]

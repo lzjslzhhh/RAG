@@ -165,8 +165,17 @@ def generate_type_specific_prompt(question_type, inputs):
         不能回答为：采集电压跌落前3秒到恢复正常后6秒的数据。
         原文：设置电网模拟装置的输出电压模拟表3中的一种不对称故障类型。
         不能回答为：设置不对称故障类型
-        
-    请按照以下思维链进行推理并回答问题：
+    4. **题型判断**：
+    - 陈述句→判断题
+    - 含选项编号(A/B/C)→单选题
+    - 含下划线或疑问句→填空题
+     不用输出判断题型、仅当作划分输出规范的依据、按从上到下的优先级判断
+    5.对于单选和判断、请将最终答案置于<answer>和</answer>之间。
+    6. **电力特化要求**：
+    - 涉及安全规程时自动引用GB/T标准条款
+    - 参数题保留单位（kV/MW/Hz）
+    - 保护定值题标注误差范围（±5%）
+     请按照以下思维链进行推理并回答问题：
 
     1. **理解问题语义**：明确提问中涉及的技术概念、规程条款或控制流程；
     2. **定位上下文依据**：在背景材料中查找相关条款、参数范围或操作规则、并在答案中指明你实际用到的材料；
@@ -185,7 +194,7 @@ def generate_type_specific_prompt(question_type, inputs):
     【输出格式】
     标准依据：本次回答用到的参考文档的标准号+条款号（如GB/T 14285 5.2.3）
     推理过程：
-    最终答案：
+    最终答案：（根据回答要求里第5条的输出规范）
     注意事项（如有）：特别说明的例外情况
     
     问题如下：
@@ -196,14 +205,14 @@ def generate_type_specific_prompt(question_type, inputs):
 
 def build_rag_chain():
     vectorstore, client = load_qdrant_vectorstore()
-    retriever = vectorstore.as_retriever(search_type="similarity", search_kwargs={'k': 5})
+    retriever = vectorstore.as_retriever(search_type="similarity", search_kwargs={'k': 3})
     # test_docs = retriever.invoke("光伏发电防孤岛保护")
     # # print(f"检索到文档数: {len(test_docs)}")
     # # for doc in test_docs:
     # #     print(doc.page_content[:100] + "...")
     # #     print("元数据:", doc.metadata)
 
-    llm = load_llm()
+    llm = load_llm(enable_thinking=True)
 
     # 文档格式化处理器
     def format_doc(doc):
@@ -211,8 +220,7 @@ def build_rag_chain():
         metadata = doc.metadata
         return (
             f"【文档：{metadata.get('source', '未命名文档')}】\n"
-            f"标准号：{metadata.get('standard_id', '未知')} | "
-            f"标题：{metadata.get('title', '未知')} | "
+            f"标准号：{metadata.get('doc_id', '未知')} | "
             f"标题编号：{metadata.get('chunk_id', '无')}\n"
             f"各层级标题：{metadata.get('hierarchy', '无')}\n"
             f"内容：{content[:500]}{'...' if len(content) > 500 else ''}"
@@ -285,7 +293,7 @@ def build_rag_chain():
                 "metadata": lambda x: {
                     "type": x["question_type"],
                     "sources": [
-                        f"{doc.metadata.get('standard_id', '未知')} {doc.metadata.get('chunk_id', '无')}"
+                        f"{doc.metadata.get('doc_id', '未知')} {doc.metadata.get('source', '未知')} {doc.metadata.get('chunk_id', '无')}"
                         for doc in x["docs"]
                     ],
                     "contexts": [

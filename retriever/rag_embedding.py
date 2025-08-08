@@ -10,39 +10,44 @@ from tqdm import tqdm
 # 配置
 COLLECTION_NAME = "grid_docs"
 MODEL_PATH = r"/tmp/pycharm_project_581/gte-multilingual-base"
-JSONL_PATH = r"/tmp/pycharm_project_581/retriever/rag_enhanced_2_chunks.jsonl"
+# JSONL_PATH = r"/tmp/pycharm_project_581/retriever/rag_enhanced_2_chunks.jsonl"
 os.environ['TRANSFORMERS_OFFLINE'] = '1'  # 强制离线
 if __name__ == "__main__":
     # 初始化模型
     model = SentenceTransformer(model_name_or_path=MODEL_PATH, trust_remote_code=True, local_files_only=True)
 
     documents = []
-    with open(JSONL_PATH, 'r', encoding='utf-8') as f:
-        for line in f:
-            doc = json.loads(line)
-            base_text = doc["content"].strip().replace("\n", "")
+    dir_path = '/tmp/pycharm_project_581/EleQA-master/documents'
+    for root,_,files in os.walk(dir_path):
+        for file in tqdm(files, desc="Processing files"):
+            if not file.endswith(('.json', '.jsonl')):
+                continue
 
-            keywords = " ".join(doc.get("metadata", {}).get("keywords", []))
-            enriched_text = f"{base_text} 关键词：{keywords}"
-            if doc['section'] == '正文':
-                # documents.append({
-                #     "id": doc["chunk_id"],
-                #     "text": enriched_text,
-                #     "raw": doc["content"],
-                #     "metadata": doc["metadata"],
-                #     "chapter": doc.get("chapter_title", ""),
-                #     "article": doc.get("article_no", ""),
-                #     "source": doc.get("source", "")
-                # })
-                documents.append({
-                    "id": doc["chunk_id"],
-                    'title': doc["title"],
-                    # 'standard_id':doc["standard_id"],
-                    'level': doc["level"],
-                    "text": base_text,
-                    "source": doc.get("source", ""),
-                    "metadata": doc["metadata"],
-                })
+            file_path = os.path.join(root, file)
+            print(file_path)
+            try:
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    for chunk in data:
+                        # documents.append({
+                        #     "id": doc["chunk_id"],
+                        #     "text": enriched_text,
+                        #     "raw": doc["content"],
+                        #     "metadata": doc["metadata"],
+                        #     "chapter": doc.get("chapter_title", ""),
+                        #     "article": doc.get("article_no", ""),
+                        #     "source": doc.get("source", "")
+                        # })
+                        documents.append({
+                            "chunk_id": chunk["chunk_id"],
+                            'doc_id':chunk["doc_id"],
+                            'level': chunk["level"],
+                            "text": chunk["chunk_content"],
+                            "source": chunk["doc_name"],
+                            "path": chunk["path"]
+                        })
+            except Exception as e:
+                print(f"Error processing {file_path}: {str(e)}")
 
     # 创建 Qdrant 本地客户端
     client = QdrantClient(path="../qdrant_local_data")  # 数据保存在本地文件夹
@@ -61,14 +66,13 @@ if __name__ == "__main__":
         # embedding = model.encode(f'{doc["source"]} {doc["title"]} {doc["text"]}', normalize_embeddings=True).tolist()
         # 分别编码后加权融合
         source_emb = model.encode(doc["source"], weight=0.2, normalize_embeddings=True)
-        context_emb = model.encode(doc['id'] + doc["metadata"].get("hierarchy_path", ""), weight=0.25,
+        context_emb = model.encode(doc['chunk_id'] + doc["path"], weight=0.25,
                                    normalize_embeddings=True)
-        title_emb = model.encode(doc["title"], weight=0.2, normalize_embeddings=True)
-        content_emb = model.encode(doc["text"], weight=0.35, normalize_embeddings=True)
-        combined_emb = source_emb * 0.2 + context_emb * 0.25 + title_emb * 0.2 + content_emb * 0.35
+        content_emb = model.encode(doc["text"], weight=0.55, normalize_embeddings=True)
+        combined_emb = source_emb * 0.2 + context_emb * 0.25 + content_emb * 0.55
         # combined_emb = source_emb * 0.3 + content_emb * 0.7
         # point_id =  f"{doc['source']}_{doc['chapter']}_{doc['id']}"
-        point_id = f"{doc['source']}_{doc['id']}"
+        point_id = f"{doc['source']}_{doc['chunk_id']}"
         # 查询是否已经存在这个 ID
         existing = client.retrieve(
             collection_name=COLLECTION_NAME,
@@ -81,14 +85,12 @@ if __name__ == "__main__":
             id=str(point_id),
             vector=combined_emb,
             payload={
-                "chunk_id": doc["id"],
-                "title": doc["title"],
-                "standard_id": doc["metadata"].get("standard_id", ""),
+                "chunk_id": doc["chunk_id"],
+                "doc_id": doc["doc_id"],
                 "level": doc["level"],
-                "text": doc["metadata"].get("standard_id", "") +' '+ doc["id"] + ' '+ doc["text"],
+                "text": doc["source"] +' '+ doc["chunk_id"] + ' '+ doc["text"],
                 "source": doc["source"],
-                "parent_chain": doc["metadata"].get("parent_chain", []),
-                "hierarchy": doc["metadata"].get("hierarchy_path", ""),
+                "hierarchy": doc["path"],
             },
             # payload = {
             #     "chunk_id": doc["id"],

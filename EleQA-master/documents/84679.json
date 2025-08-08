@@ -1,0 +1,466 @@
+[
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "1",
+        "level": 1,
+        "chunk_content": "范围 本文件规定了电力量子保密通信系统中密钥交互接口技术要求，主要包括电力量子保密通信系统接口说明、量子密钥交互流程及接口交互协议。本文件适用于电力量子保密通信系统设备的设计、研发及集成应用。",
+        "path": ""
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "2",
+        "level": 1,
+        "chunk_content": "规范性引用文件 下列文件中的内容通过文中的规范性引用而构成本文件必不可少的条款。其中，注日期的引用文件，仅该日期对应的版本适用于本文件；不注日期的引用文件，其最新版本（包括所有的修改单）适用于本文件。GM/T0022—2014  IPSec VPN 技术规范 ETSIGR QKD 003  Quantum key distribution (QKD); components and internal interfaces（量子密钥分发：组成及内部接口）",
+        "path": ""
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "3",
+        "level": 1,
+        "chunk_content": "术语和定义 下列术语和定义适用于本文件。",
+        "path": ""
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "3.1",
+        "level": 2,
+        "chunk_content": "量子态quantum state 量子系统的状态，由偏振、相位、自旋、时间、动量等物理量表征。",
+        "path": "术语和定义 下列术语和定义适用于本文件 > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "3.2",
+        "level": 2,
+        "chunk_content": "量子信道quantum channel 传输量子态的信道。[ETSIGR QKD 003 3.1 quantum channel] ",
+        "path": "术语和定义 下列术语和定义适用于本文件 > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "3.3",
+        "level": 2,
+        "chunk_content": "经典信道classical channel 通信双方用于交互可被无损读取和完全复制形式编码数据的通信信道。[ETSIGR QKD 003 3.1 classic channel] ",
+        "path": "术语和定义 下列术语和定义适用于本文件 > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "3.4",
+        "level": 2,
+        "chunk_content": "量子密钥quantum key 以量子态为信息载体，基于量子不可克隆、不可分割定理，通过量子信道与经典信道协商出的密钥。",
+        "path": "术语和定义 下列术语和定义适用于本文件 > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "3.5",
+        "level": 2,
+        "chunk_content": "DL/TXXXXX—XXXX 量子密钥分发quantum key distribution 以量子态为信息载体，基于量子学原理，通过量子信道与经典信道进行密钥协商，使通信收发双方共享密钥的方法。",
+        "path": "术语和定义 下列术语和定义适用于本文件 > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "3.6",
+        "level": 2,
+        "chunk_content": "虚拟专用网络virtual private network 使用密码技术在通信网络中构建安全通道的技术。[GM/T0022—2014，定义3.1.18] ",
+        "path": "术语和定义 下列术语和定义适用于本文件 > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "3.7",
+        "level": 2,
+        "chunk_content": "量子保密通信系统quantum secure communication system 基于量子密钥分发和密码技术实现安全通信的系统，系统主要包括量子密钥应用设备、量子密钥管理设备及量子密钥生成设备。",
+        "path": "术语和定义 下列术语和定义适用于本文件 > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "3.8",
+        "level": 2,
+        "chunk_content": "量子密钥应用设备quantum key application device 应用量子密钥进行加解密或认证的设备。",
+        "path": "术语和定义 下列术语和定义适用于本文件 > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "3.9",
+        "level": 2,
+        "chunk_content": "量子密钥管理设备quantum key management device 由量子密钥生成设备获取量子密钥，进行密钥管理，并向量子密钥应用设备提供量子密钥的设备。实际系统中，量子密钥管理设备可独立存在，也可与量子密钥生成设备集成。",
+        "path": "术语和定义 下列术语和定义适用于本文件 > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "4",
+        "level": 1,
+        "chunk_content": "缩略语 下列缩略语适用于本文件。API：应用程序接口（ApplicationProgram Interface） CBC：密码分组链接（CipherBlock Chaining） CFB：密文反馈模式（Ciphertext FeedBack） ECB：电码本模式（ElectronicCode Book） MAC：消息认证码（MessageAuthentication Code） OFB：输出反馈模式（OutputFeedBack） QK：量子密钥（QuantumKey） QK_API：量子密钥应用程序接口（QuantumKey_ Application Program Interface） RSA：RSA密钥交换算法（Rivest_Shamir_Adlemancryptographic algorithm） VPN：虚拟专用网络（VirtualPrivate Network） ",
+        "path": ""
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "5",
+        "level": 1,
+        "chunk_content": "电力量子保密通信系统接口说明 DL/TXXXXX—XXXX 电力量子保密通信设备应包括量子密钥应用设备、量子密钥管理设备及量子密钥生成设备，其中量子密钥管理设备可独立存在，也可与量子密钥生成设备集成，系统组成见图1，系统说明见附录 A。密钥交互接口包括三类：a)接口 1 为量子密钥生成设备和量子密钥管理设备之间的接口，根据接口函数提供方不同分为上行、下行两种模式：上行模式由量子密钥生成设备提供接口函数，下行模式由量子密钥管理设备提供接口函数；b)接口 2 为量子密钥管理设备和量子密钥应用设备之间的接口，由量子密钥管理设备提供接口函数；c)接口 3 为量子密钥管理设备之间的密钥交互接口。 图1电力量子保密通信系统基本组成示意图 ",
+        "path": ""
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "6",
+        "level": 1,
+        "chunk_content": "接口 1 量子密钥交互流程 ",
+        "path": ""
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "6.1",
+        "level": 2,
+        "chunk_content": "接口 1 密钥交互流程概述 ",
+        "path": "接口 1 量子密钥交互流程  > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "6.1.1",
+        "level": 3,
+        "chunk_content": "上行模式交互流程 密钥由量子密钥生成设备分发至量子密钥管理设备，量子密钥管理设备分为主动端和被动端，主动端主动向量子密钥生成设备发起密钥传输流程，密钥交互流程见图2，满足如下要求：a)加密通信初始化，量子密钥管理设备对本地环境进行初始化，完成量子密钥管理设备信息和厂商自定义数据结构的注册；b)连接设备，量子密钥管理设备主动端和被动端分别与量子密钥生成设备建立连接，连接过程会进行设备认证；c)创建会话，量子密钥管理设备主动端与被动端通过主被动端的设备 ID、业务唯一标识及相关会话参数分别与量子密钥生成设备创建会话；d)传输密钥，量子密钥管理设备主动端请求量子密钥生成设备将量子密钥传输到量子密钥管理设备，同时通知量子密钥管理设备被动端向其对应的量子密钥生成设备请求密钥，两端的量子密钥管理设备在收到密钥后对密钥进行一致性校验，校验正确后存储密钥；e)关闭会话，结束密钥传输； f)关闭连接。 经典信道A量子密钥应用设备a量子密钥应用设备b量子密钥生成设备a量子密钥管理设备a量子密钥生成设备b量子密钥管理设备b业务网络电力量子保密通信系统量子密钥生成设备c1量子密钥管理设备c量子密钥生成设备c2接口3接口3接口2接口1接口2接口1量子信道经典信道量子密钥中继节点经典信道A经典信道B经典信道C业务网络DL/TXXXXX—XXXX ",
+        "path": "接口 1 量子密钥交互流程  > 接口 1 密钥交互流程概述  > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "6.1.2",
+        "level": 3,
+        "chunk_content": "下行模式交互流程 图2接口 1 上行模式密钥交互流程 密钥由量子密钥生成设备分发至量子密钥管理设备，量子密钥生成设备分为主动端和被动端，在进入量子密钥生成状态后两端产生量子密钥，由主动端主动向量子密钥管理设备发起密钥传输流程，流程见图3，量子密钥交互流程满足如下要求：a)加密通信初始化，量子密钥生成设备对本地环境进行初始化，完成量子密钥生成设备信息和厂商自定义数据结构的注册；b)连接设备，量子密钥生成设备主动端和被动端分别与量子密钥管理设备建立连接，连接过程会进行设备认证；c)创建会话，量子密钥生成设备主动端与被动端通过主被动端的设备 ID、业务唯一标识及相关会话参数分别与量子密钥管理设备创建会话；d)传输密钥，量子密钥生成设备主动端传输密钥到量子密钥管理设备，同时通知量子密钥生成设备被动端向其对应的量子密钥管理设备传输密钥，两端的量子密钥管理设备在收到密钥后对密钥进行一致性校验，校验正确后存储密钥；e)关闭会话，结束密钥传输； f)关闭连接。 关闭设备连接SG_QCF_CloseDevice连接设备SG_QCF_OpenDevice传输密钥SG_QCF_ReadKey创建会话SG_QCF_OpenSession初始化SG_QCF_Initialize关闭会话SG_QCF_CloseSession密钥生成设备密钥生成设备关闭设备连接SG_QCF_CloseDevice连接设备SG_QCF_OpenDevice传输密钥SG_QCF_ReadKey创建会话SG_QCF_OpenSession初始化SG_QCF_Initialize关闭会话SG_QCF_CloseSession密钥管理设备主动端密钥管理设备被动端循环调用密钥生成设备DL/TXXXXX—XXXX ",
+        "path": "接口 1 量子密钥交互流程  > 接口 1 密钥交互流程概述  > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "6.2",
+        "level": 2,
+        "chunk_content": "初始化 图3接口 1 下行模式密钥交互流程 在加密通信之前，量子密钥生成/管理设备应对设备信息和自定义数据进行初始化，设备初次使用时初始化阶段应对数据传输加解密算法进行初始化，算法标识见附录B。加密通信初始化流程应满足如下要求：a)量子密钥生成/管理设备 a 通过 QK_API 接口完成初始化； b)量子密钥生成/管理设备 b 通过 QK_API 接口完成初始化； c)量子密钥生成/管理设备应保证设备两端传输通道相同； d)初始化接口协议满足第 7.1 条的要求。 ",
+        "path": "接口 1 量子密钥交互流程  > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "6.3",
+        "level": 2,
+        "chunk_content": "连接设备 量子密钥生成设备应与量子密钥管理设备建立连接，完成设备认证和密钥传输通道的建立，连接设备应满足如下要求：a)量子密钥生成设备 a 应与量子密钥管理设备 a 预置认证密钥； b)量子密钥生成设备 b 应与量子密钥管理设备 b 预置认证密钥； c)量子密钥生成设备 a 与量子密钥管理设备 a 通过 QK_API 接口建立连接； d)量子密钥生成设备 b 与量子密钥管理设备 b 通过 QK_API 接口建立连接； e)连接设备接口协议满足第 7.2.1 条的要求。 关闭设备连接SG_QCF_CloseDevice连接设备SG_QCF_OpenDevice传输密钥SG_QCF_WriteKey创建会话SG_QCF_OpenSession初始化SG_QCF_Initialize关闭会话SG_QCF_CloseSession密钥管理设备密钥管理设备关闭设备连接SG_QCF_CloseDevice连接设备SG_QCF_OpenDevice传输密钥SG_QCF_WriteKey创建会话SG_QCF_OpenSession初始化SG_QCF_Initialize关闭会话SG_QCF_CloseSession密钥生成设备主动端密钥生成设备被动端密钥管理设备循环调用DL/TXXXXX—XXXX ",
+        "path": "接口 1 量子密钥交互流程  > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "6.4",
+        "level": 2,
+        "chunk_content": "会话创建 量子密钥生成设备与量子密钥管理设备建立连接后，在发起密钥申请前，两端量子密钥生成设备与各自量子密钥管理设备应完成会话创建，并通过会话参数传递密钥需求，会话创建应满足如下要求：a)量子密钥生成设备 a 与量子密钥管理设备 a 通过 QK_API 接口创建会话； b)量子密钥生成设备 b 与量子密钥管理设备 b 通过 QK_API 接口创建会话； c)两端需通过经典通信对会话创建进行同步操作，并确认两端会话均已创建成功； d)会话创建接口协议满足第 7.3.1 条的要求。 ",
+        "path": "接口 1 量子密钥交互流程  > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "6.5",
+        "level": 2,
+        "chunk_content": "密钥传输 密钥传输流程应满足如下要求：a)量子密钥生成设备 a 与量子密钥管理设备 a 间通过 QK_API 接口传输量子密钥，量子密钥生成设备b 与量子密钥管理设备 b 间通过 QK_API 接口传输量子密钥，对于相同编号的密钥，两端的密钥长度和密钥必须完全一致；b)量子密钥管理设备 a 和量子密钥管理设备 b 内部完成密钥一致性验证等操作，完全一致后存储密钥；c)量子密钥管理设备 a 和量子密钥管理设备 b 内部密钥池一致性出现异常时需要对密钥池进行回滚或重置；d)密钥传输接口协议满足第 7.4、7.5 条的要求。 ",
+        "path": "接口 1 量子密钥交互流程  > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "6.6",
+        "level": 2,
+        "chunk_content": "关闭会话 当加密通信会话全部结束暂不需要密钥时，量子密钥生成设备与量子密钥管理设备应关闭会话，流程应满足如下要求：a)量子密钥生成设备 a 与量子密钥管理设备 a 通过 QK_API 接口关闭会话连接； b)量子密钥生成设备 b 与量子密钥管理设备 b 通过 QK_API 接口关闭会话连接； c)两端需通过经典通信对会话关闭进行同步操作，并确认两端会话均已关闭； d)关闭会话接口协议满足第 7.3.2 条的要求。 ",
+        "path": "接口 1 量子密钥交互流程  > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "6.7",
+        "level": 2,
+        "chunk_content": "关闭设备连接 当设备连接需要关闭时，量子密钥生成设备与量子密钥管理设备间应关闭设备连接，流程应满足如下要求：a)量子密钥生成设备 a 与量子密钥管理设备 a 通过 QK_API 接口关闭设备连接； b)量子密钥生成设备 b 与量子密钥管理设备 b 通过 QK_API 接口关闭设备连接； c)关闭设备连接接口协议满足第 7.2.2 条的要求。 ",
+        "path": "接口 1 量子密钥交互流程  > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "7",
+        "level": 1,
+        "chunk_content": "接口 1 量子密钥交互协议 ",
+        "path": ""
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "7.1",
+        "level": 2,
+        "chunk_content": "初始化 初始化函数接口见表1。DL/TXXXXX—XXXX 表1初始化函数接口 intSG_QCF_Initialize( APP_DEV_INFO*appDevInfo,  void*pCustomParam, unsignedint uiParamSize); 密钥传输环境初始化接口appDevInfo[in]本端量子密钥生成设备信息，结构体定义见附录C.2 pCustomParam[in]定制数据，如IP、端口号、数据通道接口信息、算法标识等 uiParamSize[in]定制数据大小 0，成功非0，失败，返回错误代码见表D.1 原型描述参数返回值",
+        "path": "接口 1 量子密钥交互协议  > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "7.2",
+        "level": 2,
+        "chunk_content": "设备管理 ",
+        "path": "接口 1 量子密钥交互协议  > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "7.2.1",
+        "level": 3,
+        "chunk_content": "连接设备 设备初始化完成后，量子密钥生成设备与量子密钥管理设备之间需要进行建立数据加密传输通道，期间会对设备进行认证。连接设备函数接口见表2。表2连接设备函数接口 原型描述参数返回值intSG_QCF_OpenDevice(void **phDeviceHandle); 完成量子密钥生成设备与量子密钥管理设备的连接与认证phDeviceHandle[out]设备句柄 0，成功非0，失败，返回错误代码见表D.1 ",
+        "path": "接口 1 量子密钥交互协议  > 设备管理  > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "7.2.2",
+        "level": 3,
+        "chunk_content": "关闭设备连接 关闭设备连接函数接口见表3。表3关闭设备连接函数接口 void描述参数voidSG_QCF_CloseDevice(void *hDeviceHandle); 断开量子密钥生成设备与量子密钥管理设备的连接hDeviceHandle[in]设备句柄 返回值无",
+        "path": "接口 1 量子密钥交互协议  > 设备管理  > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "7.3",
+        "level": 2,
+        "chunk_content": "会话管理接口 ",
+        "path": "接口 1 量子密钥交互协议  > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "7.3.1",
+        "level": 3,
+        "chunk_content": "创建会话 创建会话函数接口见表4。DL/TXXXXX—XXXX 表4创建会话函数接口 intSG_QCF_OpenSession( void*hDeviceHandle, DEV_IDbussinessID, DEV_IDpeerID, KEY_MODEkeyMode,   void*pCustomParam, 原型unsignedint uiCustomParamLen, void**phSessionHandle); 描述创建会话hDeviceHandle[in]设备句柄 bussinessID[in]工作标识，结构体见附录C.1 peerID[in]对端量子密钥生成设备标识，结构体见附录C.1 参数keyMode[in]密钥传输模式，结构体见附录C.4  pCustomParam[in]会话参数，根据厂商定制，如无参数传空 uiCustomParamLen[in]会话参数大小 phSessionHandle[out]会话句柄 0，成功非0，失败，返回错误代码见表D.1 返回值",
+        "path": "接口 1 量子密钥交互协议  > 会话管理接口  > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "7.3.2",
+        "level": 3,
+        "chunk_content": "关闭会话 关闭会话函数接口见表5。表5关闭会话函数接口 原型描述参数返回值intSG_QCF_CloseSession(void *hSessionHandle); 关闭会话hSessionHandle[in]会话句柄 0，成功非0，失败，返回错误代码见表D.1 ",
+        "path": "接口 1 量子密钥交互协议  > 会话管理接口  > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "7.4",
+        "level": 2,
+        "chunk_content": "上行模式量子密钥传输接口 在量子密钥管理设备完成初始化和启动服务后，量子密钥管理设备主动端通过量子密钥读取接口向量子密钥生成设备请求密钥并通知被动端向量子密钥生成设备请求密钥，接口见表6。表6量子密钥传输接口 intSG_QCF_ReadKey( 原型void*hSessionHandle, unsignedint uiExpectKeyLen, DL/TXXXXX—XXXX 表6（续） void*pCustomParam, unsignedint uiCustomParamLen, 原型unsignedint *puiKeyIndex,  unsignedchar *puckeyBuf, unsignedint *puiRealKeyLen, );描述密钥读取接口hSessionHandle[in]会话句柄 uiExpectKeyLen[in]一次需要传输的密钥量 参数pCustomParam[in]厂商自定义字段 uiCustomParamLen[in]厂商自定义字段大小 puiKeyIndex[in/out]密钥编号 puckeyBuf[out]密钥缓存，空间由外部分配 puiRealKeyLen[out]实际传输的密钥量 0，成功非0，失败，返回错误代码见表D.1 非0，失败，返回错误码 参数返回值",
+        "path": "接口 1 量子密钥交互协议  > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "7.5",
+        "level": 2,
+        "chunk_content": "下行模式量子密钥传输接口 在量子密钥生成设备完成初始化和启动服务后，量子密钥生成设备主动端通过量子密钥写入接口发起向量子密钥管理设备写入密钥，并通知量子密钥生成设备被动端向量子密钥管理设备写入密钥，接口见表7。表7量子密钥传输接口 intSG_QCF_WriteKey( void*hSessionHandle, unsignedint uiExpectKeyLen, void*pCustomParam, 原型unsignedint uiCustomParamLen, unsignedint uiKeyIndex,  unsignedchar *puckeyBuf, unsignedint *puiRealKeyLen, );描述密钥写入接口hSessionHandle[in]会话句柄 uiExpectKeyLen[in]一次需要传输的密钥量 pCustomParam[in]自定义字段 参数uiCustomParamLen[in]自定义字段大小 uiKeyIndex[in]密钥序号 puckeyBuf[in]密钥缓存，空间由外部分配 puiRealKeyLen[out]实际写入的密钥量 DL/TXXXXX—XXXX 返回值0，成功非0，失败，返回错误代码见表D.1 非0，失败，返回错误代码        见表 D.1 非 0，失败，返回错误码 表7（续）",
+        "path": "接口 1 量子密钥交互协议  > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "8",
+        "level": 1,
+        "chunk_content": "接口 2 量子密钥交互流程 ",
+        "path": ""
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "8.1",
+        "level": 2,
+        "chunk_content": "密钥交互流程概述 密钥由密钥管理设备分发至量子密钥应用设备，量子密钥应用设备分为被动端和主动端，主动端主动发起密钥获取流程，被动端根据对应密钥获取模式获取密钥，密钥交互流程见图4。密钥交互流程应满足如下要求：a)加密通信初始化，量子密钥应用设备对本地进行初始化，完成量子密钥应用设备信息和厂商自定义数据结构的注册；b)连接设备，量子密钥应用设备主动端和被动端分别与量子密钥管理设备建立连接，连接过程会进行设备认证和注册。c)创建会话，量子密钥应用设备主动端主动与量子密钥管理设备创建会话，并给出量子密钥应用设备被动端的设备ID、工作标识及相关会话参数，被动端根据对应密钥获取模式创建或监听本端量子密钥管理设备的会话。d)密钥传输，量子密钥应用设备主动端主动进行密钥的读取，被动端根据对应密钥获取模式获取密钥；e)结束加密通信，停止密钥生成。 图4接口 2 密钥交互流程 关闭设备连接SG_QCF_CloseDevice连接设备SG_QCF_OpenDevice传输密钥SG_QCF_ReadKey创建会话SG_QCF_OpenSession初始化SG_QCF_Initialize关闭会话SG_QCF_CloseSession密钥管理设备密钥管理设备关闭设备连接SG_QCF_CloseDevice连接设备SG_QCF_OpenDevice传输密钥SG_QCF_ReadKey创建/监听会话SG_QCF_OpenSession/SG_QCF_ListenSession初始化SG_QCF_Initialize关闭会话SG_QCF_CloseSession加密设备主动端加密设备被动端密钥管理设备循环调用",
+        "path": "接口 2 量子密钥交互流程  > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "8.2",
+        "level": 2,
+        "chunk_content": "初始化 在加密通信之前，量子密钥应用设备应完成本地QK_API 接口库初始化、设备信息和自定义数据的注册，设备初次使用时初始化阶段应初始化数据传输加解密算法，算法标识参见附录B。加密通信初始化流程应满足如下要求：DL/TXXXXX—XXXX a)量子密钥应用设备 a 通过 QK_API 接口完成初始化； b)量子密钥应用设备 b 通过 QK_API 接口完成初始化； c)量子密钥应用设备应保证设备两端传输通道相同； d)初始化接口协议满足第 9.1 条的要求。 ",
+        "path": "接口 2 量子密钥交互流程  > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "8.3",
+        "level": 2,
+        "chunk_content": "连接设备 量子密钥应用设备需向量子密钥管理设备建立连接，完成与量子密钥管理设备的设备认证和密钥传输通道的建立，连接设备应满足如下要求：a)量子密钥应用设备 a 需要与量子密钥管理设备 a 预置认证密钥； b)量子密钥应用设备 b 需要与量子密钥管理设备 b 预置认证密钥； c)量子密钥应用设备 a 通过 QK_API 接口连接量子密钥管理设备 a； d)量子密钥应用设备 b 通过 QK_API 接口连接量子密钥管理设备 b； e)连接设备接口协议满足第 9.2.1 条的要求。 ",
+        "path": "接口 2 量子密钥交互流程  > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "8.4",
+        "level": 2,
+        "chunk_content": "会话创建 量子密钥应用设备主动端和被动端与量子密钥管理设备建立连接后，在发起密钥申请前，量子密钥应用设备两端应完成与量子密钥管理设备会话创建或监听（可选）。会话创建应满足如下要求：a)量子密钥应用设备 b 通过 QK_API 接口创建或监听量子密钥管理设备 b 的会话； b)量子密钥应用设备 a 通过 QK_API 接口向量子密钥管理设备 a 发起会话创建请求； c)量子密钥管理设备 a 与量子密钥管理设备 b 完成会话协商，并由量子密钥管理设备 b 通知量子密钥应用设备b； d)量子密钥应用设备 b 创建会话，并告知量子密钥管理设备 b； e)量子密钥管理设备 b 与量子密钥管理设备 a 完成会话协商，并将结果返回给量子密钥应用设备a，完成会话创建；f)会话创建接口协议满足第 9.3.1 条的要求。 ",
+        "path": "接口 2 量子密钥交互流程  > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "8.5",
+        "level": 2,
+        "chunk_content": "密钥传输 密钥传输交互协议满足第9.4 条的要求，流程应满足如下要求： a)量子密钥应用设备主动端 a 通过 QK_API 接口向量子密钥管理设备 a 读取量子密钥，等待量子密钥管理设备a 的返回； b)量子密钥应用设备被动端 b 通过 QK_API 接口向量子密钥管理设备 b 读取量子密钥，等待量子密钥管理设备b 的返回； c)量子密钥管理设备 a 和量子密钥管理设备 b 内部完成密钥协商、校验等操作，并将量子密钥、实际密钥量返回给量子密钥应用设备；d)量子密钥应用设备主动端和被动端通过 QK_API 接口返回结果获取量子密钥和实际密钥量； e)量子密钥应用设备主动端和被动端将获取的量子密钥缓存到本端量子密钥缓存池中，供业务通信加解密使用；f)当密钥快耗尽时，重复步骤 a)～e)； DL/TXXXXX—XXXX g)当量子密钥应用设备 a 与量子密钥应用设备 b 进行多会话时，由量子密钥应用设备间协商多会话加密方式；h)密钥读取接口协议满足第 9.4 条的要求。 ",
+        "path": "接口 2 量子密钥交互流程  > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "8.6",
+        "level": 2,
+        "chunk_content": "关闭会话 当加密通信会话全部结束暂不需要密钥时，量子密钥应用设备应向量子密钥管理设备发起关闭会话请求，流程应满足如下要求：a)量子密钥应用设备 a 通过经典信道向量子密钥应用设备 b 发起加密通信结束请求； b)量子密钥应用设备 b 通过 QK_API 接口向量子密钥管理设备 b 发起关闭会话结束加密通信请求，量子密钥管理设备b 不再为量子密钥应用设备 b 生成新的密钥包； c)量子密钥应用设备 b 通过经典信道向量子密钥应用设备 a 回复加密通信结束确认； d)量子密钥应用设备 a 通过 QK_API 接口向量子密钥管理设备 a 发起关闭会话结束加密通信请求，量子密钥管理设备a 不再为量子密钥应用设备 a 生成新的密钥包，关闭会话接口协议满足第",
+        "path": "接口 2 量子密钥交互流程  > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "8.7",
+        "level": 2,
+        "chunk_content": "关闭设备连接 当设备连接需要关闭时，量子密钥应用设备与量子密钥管理设备间应关闭设备连接，流程应满足如下要求：a)量子密钥应用设备 a 与量子密钥管理设备 a 通过 QK_API 接口关闭设备连接； b)量子密钥应用设备 b 与量子密钥管理设备 b 通过 QK_API 接口关闭设备连接； c)关闭会话接口协议满足第 9.2.2 条的要求。 ",
+        "path": "接口 2 量子密钥交互流程  > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "9",
+        "level": 1,
+        "chunk_content": "接口 2 量子密钥交互协议 ",
+        "path": ""
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "9.1",
+        "level": 2,
+        "chunk_content": "初始化 初始化函数接口见表8。表8初始化函数接口 intSG_QCF_Initialize( APP_DEV_INFO*appDevInfo,  void*pCustomParam, unsignedint uiParamSize); 密钥传输环境初始化接口appDevInfo[in]本端量子密钥应用设备信息，结构体定义见附录C.2 pCustomParam[in]厂商定制数据，如IP、端口号、数据通道接口信息、算法标识等 uiParamSize[in]厂商定制数据大小 0，成功非0，失败，返回错误码见表D.1 原型描述参数返回值",
+        "path": "接口 2 量子密钥交互协议  > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "9.2",
+        "level": 2,
+        "chunk_content": "设备管理 ",
+        "path": "接口 2 量子密钥交互协议  > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "9.2.1",
+        "level": 3,
+        "chunk_content": "连接设备 连接设备函数接口见表9。表9连接设备函数接口 原型描述参数返回值intSG_QCF_OpenDevice(void **phDeviceHandle); 完成量子密钥应用设备与量子密钥管理设备的连接与认证phDeviceHandle[out]设备句柄 0，成功非0，失败，返回错误码见表D.1 ",
+        "path": "接口 2 量子密钥交互协议  > 设备管理  > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "9.2.2",
+        "level": 3,
+        "chunk_content": "关闭设备连接 关闭设备连接函数接口见表10。表10关闭设备连接函数接口 void描述参数voidSG_QCF_CloseDevice(void *hDeviceHandle); 断开量子密钥应用设备与量子密钥管理设备的连接hDeviceHandle[in]设备句柄 返回值无",
+        "path": "接口 2 量子密钥交互协议  > 设备管理  > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "9.3",
+        "level": 2,
+        "chunk_content": "会话管理接口 ",
+        "path": "接口 2 量子密钥交互协议  > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "9.3.1",
+        "level": 3,
+        "chunk_content": "创建会话 创建会话函数接口见表11。表11创建会话函数接口 intSG_QCF_OpenSession( void*hDeviceHandle, DEV_IDbussinessID, DEV_IDpeerID, KEY_MODEkeyMode,   void*pCustomParam, 原型unsignedint uiCustomParamLen, void**phSessionHandle); 描述创建会话hDeviceHandle[in]设备句柄 bussinessID[in]        工作标识，结构体见附录C.1 peerID[in]             对端量子密钥设备标识，结构体见附录C.1 参数keyMode[in]密钥传输模式，结构体见附录C.4  pCustomParam[in]会话参数，根据厂商定制，如无参数传空 uiCustomParamLen[in]会话参数大小 phSessionHandle[out]会话句柄 DL/TXXXXX—XXXX DL/TXXXXX—XXXX 参数非0，失败，返回错误码见表D.1 表11 （续） ",
+        "path": "接口 2 量子密钥交互协议  > 会话管理接口  > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "9.3.2",
+        "level": 3,
+        "chunk_content": "监听会话（可选） 当KEY_MODE采用请求推送模式时，被动端量子密钥应用设备等待主动端的创建会话请求，并接收对端量子密钥应用设备的ID。监听会话函数接口见表12。表12监听会话消息 intSG_QCF_ListenSession（ void*hDeviceHandle, APP_ID_ARRAY*appArray,  原型DEV_IDpeerID, DEV_IDbussinessID, void**phSessionHandle );描述被动端等待创建会话hDeviceHandle[in]设备句柄 appArray[in]量子密钥应用设备白名单，用于判断是否允许建立会话，结构体见附录C.3 参数peerID[out]           对端量子密钥应用设备标识，结构体见附录C.1 bussinessID[out]工作标识，结构体见附录C.1 返回值phSessionHandle[out]会话句柄 0，成功非0，失败，返回错误码见表D.1 备注被动端等待主动端创建会话时调用，如需创建多个会话，需要循环调用等待主动端发起创建会话",
+        "path": "接口 2 量子密钥交互协议  > 会话管理接口  > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "9.3.3",
+        "level": 3,
+        "chunk_content": "关闭会话 关闭会话函数接口见表13。原型描述参数返回值表13关闭会话函数接口 intSG_QCF_CloseSession(void *hSessionHandle); 关闭会话hSessionHandle[in]会话句柄 0，成功非0，失败，返回错误码见表D.1 ",
+        "path": "接口 2 量子密钥交互协议  > 会话管理接口  > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "9.4",
+        "level": 2,
+        "chunk_content": "量子密钥传输接口 量子密钥传输接口见表14。DL/TXXXXX—XXXX 表14量子密钥读取接口 intSG_QCF_ReadKey( void*hSessionHandle, unsignedint uiExpectKeyLen, void*pCustomParam, 原型unsignedint uiCustomParamLen, unsignedint *puiKeyIndex,  unsignedchar *puckeyBuf, unsignedint *puiRealKeyLen, );描述密钥传输接口hSessionHandle[in]会话句柄 uiExpectKeyLen[in]一次需要传输的密钥量 pCustomParam[in]自定义字段 参数uiCustomParamLen[in]自定义字段大小 puiKeyIndex[in/out]密钥序号 puckeyBuf[out]密钥缓存，空间由外部分配 puiRealKeyLen[out]实际传输的密钥量 返回值0，成功非0，失败，返回错误码见表D.1 非0，失败，返回错误码 ",
+        "path": "接口 2 量子密钥交互协议  > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "10",
+        "level": 1,
+        "chunk_content": "接口 3 量子密钥中继流程 ",
+        "path": ""
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "10.1",
+        "level": 2,
+        "chunk_content": "接口 3 密钥交互流程概述 接口3流程包括密钥中继发起，密钥中继转发和密钥中继结束，量子密钥中继原理见附录E，量子密钥中继流程见图5。",
+        "path": "接口 3 量子密钥中继流程  > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "10.2",
+        "level": 2,
+        "chunk_content": "密钥中继发起 图5接口 3 接口密钥流程 密钥中继发起的主要流程如下：a)基于量子密钥申请等情况触发量子密钥中继过程，获取密钥中继的相关信息，包括两端的密钥管理设备信息、所需中继的密钥信息等；密钥管理设备密钥管理设备密钥管理设备密钥中继转发密钥中继发起密钥中继结束DL/TXXXXX—XXXX b)根据两端的密钥管理设备信息，基于路由信息获取下一跳的量子密钥管理设备信息，并封装到协议帧中，包含发起端标识、目的端标识、本节点标识、下一跳标识等；c)根据密钥信息获取相应的量子密钥作为需要中继的密钥进行预留，并将相关信息封装到协议帧中，包含密钥标识、密钥长度以及密钥的密文信息；d)根据下一跳信息，将密钥中继协议帧发送到下一个节点。 ",
+        "path": "接口 3 量子密钥中继流程  > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "10.3",
+        "level": 2,
+        "chunk_content": "密钥中继转发 密钥中继转发的主要流程如下：a)接收密钥中继协议帧之后，解析出其中的转发设备信息和密钥信息； b)从转发设备信息获取上一个转发设备，并获取相对应的量子密钥，对中继的密钥密文进行一次一密解密；c)从路由信息中获取下一个转发设备信息，获取相对应的量子密钥，对中继的密钥进行一次一密的加密；d)将中继的密钥密文封装到密钥中继协议帧中，并更新其中的处理设备信息，并将协议帧发送到下一个节点。",
+        "path": "接口 3 量子密钥中继流程  > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "10.4",
+        "level": 2,
+        "chunk_content": "密钥中继结束 密钥中继结束的主要流程如下：a)接收密钥中继协议帧之后，解析出其中的转发设备信息和密钥信息； b)从转发设备信息获取上一个转发设备，并获取相对应的量子密钥，对中继的密钥密文进行一次一密解密；c)将解密的密钥确认正确性后，作为与发起端设备之间的密钥进行保存，密钥中继过程结束。 ",
+        "path": "接口 3 量子密钥中继流程  > "
+    },
+    {
+        "doc_id": "84679",
+        "doc_name": "电力量子保密通信系统密钥交互接口技术规范",
+        "chunk_id": "11",
+        "level": 1,
+        "chunk_content": "接口 3 量子密钥中继协议 密钥中继协议数据帧的要素见表15。表15密钥中继协议所需要素 数据项说明发起端标识标识量子密钥中继的发起端设备，也是中继的密钥的使用方。目的端标识标识量子密钥中继的目的端设备，也是中继的密钥的另一个使用方。本节点标识用于记录密钥中继转发处理节点的信息，在下一个节点用于查找解密用的量子密钥。下一跳节点标识用于记录密钥中继转发处理的下一个节点的信息，在下一个节点用于确认是否在本节点进行密钥中继转发处理。中继帧序号用于对密钥中继协议帧进行编号，方便管理。路由信息用于记录密钥中继转发的路由信息，便于所有节点对转发路由进行统一处理。加密密钥标识用于获取解密用的量子密钥。加密算法用于选用加密、解密用的算法。中继的密钥密文中继的密钥在中继过程中，以密文形式存在。 中继的密钥的长度中继的密钥的长度。 ",
+        "path": ""
+    }
+]

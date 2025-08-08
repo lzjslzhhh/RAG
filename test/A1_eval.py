@@ -1,11 +1,12 @@
 import asyncio
 import json
 import os
+import re
 
 from embedding.embedding import GTEEmbedding
 from llm.llm import load_llm
-from retriever.rag_evaluate import auto_evaluate_llm
-
+from retriever.rag_evaluate import auto_evaluate_llm, evaluate_judge_metrics, evaluate_choice_metrics
+from eval_config import question_type
 os.environ['CUDA_LAUNCH_BLOCKING'] = '1'  # 强制同步执行内核
 
 # 启用设备端断言
@@ -18,27 +19,47 @@ if __name__ == '__main__':
     # ]
     # rag_chain = build_rag_chain(True)
     QAS = []
-    embedding = GTEEmbedding()
-    llm = load_llm()
-    with open('./result/A1.jsonl', 'r', encoding='utf-8') as f:
+    y_true=[]
+    y_pred=[]
+    # embedding = GTEEmbedding()
+    with open(f'./result/A1_{question_type}.jsonl', 'r', encoding='utf-8') as f:
         for line in f:
             question = json.loads(line)
-            evaluation = asyncio.run(auto_evaluate_llm(question, llm))
-            print(evaluation)
-            result = question["result"]
+            if question_type == "填空题":
+                llm = load_llm(enable_thinking=False)
+                evaluation = auto_evaluate_llm(question, llm, question["type"])
+                print(evaluation)
+                QAS.append({
+                    '类型': question["type"],
+                    '参考': question["reference"],
+                    '问题': question["question"],
+                    '标准答案': question["answer"],
+                    '大模型回答': question["response"],
+                    '相似度得分': evaluation["sim_score"],
+                    '上下文召回率': evaluation["context_recall"],
+                    '内容忠实度': evaluation["faithfulness"],
+                    '事实正确度': evaluation["factual_correctness"],
+                    '回答完整性': evaluation["answer_completeness"],
+                    '表达清晰度': evaluation["clarity"]
+                })
+            elif question_type=="单选题":
+                y_true.append(question["answer"])
+                pred = re.sub(r'<think>.*?</think>', '', question["response"], flags=re.DOTALL)[0]
+                y_pred.append(pred)
+            elif question_type=="判断题":
+                y_true.append(question["answer"])
+                pred = re.sub(r'<think>.*?</think>', '', question["response"], flags=re.DOTALL)[0:2]
+                y_pred.append(pred)
+        if question_type=="判断题":
             QAS.append({
-                'id': question["id"],
-                '参考': question["reference"],
-                '问题': question["question"],
-                '标准答案': question["answer"],
-                '大模型回答': question["response"],
-                '相似度得分': evaluation["sim_score"],
-                '上下文召回率': evaluation["context_recall"],
-                '内容忠实度': evaluation["faithfulness"],
-                '事实正确度': evaluation["factual_correctness"],
-                '回答完整性': evaluation["answer_completeness"],
-                '表达清晰度': evaluation["clarity"]
+                '题目数量':len(y_true),
+                '评估':evaluate_judge_metrics(y_true, y_pred)
             })
-    with open('./result/A1_eval.jsonl', 'w', encoding='utf-8') as f:
+        elif question_type=='单选题':
+            QAS.append({
+                '题目数量': len(y_true),
+                '评估': evaluate_choice_metrics(y_true, y_pred)
+            })
+    with open(f'./result/A1_eval_{question_type}.json', 'w', encoding='utf-8') as f:
         for QA in QAS:
             f.write(json.dumps(QA, ensure_ascii=False) + '\n')
