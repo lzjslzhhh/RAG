@@ -8,8 +8,19 @@ from reasoners import WorldModel, LanguageModel, Reasoner, SearchConfig
 from reasoners.algorithm import MCTS
 import fire
 from task import *
+from vectorstore.qdrant_store import load_qdrant_vectorstore
 
 os.environ['CUDA_VISIBLE_DEVICES'] = '0,1'
+def save_intermediate_results(prompt: str, accuracy: float, mode: str = 'a'):
+    """保存中间结果到文件"""
+    data={
+        'prompt': prompt,
+        'accuracy': accuracy,
+        'time': time.strftime('%Y-%m-%d %H:%M:%S'),
+    }
+    with open("result_mid.jsonl", mode,encoding='utf-8') as f:
+        f.write(json.dumps(data, ensure_ascii=False) + '\n')
+
 
 
 class PromptState(NamedTuple):
@@ -49,6 +60,7 @@ class PromptWorldModel(WorldModel[PromptState, PromptAction, str]):
         new_accuracy_trajectory = state.accuracy_trajectory + [temp_accuracy]
         if temp_accuracy > self.best_accuracy:
             self.best_accuracy = temp_accuracy
+            save_intermediate_results(state.text, temp_accuracy)
             print("New Best Prompt: ", state.text)
             print("The Evaluate Accuracy: ", temp_accuracy)
             print("________________________________________________")
@@ -67,6 +79,7 @@ class PromptWorldModel(WorldModel[PromptState, PromptAction, str]):
             if current_reward < min_threshold or current_reward > max_threshold:
                 if current_reward > self.best_accuracy:
                     self.best_accuracy = current_reward
+                    save_intermediate_results(state.text,current_reward)
                     print("New Best Prompt: ", state.text)
                     print("The Evaluate Accuracy: ", current_reward)
                     print("________________________________________________")
@@ -74,12 +87,13 @@ class PromptWorldModel(WorldModel[PromptState, PromptAction, str]):
         return False
 
     def get_accuracy(self, prompt: str, test_mode=False) -> float:
+        print('___________________________开始计算准确率_____________________________')
         if not test_mode:
             if prompt in self.accuracy_cache:
                 return self.accuracy_cache[prompt]
             questions = self.eval_data
             correct = 0
-            for question in questions:
+            for i,question in enumerate(questions):
                 if prompt_position == "pre":
                     inputs = f"{prompt}\n问题: {question['question']}. 请将最终答案置于<answer>和</answer>之间。\n"
                 elif prompt_position == "pos":
@@ -87,17 +101,19 @@ class PromptWorldModel(WorldModel[PromptState, PromptAction, str]):
                 else:
                     inputs=''
                     print("invalid prompt position")
-                outputs = self.language_model.invoke(inputs)
+                print(f'_____________________________第{i}个问题_____________________________')
+                outputs = self.language_model.invoke(inputs,presence_penalty=1.2,enable_thinking=False)
                 answer = extract_answer(outputs)
                 if check_anwser(answer, question["answer"]):
                     correct += 1
             accuracy = correct / len(questions)
+            save_intermediate_results(prompt, accuracy)  # 新增行
             self.accuracy_cache[prompt] = accuracy
             return accuracy
         else:
             questions = self.test_data
             correct = 0
-            for question in questions:
+            for i,question in enumerate(questions):
                 if prompt_position == "pre":
                     inputs = f"{prompt}\n问题: {question['question']}. 请将最终答案置于<answer>和</answer>之间。\n"
                 elif prompt_position == "pos":
@@ -105,11 +121,13 @@ class PromptWorldModel(WorldModel[PromptState, PromptAction, str]):
                 else:
                     inputs = ''
                     print("invalid prompt position")
-                outputs = self.language_model.invoke(inputs)
+                print(f'_____________________________第{i}个问题_____________________________')
+                outputs = self.language_model.invoke(inputs,presence_penalty=1.2,enable_thinking=False)
                 answer = extract_answer(outputs)
                 if check_anwser(answer, question["answer"]):
                     correct += 1
             accuracy = correct / len(questions)
+            save_intermediate_results(prompt, accuracy)  # 新增行
             self.accuracy_cache[prompt] = accuracy
             return accuracy
 
@@ -157,7 +175,7 @@ class PromptSearchConfig(SearchConfig[PromptState, PromptAction, str]):
             generated_texts = []
             for prompt_with_question in prompt_with_questions:
                 inputs = prompt_with_question
-                outputs = self.lm_model.invoke(inputs)
+                outputs = self.lm_model.invoke(inputs,presence_penalty=1.2,enable_thinking=False)
                 generated_texts.append(outputs)
 
             has_errors = False
@@ -190,8 +208,8 @@ class PromptSearchConfig(SearchConfig[PromptState, PromptAction, str]):
                                         2. 分析Prompt导致错误的具体原因（需列出不同原因）
                                         3. 基于所有原因总结Prompt改进方向
                                          """
-                error_feedback_output = self.optimize_model.invoke(error_feedback_prompt)
-                error_feedback_text = error_feedback_output
+                error_feedback_output = self.optimize_model.invoke(error_feedback_prompt,enable_thinking=True,presence_penalty=1.2)
+                error_feedback_text = re.sub(r'<think>.*?</think>', '', error_feedback_output, flags=re.DOTALL)
                 # 在state_transit_prompt中添加类型识别引导
                 type_detection_guide = """
                 首先引导模型识别问题类型（选择最接近的）：
@@ -204,8 +222,8 @@ class PromptSearchConfig(SearchConfig[PromptState, PromptAction, str]):
                 cot_requirement = """
                 充分利用模型推理链：
                 1. 输入解析：提取关键参数（电压等级/设备类型等）
-                2. 知识检索：引用DL/T/GB标准条款
-                3. 多步验证：至少3个推理步骤
+                2. 知识检索：学会引用通过rag检索到的DL/T/GB等标准条款，并给出依据
+                3. 多步验证：多个推理步骤
                 4. 输出格式化：按类型选择输出模板
                 """
 
@@ -231,8 +249,8 @@ class PromptSearchConfig(SearchConfig[PromptState, PromptAction, str]):
                                         生成的Prompt如下：
                                         """
 
-                new_prompts_output = self.optimize_model.invoke(state_transit_prompt)
-                new_prompts_text = new_prompts_output
+                new_prompts_output = self.optimize_model.invoke(state_transit_prompt,enable_thinking=True,presence_penalty=1.2)
+                new_prompts_text = re.sub(r'<think>.*?</think>', '', new_prompts_output, flags=re.DOTALL)
                 new_prompts = re.findall(r'<START>(.*?)<END>', new_prompts_text, re.DOTALL)
                 if len(new_prompts) == 0:
                     continue
@@ -249,6 +267,7 @@ class PromptSearchConfig(SearchConfig[PromptState, PromptAction, str]):
 
 def optimize_prompt(train_data, questions_eval, questions_test):
     # Initialize models
+
 
     # Initialize the world model
     world_model = PromptWorldModel(base_model, eval_data=questions_eval, test_data=questions_test,
@@ -301,8 +320,13 @@ def main():
     questions_train = reformat_data(questions_train)
     questions_eval = reformat_data(questions_eval)
     questions_test = reformat_data(questions_test)
+
+
     optimize_prompt(questions_train, questions_eval, questions_test)
 
 
 if __name__ == "__main__":
+    start = time.perf_counter_ns()
     fire.Fire(main)
+    latency = (time.perf_counter_ns() - start) / 1e9  # 转秒
+    print(latency)

@@ -104,9 +104,9 @@ async def evaluate_fill_blanks(question,llm):
     clarity = llm.invoke(
         build_eval_prompt_clarity(question["question"], question["answer"], question["response"],
                                   question["contexts"]))
-    print(answer_completeness, clarity)
+    # print(answer_completeness, clarity)
     sim_score = sim_by_gte(question["answer"], question["response"])
-    print(question["contexts"])
+    # print(question["contexts"])
     evaluator_llm = LangchainLLMWrapper(llm)
     sample = SingleTurnSample(
         user_input=question["question"],

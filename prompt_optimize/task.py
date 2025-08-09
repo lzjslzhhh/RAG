@@ -28,8 +28,8 @@ def load_task_dataset():
     random.shuffle(dataset['train'])
     random.shuffle(dataset['test'])
     questions_train = dataset['train'][:2000]
-    questions_eval = dataset['train'][2000:2150]
-    questions_test = dataset['test'][0:500]
+    questions_eval = dataset['train'][2000:2050]
+    questions_test = dataset['test'][0:79]
     return questions_train, questions_eval, questions_test
 
 

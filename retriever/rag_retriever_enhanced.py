@@ -206,11 +206,7 @@ def generate_type_specific_prompt(question_type, inputs):
 def build_rag_chain():
     vectorstore, client = load_qdrant_vectorstore()
     retriever = vectorstore.as_retriever(search_type="similarity", search_kwargs={'k': 3})
-    # test_docs = retriever.invoke("光伏发电防孤岛保护")
-    # # print(f"检索到文档数: {len(test_docs)}")
-    # # for doc in test_docs:
-    # #     print(doc.page_content[:100] + "...")
-    # #     print("元数据:", doc.metadata)
+
 
     llm = load_llm(enable_thinking=True)
 

@@ -1,9 +1,21 @@
 from typing import Any, List, Optional
 from pydantic import PrivateAttr
-from transformers import AutoModelForCausalLM, AutoTokenizer
+from transformers import AutoModelForCausalLM, AutoTokenizer, LogitsProcessor, LogitsProcessorList
 import torch
 from langchain.llms.base import LLM
 from langchain_core.callbacks.manager import CallbackManagerForLLMRun
+
+
+class PresencePenaltyProcessor(LogitsProcessor):
+    def __init__(self, penalty: float):
+        self.penalty = penalty
+
+    def __call__(self, input_ids: torch.LongTensor, scores: torch.FloatTensor) -> torch.FloatTensor:
+        for sequence in input_ids:
+            for token_id in set(sequence.tolist()):
+                scores[:, token_id] -= self.penalty
+        return scores
+
 
 class MyLLM(LLM):
     model_name: str = "/tmp/pycharm_project_581/Qwen3-8B"
@@ -44,7 +56,12 @@ class MyLLM(LLM):
             run_manager: Optional[CallbackManagerForLLMRun] = None,
             **kwargs: Any,
     ) -> str:
+        presence_penalty_value = kwargs.get("presence_penalty", 0.0)
+        logits_processor = LogitsProcessorList()
+        if presence_penalty_value != 0:
+            logits_processor.append(PresencePenaltyProcessor(presence_penalty_value))
         messages = [{"role": "user", "content": prompt}]
+        self.enable_thinking = kwargs.get("enable_thinking", self.enable_thinking)
         text = self._tokenizer.apply_chat_template(
             messages,
             tokenize=False,
@@ -69,7 +86,9 @@ class MyLLM(LLM):
         generated_ids = self._model.generate(
             **model_inputs,
             max_new_tokens=self.max_new_tokens,
-            temperature=self.temperature
+            temperature=self.temperature,
+            logits_processor=logits_processor
+
         )
         output_ids = generated_ids[0][len(model_inputs.input_ids[0]):].tolist()
         output_token_count = len(output_ids)

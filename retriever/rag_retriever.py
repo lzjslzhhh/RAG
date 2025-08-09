@@ -125,15 +125,7 @@ def generate_prompt_a4(inputs):
 def build_rag_chain(isA3=True):
     vectorstore, client = load_qdrant_vectorstore()
     retriever = vectorstore.as_retriever(search_type="similarity", search_kwargs={'k': 3})
-    # test_docs = retriever.invoke("光伏发电防孤岛保护")
-    # print(f"检索到文档数: {len(test_docs)}")
-    # for doc in test_docs:
-    #     print(doc.page_content[:100] + "...")
-    #     print("元数据:", doc.metadata)
-    # prompt = PromptTemplate(
-    #     input_variables=['context', 'question'],
-    #     template=template,
-    # )
+
 
     llm = load_llm(enable_thinking=True)
 
@@ -145,6 +137,7 @@ def build_rag_chain(isA3=True):
             f"【{metadata.get('source', '未命名文档')}】\n"
             f"文档id：{metadata.get('doc_id', '未知')} | "
             f"条款：{metadata.get('chunk_id', '无')}\n"
+            f"各层级标题：{metadata.get('hierarchy', '无')}\n"
             f"内容：{content[:500]}{'...' if len(content) > 500 else ''}"
         )
 
@@ -164,7 +157,7 @@ def build_rag_chain(isA3=True):
             doc.metadata.update(result.payload)
             full_docs.append(doc)
         return {
-            "context": "\n\n".join(doc.page_content for doc in docs),
+            "context": "\n\n".join(format_doc(doc) for doc in docs),
             # "source_docs": docs,  # 保留完整文档对象
             "question": inputs["question"]["query"],
             "docs": full_docs
@@ -191,15 +184,6 @@ def build_rag_chain(isA3=True):
             "docs": docs
         }
 
-    # rag_chain = RetrievalQA.from_chain_type(
-    #     llm=llm,
-    #     retriever=retriever,
-    #     chain_type="stuff",
-    #     return_source_documents=True,
-    #     chain_type_kwargs={
-    #         'prompt': prompt
-    #     }
-    # )
     return (
             {"question": RunnablePassthrough()}  # 接收原始问题
             | RunnableLambda(retrieve_docs)  # 检索文档
