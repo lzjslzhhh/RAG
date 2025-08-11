@@ -2,7 +2,7 @@ import random
 
 from datasets import load_dataset
 
-question_type = '填空题'
+question_type = '单选题'
 if question_type=='填空题':
     question_cots = 10
 else:

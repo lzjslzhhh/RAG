@@ -40,18 +40,18 @@ def reformat_data(question_list):
 
 
 # function to extract the answer from the response by LLM
-# def extract_answer(message):
-#     pattern = r"<answer>\s*([A-Za-z])\s*\..*?</answer>"
-#     answer = re.search(pattern, message)
-#     if answer == None:
-#         pattern = r"<answer>\s*([A-Za-z])\s*</answer>"
-#         answer = re.search(pattern, message)
-#     if answer == None:
-#         pattern = r"<([A-Za-z])>"
-#         answer = re.search(pattern, message)
-#     if answer:
-#         answer = answer.group(1)
-#     return answer
+def extract_answer(message):
+    pattern = r"<answer>\s*([A-Za-z])\s*\..*?</answer>"
+    answer = re.search(pattern, message)
+    if answer == None:
+        pattern = r"<answer>\s*([A-Za-z])\s*</answer>"
+        answer = re.search(pattern, message)
+    if answer == None:
+        pattern = r"<([A-Za-z])>"
+        answer = re.search(pattern, message)
+    if answer:
+        answer = answer.group(1)
+    return answer
 
 
 def extract_judgment(text: str) -> Optional[str]:

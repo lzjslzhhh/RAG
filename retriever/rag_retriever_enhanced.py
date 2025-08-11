@@ -266,7 +266,7 @@ def generate_type_specific_prompt( inputs):
 
 def build_rag_chain():
     vectorstore, client = load_qdrant_vectorstore()
-    retriever = vectorstore.as_retriever(search_type="similarity", search_kwargs={'k': 3})
+    retriever = vectorstore.as_retriever(search_type="similarity", search_kwargs={'k': 4})
 
 
     llm = MyLLM(enable_thinking=True,presence_penalty=1.2)

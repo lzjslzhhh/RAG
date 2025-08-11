@@ -25,7 +25,7 @@ if __name__ == '__main__':
     y_true = []
     y_pred = []
     # embedding = GTEEmbedding()
-    with open(f'./result/A4_{question_type}.jsonl', 'r', encoding='utf-8') as f:
+    with open(f'./result/A4_{question_type}_fixed.jsonl', 'r', encoding='utf-8') as f:
         llm = load_llm(enable_thinking=False)
         for i, line in enumerate(f):
             print(f'第{i}道{question_type}题')
@@ -72,6 +72,6 @@ if __name__ == '__main__':
                 '题目数量': len(y_true),
                 '评估': evaluate_choice_metrics(y_true, y_pred)
             })
-    with open(f'./result/A4_eval_{question_type}.jsonl', 'w', encoding='utf-8') as f:
+    with open(f'./result/A4_eval_{question_type}_fixed.jsonl', 'w', encoding='utf-8') as f:
         for QA in QAS:
             f.write(json.dumps(QA, ensure_ascii=False) + '\n')
