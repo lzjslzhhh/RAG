@@ -26,9 +26,11 @@ class MyLLM(LLM):
     device_map: str = 'auto'
     _tokenizer: Any = PrivateAttr(default=None)
     _model: Any = PrivateAttr(default=None)
+    presence_penalty_value:float = 0
 
     def __init__(self, **kwargs):
         super().__init__()
+        self.presence_penalty_value = kwargs.get("presence_penalty", 0.0)
         self.enable_thinking = kwargs.get("enable_thinking", self.enable_thinking)
         self.model_name: str = kwargs.get("model_name", self.model_name)
         self.device_map = kwargs.get("device_map", self.device_map)
@@ -56,10 +58,10 @@ class MyLLM(LLM):
             run_manager: Optional[CallbackManagerForLLMRun] = None,
             **kwargs: Any,
     ) -> str:
-        presence_penalty_value = kwargs.get("presence_penalty", 0.0)
+        self.presence_penalty_value = kwargs.get("presence_penalty", 0.0)
         logits_processor = LogitsProcessorList()
-        if presence_penalty_value != 0:
-            logits_processor.append(PresencePenaltyProcessor(presence_penalty_value))
+        if self.presence_penalty_value != 0:
+            logits_processor.append(PresencePenaltyProcessor(self.presence_penalty_value))
         messages = [{"role": "user", "content": prompt}]
         self.enable_thinking = kwargs.get("enable_thinking", self.enable_thinking)
         text = self._tokenizer.apply_chat_template(

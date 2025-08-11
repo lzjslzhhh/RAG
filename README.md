@@ -52,7 +52,57 @@
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/43058383/1753155505884-8585402f-456e-4e00-9182-4c716f02d896.png)
 
-## 实验设计
+## MCTS结合模型生成专家级prompt
+ 将 prompt 优化问题建模为一个强化搜索问题，使用蒙特卡洛树搜索（MCTS）在 prompt 空间中进行探索。状态由当前 prompt 文本与其演化轨迹表示；动作由 `optimize_model`（一台专用 LLM）生成，基于错误示例和改进约束输出若干候选 prompt。每次扩展（expansion）对候选 prompt 调用评估模型 `lm_model`，在 eval 数据集上对 prompt 的回答进行批量推理并计算准确率（accuracy），该准确率作为 reward。MCTS 按 UCT 策略在树上选择节点并回传 reward，逐步逼近最优 prompt。为了控制计算开销，搜索中采用小样本近似评估与缓存，并最终在独立 test 集上验证最优 prompt 的泛化性能。  
+
+![](https://cdn.nlark.com/yuque/0/2025/png/43058383/1754712537098-6217ecba-8a20-42cc-8b99-a61cc0330009.png)
+
+#### MCTS（蒙特卡洛树搜索）
+![](https://github.com/XinyuanWangCS/PromptAgent/raw/main/images/mcts_00.jpg)![](https://github.com/XinyuanWangCS/PromptAgent/raw/main/images/mcts_00.jpg)![](https://github.com/XinyuanWangCS/PromptAgent/raw/main/images/mcts_00.jpg)
+
+用 MCTS 在提示空间（prompt space）上搜索、迭代生成更优 prompt，使下游 LLM 在电网领域专业问答任务上的表现（以 accuracy 为主）提高；其中 optimize_model 用来生成 candidate prompts，lm_model 用来按 eval 集评估 prompt，world_model 将环境（评估逻辑）封装供 MCTS 调用。
+
+核心流程包含：
+
+1. 单次迭代
+    1. 选择节点：从根节点出发，选择未探索的子节点
+    2. 生成动作：从训练集中采样3个问题，检测错误并生成新Prompt
+    3. 评估奖励：计算新Prompt在验证集上的准确率
+    4. 反向传播：更新节点访问次数和reward值
+2. 终止判断
+
+满足任一条件即停止：
+
+    1. 达到depth_limit
+    2. 当前奖励低于历史平均奖励
+    3. 当前奖励超过best_accuracy
+
+```python
+初始化 root_state = world_model.init_state()  # origin_prompt
+构造空树（root node）
+
+for iter in 1..n_iters:
+    node = root
+    # Selection: 遍历树，按 UCT/TreePolicy 选择 child 直到遇到未 fully expanded node
+    while node is fully_expanded and not terminal(node):
+        node = select_child_by_UCT(node)
+
+    # Expansion: 从 node 的状态调用 search_config.get_actions(node.state) 生成动作列表
+    actions = search_config.get_actions(node.state)
+    for action in actions:
+        child_state, _ = world_model.step(node.state, action)
+        add child node with child_state to node.children
+
+    # Simulation/Evaluation: 对新 child 节点调用 world_model.get_accuracy(action.new_prompt)
+    reward = world_model.get_accuracy(action.new_prompt)   # 这里是批量评估或缓存评估
+
+    # Backup: 沿路径回溯，更新 value/count
+    backpropagate reward to root
+
+# 选择 best child（或最优路径），输出 best_prompt
+```
+
+## 实验设计与评估指标
 各实验在上一步基础上进行改进
 
 | 实验编号 | 内容 |
@@ -61,16 +111,30 @@
 | A2 | 大模型思考模式回答 |
 | A3 | 加入 RAG 知识库知识 |
 | A4 | 定制prompt模板增强CoT  |
-| A5 | 根据问题类型自动生成定制prompt |
+| A5 | 使用蒙特卡洛树搜索（MCTS）策略，让模型自动生成专家级质量的 prompt |
 
 
-A3引入RAG以在prompt里加入专业知识后、大模型对于Q1、Q2、Q3、Q4、Q5、Q8的回答效果有了明显提升，但对于Q6、Q7的提升效果有限，原因是按问题在向量数据库里检索到的Top-K个分块里没有包含答案、说明了引入rag存在提取到的上下文可能与答案无关
+对于Ele-QA数据集、QA选取情况及评估指标如下：
 
-而A4在rag的基础上引入定制prompt模板后、大模型对于Q2、Q3、Q4的回答效果有了小幅提升、回答趋于专业化
+| 题型 | 数量 | 评估指标 |
+| --- | --- | --- |
+| 填空 | 10 | 1. 相似度<br/>2. 上下文召回率<br/>3. 忠实度<br/>4. 事实正确度<br/>5. 答案完整度<br/>6. 清晰度 |
+| 单选 | 200 | 1. 准确率（accuracy）<br/>2. 精确率（precision）<br/>3. 召回率（recall）<br/>4. 迷惑度指数 |
 
-A5中，再根据问题类型将对应回答要求和rag检索到上下文的标准号、所在章节号、标题动态加入prompt后、并加入few-shot learning、大模型针对各类型问题的回答更加细化，并能指出回答所具体使用的标准号，便于查证和进一步询问
 
-## 待解决问题
+MCTS超参数设置
+
+| 参数 | 值 |
+| --- | --- |
+| `depth_limit`（探索深度） | 2 |
+| `num_batches` （每次 expansion 生成多少组 candidates）   | 3 |
+| `steps_per_gradient` | 1 |
+| `batch_size`（ 生成阶段抽样的问题数量 ） | 4 |
+| `w_exp`（探索权重） | 2.5 |
+| `n_iters`（迭代次数） | 12 |
+
+
+## 可能存在的问题
 1. RAG
     1. 构建索引时
         1. 文档中没有问题的答案
@@ -84,7 +148,7 @@ A5中，再根据问题类型将对应回答要求和rag检索到上下文的标
     3. 其他
         1. 知识库的健全与完整性要求
 
-技术标准可能包括对其他技术标准的引用、例如“读取数字示波器数据进行分析,输出报表和测量曲线,并判别是否满足GB/T29319的要求,检测记录见附录A。”
+技术标准可能包括对其他技术标准的引用、例如“读取数字示波器数据进行分MCTS析,输出报表和测量曲线,并判别是否满足GB/T29319的要求,检测记录见附录A。”
 
         2. 知识碎片化问题
 
@@ -94,10 +158,24 @@ A5中，再根据问题类型将对应回答要求和rag检索到上下文的标
 
 对于规范技术类文档的正确识别，包括条款编号，数学公式，图表等等、对于废止的标准和新颁布的标准，要进行及时更新
 
+2. MCTS
+    1.  搜索得到的 prompt 在 eval 上好但 test 上差（过拟合）  
+    - 增大 eval 样本多样性或使用交叉验证；
+    - 在 reward 里加入惩罚项（例如 test on a held-out small set periodically）；
+    - 引入正则化（避免过长/过特殊 prompt）。
+    2. 生成的 prompt 太相似、缺乏多样性。  
+    - 在 `get_actions` 中对 `optimize_model` 的输出做多样性筛选（embedding 距离阈值）；
+    - 使用 temperature 增大 `optimize_model` 的输出多样性
+
 ## 下一步计划
 1. 选取更好的文档识别方法，增强知识库内容质量，
-2. 选取合适模型提取各个chunk关键词，实现向量+关键词的混合检索
-3. 自动生成prompt
+2. 选择恰当分块长度、权衡模型回答性能与上下文完整度
+3. 选取合适模型提取各个chunk关键词，实现向量+关键词的混合检索
+4. 把 `reward` 设计成多目标（accuracy + clarity + brevity），并做 Pareto 优化。
+5. 用 RL（PPO）把 MCTS 发现的高质量 prompt 做策略微调。
+6. 将检索（RAG）融入 prompt 生成：`optimize_model` 可直接接入检索到的标准片段（context-aware）。
+7. 人机协同：把拟议 prompt 交由人工审查/微调后，再加入数据库（长期改进）。
+8. 继续探索prompt优化（已探索实践方向1）
 
 | 方向 | 文献 |
 | --- | --- |
@@ -120,6 +198,10 @@ A5中，再根据问题类型将对应回答要求和rag检索到上下文的标
 【5】 Schreiter, D. (2025). _Prompt Engineering: How prompt vocabulary affects domain knowledge_. arXiv. [https://arxiv.org/abs/2505.17037](https://arxiv.org/abs/2505.17037)
 
 【6】 Chen, F. (2025). _From manual training to domain‑specific adaptation through constrained prompt engineering and self‑training_. Preprints. [https://www.preprints.org/manuscript/202504.1301/v1](https://www.preprints.org/manuscript/202504.1301/v1)
+
+【7】<font style="color:rgb(51, 51, 51);">WANG Heqing, WEI Jie, JING Hongyu, SONG Hui, XU Bo. Meta-RAG: A Metadata-Driven Retrieval Augmented Generation Framework for the Power Industry[J]. Computer Engineering, </font>[<font style="color:rgb(212, 141, 0);">doi: 10.19678/j.issn.1000-3428.0070415</font>](https://doi.org/10.19678/j.issn.1000-3428.0070415)<font style="color:rgb(51, 51, 51);">.</font>
+
+<font style="color:rgb(51, 51, 51);"></font>
 
 
 

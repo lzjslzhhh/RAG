@@ -98,20 +98,25 @@ def sim_by_gte(standard_answer, llm_answer):
 
 
 async def evaluate_fill_blanks(question,llm):
+    question["response"] = re.sub(r'<think>.*?</think>', '', question["response"], flags=re.DOTALL)
+    question["response"] = re.findall(r'<answer>(.*?)</answer>', question["response"], re.DOTALL)
+    print(question["response"])
     answer_completeness = llm.invoke(
         build_eval_prompt_answer_completeness(question["question"], question["answer"], question["response"],
-                                              question["contexts"]))
+                                              question["contexts"]),enable_thinking=False,presence_penalty=1.2)
     clarity = llm.invoke(
         build_eval_prompt_clarity(question["question"], question["answer"], question["response"],
-                                  question["contexts"]))
+                                  question["contexts"]),enable_thinking=False,presence_penalty=1.2)
     # print(answer_completeness, clarity)
-    sim_score = sim_by_gte(question["answer"], question["response"])
+    print(question["response"][0],question["answer"])
+    sim_score = sim_by_gte(question["answer"], question["response"][0])
+    print(sim_score)
     # print(question["contexts"])
     evaluator_llm = LangchainLLMWrapper(llm)
     sample = SingleTurnSample(
         user_input=question["question"],
         reference=question["answer"],
-        response=question["response"],
+        response=question["response"][0],
         reference_contexts=[question["reference"]],
         retrieved_contexts=question["contexts"],
     )
@@ -131,8 +136,8 @@ async def evaluate_fill_blanks(question,llm):
 def evaluate_judge_metrics(y_true, y_pred, labels=None):
     if labels is None:
         labels = ["正确", "错误"]
-    y_pred = [extract_judgment(y).strip('\n') for y in y_pred]
-    print(y_pred[:5])
+    y_pred = [y.strip('\n') for y in y_pred]
+    print(y_pred)
     precision, recall, f1, _ = precision_recall_fscore_support(
         y_true, y_pred, labels=labels, average=None, zero_division=0
     )
@@ -154,8 +159,8 @@ def evaluate_judge_metrics(y_true, y_pred, labels=None):
 
 def evaluate_choice_metrics(y_true, y_pred):
 
-    y_pred = [extract_answer(y) for y in y_pred]
-    print(y_pred[:5])
+    y_pred = [y for y in y_pred]
+    print(y_pred)
     accuracy = np.mean(np.array(y_true) == np.array(y_pred))
     precision = precision_score(y_true, y_pred, average='macro', zero_division=0)
     recall = recall_score(y_true, y_pred, average='macro', zero_division=0)

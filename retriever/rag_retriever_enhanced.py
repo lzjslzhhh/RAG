@@ -3,7 +3,7 @@ import re
 from langchain.chains import RetrievalQA
 from langchain_core.runnables import RunnableLambda, RunnablePassthrough
 
-from llm.llm import load_llm
+from llm.llm import load_llm, MyLLM
 from retriever.rag_embedding import COLLECTION_NAME
 from vectorstore.qdrant_store import load_qdrant_vectorstore
 
@@ -83,12 +83,12 @@ def find_similar_cases(text):
     return next((v for k, v in known_cases.items() if k in text), "")
 
 
-def generate_type_specific_prompt(question_type, inputs):
+def generate_type_specific_prompt( inputs):
     """根据问题类型生成特化Prompt"""
     context = inputs["context"]
     question = inputs["question"]
-    params = extract_parameters(question)
-    cases = find_similar_cases(question[:100])
+    # params = extract_parameters(question)
+    # cases = find_similar_cases(question[:100])
 
     # 各类型特化指令
     type_instructions = {
@@ -145,61 +145,122 @@ def generate_type_specific_prompt(question_type, inputs):
     def get_instruction_by_type(q_type: str) -> str:
         return "\n".join(type_instructions.get(q_type, []))
 
+    # return f"""
+    # 请你扮演一位具有深厚电力系统背景的智能助手，针对电网相关的技术规程、检测标准、控制规范等文档内容，进行**严谨、分步骤**的推理和问答。请务必严格依赖提供的上下文，不得编造内容。
+    # 要求如下：
+    # 1. **题型判断**：
+    #    - 含选项编号(A/B/C/D)→单选题（优先级最高）
+    #    - 含下划线或疑问句→填空题
+    #    - 陈述句→判断题
+    #    - 未明确题型→填空题
+    # 2. **输出规范**：
+    #    - 单选/判断题→<answer>...</answer>包裹
+    #    - 填空题→直接输出答案（无需标签）
+    #    - 无法判断→输出"无法判断"
+    # 3. **电力特化要求**：
+    #    - 安全规程必引GB/T标准条款（如GB/T 7671-2007、DL/T 666-2012等）
+    #    - 参数题保留单位（kV/MW/Hz）
+    #    - 保护定值题标注误差范围（±5%）
+    #    - 无上下文时→说明"未提供相关标准条款"
+    # 4. **多任务识别**：
+    #    - 优先识别问题类型（故障诊断/检测规程/控制策略/设备选型/技术参数）
+    #    - 按类型选择输出模板
+    # 5. 必须在回答结尾引用你在本次回答使用到的来源标准编号并注明本次回答参考的条款号
+    # 6. 对于本文内交叉引用，必须在引用处条款号前加上标准编号
+    #     例：回答：设置电网模拟装置输出电压，模拟表3中的一种不对称故障类型，电压跌落点选取应满足15.1的要求
+    #     本条款引用了同一标准GB/T36548内的15.1条款，所以回答时应该是
+    #     回答：模拟GB/T36548中的表3设置电网模拟装置输出电压模拟三相对称故障，电压跌落点满足GB/T36548 15.1要求。
+    # 7.不允许按你的理解对回答进行省略或者缩减，严格按照依据回答
+    #     例：原文：采集电压跌落前3秒到恢复正常后6秒之间的储能系统测试点电压和电流。
+    #     不能回答为：采集电压跌落前3秒到恢复正常后6秒的数据。
+    #     原文：设置电网模拟装置的输出电压模拟表3中的一种不对称故障类型。
+    #     不能回答为：设置不对称故障类型
+    # ---
+    # 权威依据：
+    # {context}
+    # ---
+    # 请按照以下步骤进行推理并回答问题：
+    # 1. **题型判断**：明确问题类型（单选/判断/填空/无法判断）
+    # 2. **上下文检索**：在权威依据中查找相关条款、参数范围或操作规则、若找不到相关依据请自行推理出答案
+    # 3. **标准引用**：自动引用回答所依据的标准条款
+    # 4. **分步验证**：
+    #    - 故障诊断→现象分析→保护动作→根因定位
+    #    - 检测规程→标准引用→测试步骤→合规判断
+    #    - 控制策略→目标函数→约束条件→优化算法
+    #    - 设备选型→参数计算→型号匹配→经济性分析
+    #    - 技术参数→公式推导→标准校验→整定建议
+    # 5. **输出格式**：
+    #    - 推理过程：
+    #    - 参考依据：
+    #    - 注意事项（如有）：
+    #    - <answer>最终答案</answer>
+    # 6. **请用纯文本格式回答**：不要包含Markdown、代码块等特殊格式
+    # 7. **可能存在OCR识别错误**：请按你的理解改正
+    #
+    # 问题如下：
+    # {question}
+    # 请开始逐步推理并给出答案：
+    # """
     return f"""
     请你扮演一位具有深厚电力系统背景的智能助手，针对电网相关的技术规程、检测标准、控制规范等文档内容，进行**严谨、分步骤**的推理和问答。请务必严格依赖提供的上下文，不得编造内容。
-    
-    【权威依据】
-    {context}
-
-    【{question_type}专项要求】
-    {get_instruction_by_type(question_type)}
-    
-    【回答要求】
-    1. 必须在回答结尾引用你在本次回答使用到的来源标准编号并注明本次回答参考的条款号
-    2. 对于本文内交叉引用，必须在引用处条款号前加上标准编号
+    要求如下：
+    1. **题型判断**：
+       - 含选项编号(A/B/C/D)→单选题（优先级最高）注意：仅有一个正确选项
+       - 含下划线或疑问句→填空题
+       - 陈述句→判断题
+       - 其他→正常回答即可
+    2. **电力特化要求**：
+       - 安全规程必引GB/T标准条款（如GB/T 7671-2007、DL/T 666-2012等）
+       - 参数题保留单位（kV/MW/Hz）
+       - 保护定值题标注误差范围（±5%）
+       - 无上下文时→说明"未提供相关标准条款"
+    3. **多任务识别**：
+       - 优先识别问题类型（故障诊断/检测规程/控制策略/设备选型/技术参数）
+       - 按类型选择输出模板
+    4. 必须在回答结尾引用你在本次回答使用到的来源标准编号并注明本次回答参考的条款号
+    5. 对于本文内交叉引用，必须在引用处条款号前加上标准编号
         例：回答：设置电网模拟装置输出电压，模拟表3中的一种不对称故障类型，电压跌落点选取应满足15.1的要求
         本条款引用了同一标准GB/T36548内的15.1条款，所以回答时应该是
         回答：模拟GB/T36548中的表3设置电网模拟装置输出电压模拟三相对称故障，电压跌落点满足GB/T36548 15.1要求。
-    3.不允许按你的理解对回答进行省略或者缩减，严格按照依据回答
+    6.不允许按你的理解对回答进行省略或者缩减，严格按照依据回答
         例：原文：采集电压跌落前3秒到恢复正常后6秒之间的储能系统测试点电压和电流。
         不能回答为：采集电压跌落前3秒到恢复正常后6秒的数据。
         原文：设置电网模拟装置的输出电压模拟表3中的一种不对称故障类型。
         不能回答为：设置不对称故障类型
-    4. **题型判断**：
-    - 陈述句→判断题
-    - 含选项编号(A/B/C)→单选题
-    - 含下划线或疑问句→填空题
-     不用输出判断题型、仅当作划分输出规范的依据、按从上到下的优先级判断
-    5.对于单选和判断、请将最终答案置于<answer>和</answer>之间。
-    6. **电力特化要求**：
-    - 涉及安全规程时自动引用GB/T标准条款
-    - 参数题保留单位（kV/MW/Hz）
-    - 保护定值题标注误差范围（±5%）
-     请按照以下思维链进行推理并回答问题：
-
-    1. **理解问题语义**：明确提问中涉及的技术概念、规程条款或控制流程；
-    2. **定位上下文依据**：在背景材料中查找相关条款、参数范围或操作规则、并在答案中指明你实际用到的材料；
-    3. **分条分析内容**：逐条解释与问题相关的规范内容，若有操作步骤或技术判断，请清晰列出；
-    4. **综合推导答案**：在推理基础上，得出符合规程的明确结论；
-    5. **输出最终答案**：用简洁、规范的术语回答问题。
-    6. **请用纯文本格式回答**: 不要包含Markdown、代码块等特殊格式。
-    7. **可能存在OCR识别错误**（如："整定值"可能被误识别为"设定值"）：请按你的理解改正
-    8. **最终回答** :对于操作规程和技术规范等，按照你的表述逐条给出，不许进行总结或简化，回答中仅包含最终答案即可
-    
-    【领域特征】
-    问题类型：{question_type}
-    关键参数：{params if params else "无"}
-    相关案例：{cases if cases else "无"}
-
-    【输出格式】
-    标准依据：本次回答用到的参考文档的标准号+条款号（如GB/T 14285 5.2.3）
-    推理过程：
-    最终答案：（根据回答要求里第5条的输出规范）
-    注意事项（如有）：特别说明的例外情况
-    
+    ---
+    权威依据：
+    {context}
+    ---
+    请按照以下步骤进行推理并回答问题：
+    1. **题型判断**：明确问题类型（单选/判断/填空/一般问题）
+    2. **上下文检索**：在权威依据中查找相关条款、参数范围或操作规则、若找不到相关依据请自行推理出答案
+    3. **标准引用**：自动引用回答所依据的标准条款
+    4. **分步验证**：
+       - 故障诊断→现象分析→保护动作→根因定位
+       - 检测规程→标准引用→测试步骤→合规判断
+       - 控制策略→目标函数→约束条件→优化算法
+       - 设备选型→参数计算→型号匹配→经济性分析
+       - 技术参数→公式推导→标准校验→整定建议
+    5. **输出格式**：
+       - 推理过程：
+       - 参考依据：
+       - 注意事项（如有）：
+       - <answer>最终答案</answer>
+    6. **请用纯文本格式回答**：不要包含Markdown、代码块等特殊格式
+    7. **可能存在OCR识别错误**：请按你的理解改正
+    8. **推理强化**：
+       - 输入解析：提取关键词（电压等级/设备类型等）
+       - 知识检索：学会引用通过rag检索到的DL/T/GB等标准条款，并给出依据
+       - 多步验证：多个推理步骤
+       - 输出格式化：按类型选择输出模板
+    9. **最终答案输出规范**：
+    - 判断题→仅输出"正确"或"错误"（无需解释）
+    - 单选题→仅输出一个选项字母（如"A"）注意：仅有一个正确选项
+    - 填空题→仅输出缺失内容（含下划线）或正常回答疑问句
+    - 请将最终答案置于<answer>和</answer>之间。
     问题如下：
     {question}
-    请开始逐步推理并给出答案，仅给出回答即可，不需要给出思考过程：
+    请开始逐步推理并给出答案：
     """
 
 
@@ -208,7 +269,7 @@ def build_rag_chain():
     retriever = vectorstore.as_retriever(search_type="similarity", search_kwargs={'k': 3})
 
 
-    llm = load_llm(enable_thinking=True)
+    llm = MyLLM(enable_thinking=True,presence_penalty=1.2)
 
     # 文档格式化处理器
     def format_doc(doc):
@@ -216,7 +277,7 @@ def build_rag_chain():
         metadata = doc.metadata
         return (
             f"【文档：{metadata.get('source', '未命名文档')}】\n"
-            f"标准号：{metadata.get('doc_id', '未知')} | "
+            f"文档id：{metadata.get('doc_id', '未知')} | "
             f"标题编号：{metadata.get('chunk_id', '无')}\n"
             f"各层级标题：{metadata.get('hierarchy', '无')}\n"
             f"内容：{content[:500]}{'...' if len(content) > 500 else ''}"
@@ -254,11 +315,8 @@ def build_rag_chain():
 
         # 动态生成元信息
         question_type = classify_question(question)
-        # parameters = extract_parameters(question)
-        # cases = find_similar_cases(question[:100])  # 截断避免过长
 
         enhanced_template = generate_type_specific_prompt(
-            question_type,
             inputs=inputs
         )
         # return PromptTemplate.from_template(enhanced_template).format(
@@ -270,14 +328,6 @@ def build_rag_chain():
             "question_type": question_type,
             "docs": docs
         }
-
-    # 构建处理链
-    base_chain = RetrievalQA.from_chain_type(
-        llm=llm,
-        retriever=retriever,
-        chain_type="stuff",
-        return_source_documents=True
-    )
 
     # 构建处理链
     return (

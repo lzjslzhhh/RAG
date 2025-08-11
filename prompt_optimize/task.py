@@ -9,7 +9,7 @@ import re
 # Need return three sub datasets for training,evaluating and testing.
 # para:None
 def load_task_dataset():
-    dataset_name = "/tmp/pycharm_project_581/EleQA-master/ele_qa"
+    dataset_name = "/tmp/pycharm_project_581/EleQA-master/判断题"
     dataset = load_dataset(dataset_name)
     new_dataset = dict(train=[], test=[])
 
@@ -40,18 +40,18 @@ def reformat_data(question_list):
 
 
 # function to extract the answer from the response by LLM
-def extract_answer(message):
-    pattern = r"<answer>\s*([A-Za-z])\s*\..*?</answer>"
-    answer = re.search(pattern, message)
-    if answer == None:
-        pattern = r"<answer>\s*([A-Za-z])\s*</answer>"
-        answer = re.search(pattern, message)
-    if answer == None:
-        pattern = r"<([A-Za-z])>"
-        answer = re.search(pattern, message)
-    if answer:
-        answer = answer.group(1)
-    return answer
+# def extract_answer(message):
+#     pattern = r"<answer>\s*([A-Za-z])\s*\..*?</answer>"
+#     answer = re.search(pattern, message)
+#     if answer == None:
+#         pattern = r"<answer>\s*([A-Za-z])\s*</answer>"
+#         answer = re.search(pattern, message)
+#     if answer == None:
+#         pattern = r"<([A-Za-z])>"
+#         answer = re.search(pattern, message)
+#     if answer:
+#         answer = answer.group(1)
+#     return answer
 
 
 def extract_judgment(text: str) -> Optional[str]:
@@ -63,6 +63,7 @@ def extract_judgment(text: str) -> Optional[str]:
     - "[判断结果] 正确"
     """
     patterns = [
+        r'<answer>(正确|错误).*?</answer>',
         r"<answer>\s*(正确|错误)\s*</answer>",  # XML标签
         r"结论[:：]\s*(正确|错误)",  # 中文冒号
         r"$$判断结果$$\s*(正确|错误)",  # 方括号格式

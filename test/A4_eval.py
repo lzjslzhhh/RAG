@@ -5,6 +5,7 @@ import re
 
 from embedding.embedding import GTEEmbedding
 from llm.llm import load_llm
+from prompt_optimize.task import extract_answer, extract_judgment
 from retriever.rag_evaluate import auto_evaluate_rag, evaluate_judge_metrics, evaluate_choice_metrics, \
     evaluate_fill_blanks
 from eval_config import question_type
@@ -25,10 +26,11 @@ if __name__ == '__main__':
     y_pred = []
     # embedding = GTEEmbedding()
     with open(f'./result/A4_{question_type}.jsonl', 'r', encoding='utf-8') as f:
-        for line in f:
+        llm = load_llm(enable_thinking=False)
+        for i, line in enumerate(f):
+            print(f'第{i}道{question_type}题')
             question = json.loads(line)
             if question_type == "填空题":
-                llm = load_llm(enable_thinking=False)
                 evaluation = asyncio.run(evaluate_fill_blanks(question, llm))
                 print(evaluation)
                 result = question["result"]
@@ -48,10 +50,18 @@ if __name__ == '__main__':
                     '回答完整性': evaluation["answer_completeness"],
                     '表达清晰度': evaluation["clarity"]
                 })
-            else:
-                y_true.append(question["answer"])
-                pred = re.sub(r'<think>.*?</think>', '', question["response"], flags=re.DOTALL).split('.')[0]
-                y_pred.append(pred)
+            elif question_type == "单选题":
+                pred = re.sub(r'<think>.*?</think>', '', question["response"], flags=re.DOTALL)
+                print(pred)
+                if extract_answer(pred) != None:
+                    y_true.append(question["answer"])
+                    y_pred.append(extract_answer(pred))
+            elif question_type == "判断题":
+                pred = re.sub(r'<think>.*?</think>', '', question["response"], flags=re.DOTALL)
+                print(pred)
+                if extract_judgment(pred) != None:
+                    y_true.append(question["answer"])
+                    y_pred.append(extract_judgment(pred))
         if question_type=="判断题":
             QAS.append({
                 '题目数量':len(y_true),
@@ -62,6 +72,6 @@ if __name__ == '__main__':
                 '题目数量': len(y_true),
                 '评估': evaluate_choice_metrics(y_true, y_pred)
             })
-    with open(f'./result/A4_eval_{question_type}.json', 'w', encoding='utf-8') as f:
+    with open(f'./result/A4_eval_{question_type}.jsonl', 'w', encoding='utf-8') as f:
         for QA in QAS:
             f.write(json.dumps(QA, ensure_ascii=False) + '\n')

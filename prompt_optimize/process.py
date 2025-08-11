@@ -1,15 +1,16 @@
 import json
 
-with open(r'D:\learning\RAG\RAG\EleQA-master\issues\单选题.json','r',encoding='utf-8') as f:
+question_type='判断题'
+with open(fr'/tmp/pycharm_project_581/EleQA-master/issues/{question_type}.json','r',encoding='utf-8') as f:
     questions = json.load(f)
     questions = [{
         'question': question['question'],
         'answer': question['answer']}
         for question in questions
     ]
-with open(r'D:\learning\RAG\RAG\EleQA-master\ele_qa\train.jsonl','w',encoding='utf-8') as out_f:
-    for question in questions[:2150]:
+with open(fr'/tmp/pycharm_project_581/EleQA-master/{question_type}/train.jsonl','w',encoding='utf-8') as out_f:
+    for question in questions[:4000]:
         out_f.write(json.dumps(question, ensure_ascii=False) + '\n')
-with open(r'D:\learning\RAG\RAG\EleQA-master\ele_qa\test.jsonl','w',encoding='utf-8') as out_f:
-    for question in questions[2150:2650]:
+with open(fr'/tmp/pycharm_project_581/EleQA-master/{question_type}/test.jsonl','w',encoding='utf-8') as out_f:
+    for question in questions[4000:6150]:
         out_f.write(json.dumps(question, ensure_ascii=False) + '\n')

@@ -13,7 +13,8 @@ if __name__ == '__main__':
     file_path = os.path.join(dir_path, f'{question_type}.json')
     with open(file_path, 'r', encoding='utf-8') as f:
         questions = json.load(f)[:question_cots]
-        for question in questions:
+        for i, question in enumerate(questions):
+            print(f'第{i + 1}个{question_type}: {question}')
             result = rag_chain.invoke({"query": question["question"]}, config={"callbacks": [ConsoleCallbackHandler()]})
             question["response"] = re.sub(r'<think>.*?</think>', '', result["result"], flags=re.DOTALL)
             question["contexts"] = result["metadata"]["contexts"]

@@ -5,6 +5,7 @@ import re
 
 from embedding.embedding import GTEEmbedding
 from llm.llm import load_llm
+from prompt_optimize.task import extract_judgment, extract_answer
 from retriever.rag_evaluate import auto_evaluate_llm, evaluate_judge_metrics, evaluate_choice_metrics, \
     evaluate_fill_blanks
 from eval_config import question_type
@@ -25,7 +26,8 @@ if __name__ == '__main__':
     # embedding = GTEEmbedding()
 
     with open(f'./result/A2_{question_type}.jsonl', 'r', encoding='utf-8') as f:
-        for line in f:
+        for i, line in enumerate(f):
+            print(f'第{i}道{question_type}题')
             question = json.loads(line)
             if question_type == "填空题":
                 llm = load_llm(enable_thinking=False)
@@ -44,10 +46,14 @@ if __name__ == '__main__':
                     '回答完整性': evaluation["answer_completeness"],
                     '表达清晰度': evaluation["clarity"]
                 })
-            else:
+            elif question_type == "单选题":
                 y_true.append(question["answer"])
-                pred = re.sub(r'<think>.*?</think>', '', question["response"], flags=re.DOTALL).split('.')[0]
-                y_pred.append(pred)
+                pred = re.sub(r'<think>.*?</think>', '', question["response"], flags=re.DOTALL)
+                y_pred.append(extract_answer(pred))
+            elif question_type == "判断题":
+                y_true.append(question["answer"])
+                pred = re.sub(r'<think>.*?</think>', '', question["response"], flags=re.DOTALL)
+                y_pred.append(extract_judgment(pred))
         if question_type=="判断题":
             QAS.append({
                 '题目数量':len(y_true),
@@ -58,6 +64,6 @@ if __name__ == '__main__':
                 '题目数量': len(y_true),
                 '评估': evaluate_choice_metrics(y_true, y_pred)
             })
-    with open(f'./result/A2_eval_{question_type}.json', 'w', encoding='utf-8') as f:
+    with open(f'./result/A2_eval_{question_type}.jsonl', 'w', encoding='utf-8') as f:
         for QA in QAS:
             f.write(json.dumps(QA, ensure_ascii=False) + '\n')

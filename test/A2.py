@@ -34,11 +34,12 @@ if __name__ == '__main__':
                    - 陈述句→判断题
                    - 含选项编号(A/B/C)→单选题
                    - 含下划线或疑问句→填空题
+                   - 其他→正常回答即可
                     不用输出判断题型、仅当作划分输出规范的依据、按从上到下的优先级判断
-                    2.对于单选和判断、请将最终答案置于<answer>和</answer>之间。
+                    2.请将最终答案置于<answer>和</answer>之间。
                     {}
                     """.format(question["question"])
-            llm_answer = llm.invoke(prompt)
+            llm_answer = llm.invoke(prompt,enable_thinking=True,presence_penalty=1.2)
             print(re.sub(r'<think>.*?</think>', '', llm_answer, flags=re.DOTALL))
             QAS.append({
                 'type': question["type"],

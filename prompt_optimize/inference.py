@@ -103,7 +103,7 @@ class PromptWorldModel(WorldModel[PromptState, PromptAction, str]):
                     print("invalid prompt position")
                 print(f'_____________________________第{i}个问题_____________________________')
                 outputs = self.language_model.invoke(inputs,presence_penalty=1.2,enable_thinking=False)
-                answer = extract_answer(outputs)
+                answer = extract_judgment(outputs)
                 if check_anwser(answer, question["answer"]):
                     correct += 1
             accuracy = correct / len(questions)
@@ -123,7 +123,7 @@ class PromptWorldModel(WorldModel[PromptState, PromptAction, str]):
                     print("invalid prompt position")
                 print(f'_____________________________第{i}个问题_____________________________')
                 outputs = self.language_model.invoke(inputs,presence_penalty=1.2,enable_thinking=False)
-                answer = extract_answer(outputs)
+                answer = extract_judgment(outputs)
                 if check_anwser(answer, question["answer"]):
                     correct += 1
             accuracy = correct / len(questions)
@@ -181,7 +181,7 @@ class PromptSearchConfig(SearchConfig[PromptState, PromptAction, str]):
             has_errors = False
             ind = 0
             for _, (generated_text, sample_question) in enumerate(zip(generated_texts, sample_questions)):
-                answer = extract_answer(generated_text)
+                answer = extract_judgment(generated_text)
                 if not check_anwser(answer, sample_question['answer']):
                     has_errors = True
                     ind += 1
@@ -222,7 +222,7 @@ class PromptSearchConfig(SearchConfig[PromptState, PromptAction, str]):
                 cot_requirement = """
                 充分利用模型推理链：
                 1. 输入解析：提取关键参数（电压等级/设备类型等）
-                2. 知识检索：学会引用通过rag检索到的DL/T/GB等标准条款，并给出依据
+                2. 知识检索：学会利用通过rag检索到的DL/T/GB等标准条款，并给出依据, 但不要过分依赖检索到的依据
                 3. 多步验证：多个推理步骤
                 4. 输出格式化：按类型选择输出模板
                 """
